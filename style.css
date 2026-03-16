@@ -121,30 +121,5 @@ header {
     color: green;
     margin-top: 10px;
 }
-    /* PDF output area */
-    h3 {
-      background-color: black; 
-      line-height: 10%; /* was set at 10% with no height and margin at 25% */
-      font-size: 1.2em;
-      text-decoration-line: underline;
-      text-decoration-color: green;
-      color: green;
-      text-align: center;
-      margin-bottom: 0px;
-      padding: 0px auto 0px auto;
-       
-     }
-
-footer {
-    background-color:  black;
-    color: green;
-    font-size: 1.2em; /* add font size */
-    text-align: center; /* Centered text */
-    position: relative;/* Positioning context relative*/
-    width: 96%; /* was 100% */
-    margin: 0px auto auto auto;/* added margin auto to center 🎨 green border */
-    padding: 0px auto; /* add padding/ 😱 top padding makes box */
- /*   margin does nothing❔*/
-    border: 3px solid green; /* change from border top */
-}
+    
 
