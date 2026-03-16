@@ -123,4 +123,9 @@ header {
     margin-top: 10px;
 }
     
-
+.footer { /* was text */
+  position: absolute; /* Position the text absolutely */
+  bottom: 0;         /* Align to the bottom */
+  left: 50%;         /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+}
