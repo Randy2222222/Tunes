@@ -10,7 +10,7 @@ const playlistElement = document.getElementById('playlist');
 
 const songs = [
     { title: "Lazy", artist: "Deep Purple", src: "Lazy.mp3" },
-    { title: "What Baby Wants", artist: "Alice Cooper", src: "Baby.mp3" },
+    { title: "What Baby Wants", artist: "Alice Cooper", src: "Alice Cooper-What Baby Wants.mp3" },
     { title: "Smoke Two Joints", artist: "Bob Marley", src: "Bob Marley and the Wailers.mp3" },
     { title: "Low Rider", artist: "War", src: "War.mp3" },
     { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Mary Had A Little Lamb.mp3" },
