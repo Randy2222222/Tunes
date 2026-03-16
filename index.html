@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="icon.png">  <!-- Favicon -->
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🎵  TUNES  🎵</title>
+ 
+  <style>
+  /* centered image used class="center" inline after alt="pic" (no div) */
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+    </style>
+</head>
+
+<body>
+
+     <!-- Green Header -->
+  <header>
+    <h1>🎵 TUNES  🎵 </h1>
+  </header>
+
+<!-- 🎵 MP3 PLAYER 🎵 -->
+       <div class="container">
+    <div class="player">
+        <div class="details">
+            <div class="now-playing">Now Playing: <span id="track-name">Track Name</span></div>
+            <div class="track-artist" id="track-artist">Artist Name</div>
+        </div>
+        <div class="controls">
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="next">Next</button>
+            <button id="previous">Previous</button>
+            <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+        </div>
+        <div class="playlist" id="playlist"></div>
+        <audio id="audio"></audio> 
+    </div></div>
+         <!-- JavaScript Files -->
+   <!--   <script src="js/tunes.js"></script> -->
+
+<script src="js/tunes.js"></script>
+</body>
+<footer></footer>
+</html>
