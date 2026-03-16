@@ -35,7 +35,7 @@ header {
       display: block;
       justify-content: center;
       align-items: center;
-      margin: 100px auto auto auto; /* margin: 0; */
+      margin: 150px auto auto auto; /* margin: 0; */
       position: relative; /* Relative */
       width: 200px;
       height: 80px;
