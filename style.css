@@ -1,0 +1,146 @@
+
+/* Base page settings */
+   body {
+  box-sizing: border-box;
+  background-color: Black;
+  color: Green;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Header (Green banner) */
+header {
+  background-color: Green;
+  color: Black;
+  text-align: center;
+  padding: 0.3em 0;     
+  margin: 0;
+  line-height: 1;        
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1.2em;    
+  background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+}
+
+
+     /* container for holding MP3 player */
+    .container{
+      position: relative; /* Relative */
+      width: 200px;
+      height: 80px;
+      background-color: Black;
+      color: Green;
+      padding: 20px;
+    
+    }
+
+/* Audio MP3 Player */
+.player {
+    width: 200px;
+  background-color: white;
+  color: black;
+    margin: auto;
+    position: absolute; 
+    left: 2%;
+    bottom:  70%;
+    height: 60px;
+    padding: 20px; /* was 20 */
+    background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+    border-radius: 10px;
+}
+
+
+.controls {
+    back-ground: White;
+    top: 20px; 
+    border-radius: 5px;
+    padding-bottom: 1px; /* add padding*/
+    background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+    color: Green;
+    align-text: center;   /* Centers items */
+}
+#play {
+  background-color: white;
+  background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+  color: black;
+  border-radius: 2px;
+  border: 1px solid green;
+  text-align: center;
+  padding: 5px auto 5px auto;
+  margin-bottom: 10px;
+
+}
+  
+  #pause{
+    background-color: white;
+    background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+    color: black;
+    border-raduis: 2px;
+    border: 1px solid green;
+    text-align: center;
+    padding: 5px auto 5px auto;
+    margin-bottom: 10px;
+    
+  }
+
+    #next {
+      background-color: white;
+      background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+      color: black;
+      border-radius: 2px;
+      border: 1px solid green;
+      text-align: center;
+      padding: 5px auto 5px auto;
+      margin-bottom: 10px;
+      
+    }
+      
+     
+        #volume {
+          background-color: white;
+          color: green;
+          padding: 0px 10px 2px 10px;
+        }
+
+.playlist {
+    color: green;
+    margin-top: 10px;
+}
+    /* PDF output area */
+    h3 {
+      background-color: black; 
+      line-height: 10%; /* was set at 10% with no height and margin at 25% */
+      font-size: 1.2em;
+      text-decoration-line: underline;
+      text-decoration-color: green;
+      color: green;
+      text-align: center;
+      margin-bottom: 0px;
+      padding: 0px auto 0px auto;
+       
+     }
+
+footer {
+    background-color:  black;
+    color: green;
+    font-size: 1.2em; /* add font size */
+    text-align: center; /* Centered text */
+    position: relative;/* Positioning context relative*/
+    width: 96%; /* was 100% */
+    margin: 0px auto auto auto;/* added margin auto to center 🎨 green border */
+    padding: 0px auto; /* add padding/ 😱 top padding makes box */
+ /*   margin does nothing❔*/
+    border: 3px solid green; /* change from border top */
+}
+
