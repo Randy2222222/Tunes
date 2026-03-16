@@ -18,9 +18,9 @@ header {
   line-height: 1;        
 }
 
-header h1 {
-  margin: 0;
-  padding: 0;
+    h1 {
+  margin-bottom: 25px;
+  padding: 5px auto 5px auto;
   text-align: center;
   font-size: 2em;
   line-height: 1.2em;    
@@ -31,6 +31,10 @@ header h1 {
 
      /* container for holding MP3 player */
     .container{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      margin: 25px auto auto auto; /* margin: 0; */
       position: relative; /* Relative */
       width: 200px;
       height: 80px;
