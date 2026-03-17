@@ -116,7 +116,9 @@ header {
                                 #fff, #2a4f32);
       color: black;
       border: 1px solid green;
-      }
+      margin: 2px 20px;
+      padding: 2px auto;
+      }  
      
         #volume {
           background-color: white;
