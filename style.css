@@ -110,7 +110,13 @@ header {
       margin-bottom: 10px;
       
     }
-      
+      #previous {
+      background-color: white;
+      background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+      color: black;
+      border: 1px solid green;
+      }
      
         #volume {
           background-color: white;
