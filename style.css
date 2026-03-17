@@ -77,7 +77,7 @@ header {
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
   color: black;
-  border-radius: 2px;
+  border-radius: 3px;
   border: 1px solid green;
   text-align: center;
   padding: 5px auto 5px auto;
@@ -90,7 +90,7 @@ header {
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     color: black;
-    border-raduis: 2px;
+    border-raduis: 3px;
     border: 1px solid green;
     text-align: center;
     padding: 5px auto 5px auto;
@@ -103,7 +103,7 @@ header {
       background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
       color: black;
-      border-radius: 2px;
+      border-radius: 3px;
       border: 1px solid green;
       text-align: center;
       padding: 5px auto 5px auto;
@@ -118,6 +118,7 @@ header {
       border: 1px solid green;
       margin: 2px 20px;
       padding: 2px auto;
+      border-radius: 5px;
       }  
      
         #volume {
