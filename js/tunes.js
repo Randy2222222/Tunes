@@ -23,7 +23,7 @@ const songs = [
     { title: "I Heard It Through the Grapevine", artist: "Creedance Clearwater Revival", src: "Creedance Clearwater Revival (2).mp3" },
     { title: "Dream Weaver", artist: "Gary Wright", src: "Gary Wright.mp3" },
     { title: "Child in Time", artist: "Deep Purple", src: "Deep Purple (1).mp3" },
-    { title: "Johnny Winters Dead July-17 23-30-51", artist: "Johhny Winters", src: "JOHNNY WINTERS DEAD July 17 23-30-51.mp3" },
+    { title: "Johnny Winter's Dead July-17 23-30-51", artist: "Johhny Winter's", src: "JOHNNY WINTER'S DEAD-July 17 23-30-51.mp3" },
     { title: "", artist: "Janis Joplin", src: "Janis Joplin.mp3" },
     { title: "When the Levee Breaks", artist: "Led Zeppelin", src: "Led Zeppelin.mp3" },
     { title: "", artist: "Metallica", src: "Metallica.mp3" },
