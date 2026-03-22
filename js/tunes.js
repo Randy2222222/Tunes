@@ -16,7 +16,10 @@ const songs = [
     { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Mary Had A Little Lamb.mp3" },
     { title: "Pimk Floyd Animals", artist: "Pink Floyd", src: "Pink Floyd 1977 Animals.mp3" },
     { title: "The Sound of Silence", artist: "Simon And Garfunkel", src: "Simon And Garfunkel - The Sound Of Silence.mp3" },
-    { title: "", artist: "Aerosmith", src: "Aerosmith (1).mp3" }
+    { title: "", artist: "Aerosmith", src: "Aerosmith (1).mp3" },
+    { title: "", artist: "Bad Company", src: "Bad Company (2).mp3" },
+    { title: "", artist: "Bad Company", src: "Bad Company (3).mp3" },
+    { title: "", artist: "
 ];
 
 let currentSongIndex = 0;
