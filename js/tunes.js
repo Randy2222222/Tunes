@@ -19,11 +19,19 @@ const songs = [
 ];
 
 let currentSongIndex = 0;
+// download current song
+const downloadLink = document.getElementById("download-link");
 
 function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
+
+    // 🔥 Update download link to current song
+    downloadLink.href = song.src;
+
+    // Optional: set filename for download
+    downloadLink.setAttribute("download", `${song.title}.mp3`);
 }
 
 function playSong() {
