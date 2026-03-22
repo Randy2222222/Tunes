@@ -138,10 +138,11 @@ header {
 a { 
    font-size: 1.5; 
    text-decoration: none;
+   font-weight: 700;
 }
-a:link { color: yellowgreen; }
-a:visited { color: mediumorchid; }
-a:hover { color: hotpink; }
+a:link { color: hotpink; }
+a:visited { color: green; }
+a:hover { color: gold; }
 a:active { color: crimson; }
     
 .footer { /* was text */
