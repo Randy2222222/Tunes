@@ -136,9 +136,12 @@ header {
 }
 
 a { 
-   font-size: 1.5; 
+   font-size: 0.8em; 
    text-decoration: none;
    font-weight: 700;
+   padding: 3px;
+   border-radius: 3px;
+   border: 2px solid hotpink;
 }
 a:link { color: hotpink; }
 a:visited { color: green; }
