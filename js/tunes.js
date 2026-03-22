@@ -14,21 +14,24 @@ const songs = [
     { title: "Smoke Two Joints", artist: "Bob Marley", src: "Bob Marley and the Wailers.mp3" },
     { title: "Low Rider", artist: "War", src: "War.mp3" },
     { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Mary Had A Little Lamb.mp3" },
-    { title: "Pimk Floyd Animals", artist: "Pink Floyd", src: "Pink Floyd 1977 Animals.mp3" },
+    { title: "Pink Floyd Animals", artist: "Pink Floyd", src: "Pink Floyd 1977 Animals.mp3" },
     { title: "The Sound of Silence", artist: "Simon And Garfunkel", src: "Simon And Garfunkel - The Sound Of Silence.mp3" },
     { title: "Dream On", artist: "Aerosmith", src: "Dream On.mp3" },
-    { title: "No Smoke Withou a Fire", artist: "Bad Company", src: "Bad Company (2).mp3" },
+    { title: "No Smoke Without a Fire", artist: "Bad Company", src: "Bad Company (2).mp3" },
     { title: "Bad Company", artist: "Bad Company", src: "Bad Company (3).mp3" },
     { title: "Iron Man", artist: "Black Sabbath", src: "Black Sabbath (3).mp3" },
     { title: "I Heard It Through the Grapevine", artist: "Creedance Clearwater Revival", src: "Creedance Clearwater Revival (2).mp3" },
     { title: "Dream Weaver", artist: "Gary Wright", src: "Gary Wright.mp3" },
     { title: "Child in Time", artist: "Deep Purple", src: "Deep Purple (1).mp3" },
-    { title: "Johnny Winters Dead July-17 23-30-51", artist: "Johhny Winters", src: "Johnny Winters Dead July 17 23-30-51.mp3" },
-    { title: "", artist: "Janis Joplin", src: "Janis Joplin.mp3" }
+    { title: "Johnny Winters Dead July-17 23-30-51", artist: "Johhny Winters", src: "JOHNNY WINTERS DEAD JULY 17 23-30-51.mp3" },
+    { title: "", artist: "Janis Joplin", src: "Janis Joplin.mp3" },
+    { title: "When the Levee Breaks", artist: "Led Zeppelin", src: "Led Zeppelin.mp3" },
+    { title: "", artist: "Metallica", src: "Metallica.mp3" },
+    { title: "Gypsy alternate unedited verson", artist: "Fleetwood Mac", src: "Gypsy Alternate Unedited Version.mp3" }
 ];
 
 let currentSongIndex = 0;
-// download current song
+// download current song, const link below
 const downloadLink = document.getElementById("download-link");
 
 function loadSong(song) {
@@ -39,7 +42,7 @@ function loadSong(song) {
     // 🔥 Update download link to current song
     downloadLink.href = song.src;
 
-    // Optional: set filename for download
+    // Set song name for download
     downloadLink.setAttribute("download", `${song.title}.mp3`);
 }
 
