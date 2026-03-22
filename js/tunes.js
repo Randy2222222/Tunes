@@ -21,7 +21,8 @@ const songs = [
     { title: "", artist: "Bad Company", src: "Bad Company (3).mp3" },
     { title: "", artist: "Black Sabbath", src: "Black Sabbath (3).mp3" },
     { title: "", artist: "Creedance Clearwater Revival", src: "Creedance Clearwater Revival (2).mp3" },
-    { title: "Dream Weaver", artist: "Gary Wright", src; "Gary Wright.mp3" },
+    { title: "Dream Weaver", artist: "Gary Wright", src: "Gary Wright.mp3" },
+    { title: "", artist: "Deep Purple", src: "Deep Purple (1).mp3" }
 ];
 
 let currentSongIndex = 0;
