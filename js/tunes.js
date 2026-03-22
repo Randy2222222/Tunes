@@ -19,6 +19,7 @@ const songs = [
     { title: "", artist: "Aerosmith", src: "Aerosmith (1).mp3" },
     { title: "", artist: "Bad Company", src: "Bad Company (2).mp3" },
     { title: "", artist: "Bad Company", src: "Bad Company (3).mp3" },
+    { title: "", artist: "Black Sabbath", src "Black Sabbath (3).mp3" },
     { title: "", artist: "
 ];
 
