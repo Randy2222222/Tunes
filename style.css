@@ -134,6 +134,15 @@ header {
     color: green;
     margin-top: 10px;
 }
+
+a { 
+   font-size: 1.5; 
+   text-decoration: none;
+}
+a:link { color: green; }
+a:visited { color: mediumorchid; }
+a:hover { color: hotpink; }
+a:active { color: crimson; }
     
 .footer { /* was text */
   position: absolute; /* Position the text absolutely */
