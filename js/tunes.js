@@ -32,7 +32,10 @@ const songs = [
     { title: "Sad but True", artist: "Metallica", src: "Metallica (2)".mp3" },
     { title: "Logical Song", artist: "Supertramp", src: "Supertramp (3)" },
     { title: "Take the Long Way Home", artist: "Supertramp", src: "Supertramp (5).mp3" },
-    { title: "Nothing else Matter", artist: "Metallica", src: "Metallica (1).mp3" }
+    { title: "Nothing else Matter", artist: "Metallica", src: "Metallica (1).mp3" },
+    { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Stevie Ray Vaughan Voodoo Chile.mp3" },
+    { title: "Several Specie of Small Furry Animals", artist: "Pink Floyd", src: "Pink Floyd.mp3" },
+    { title: "Another Brick in the Wall", artist: "Pink Floyd", "Pink Floyd Another Brick in the Wall.mp3" }
 ];
 
 let currentSongIndex = 0;
