@@ -10,15 +10,13 @@
 
 /* Header (Green banner) */
 header {
-/* background-color: Green; */
+  background-color: Lime Green;
   color: Black;
   text-align: center;
   padding: 0.1em 0;   /* .3em 0; */
   margin: 0;
 /*  line-height: 1;  */
   border-radius: 15px;
-  background-image: radial-gradient(green, 
-                                ivory, dark lime green);
 }
 
     h1 {
@@ -142,7 +140,8 @@ a {
    text-decoration: none;
    font-weight: 700;
    text-shadow: 1px 1px 1px ivory;
-   border: 1px solid green;
+   padding: 2px;
+   border: 2px solid green;
 }
 a:link { color: green; }
 a:visited { color: gold; }
