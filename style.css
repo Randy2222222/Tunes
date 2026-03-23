@@ -19,13 +19,14 @@ header {
   border-radius: 15px;
 }
 
+/* Header */
     h1 {
   margin-bottom: 25px;
   padding: 5px auto; /* 5px auto */
   text-align: center;
   text-shadow: 3px 3px 3px dimgray;
   font-size: 2em;
-/*  line-height: 1.2em;    */
+/*  line-height: 1.2em;  */
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
 }
@@ -62,7 +63,7 @@ header {
     border-radius: 10px;
 }
 
-
+/* Control & Button Styles */
 .controls {
     back-ground: White;
     top: 20px; 
@@ -135,6 +136,7 @@ header {
     margin-top: 10px;
 }
 
+/* Download Styles */
 a { 
    font-size: 0.8em; 
    text-decoration: none;
@@ -147,7 +149,8 @@ a {
 a:link { color: lime; }
 a:visited { color: gold; }
 a:active { color: crimson; }
-    
+
+/* copyright */    
 .footer { /* was text */
   position: absolute; /* Position the text absolutely */
   bottom: 0;         /* Align to the bottom */
