@@ -36,7 +36,7 @@ header {
       display: block;
       justify-content: center;
       align-items: center;
-      margin: 120px auto auto auto; /* margin: 150 auto auto auto */
+      margin: 150px auto auto auto; /* margin: 150 auto auto auto */
       position: relative; /* Relative */
       width: 200px;
       height: 80px;
@@ -140,7 +140,7 @@ a {
    text-decoration: none;
    font-weight: 700;
    text-shadow: 1px 1px 1px ivory;
-   margin-top: 5px;
+   margin-top: 25px;
    padding: 2px;
    border-radius: 2px;
    border: 2px solid green;
