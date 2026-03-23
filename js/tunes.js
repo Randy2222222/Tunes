@@ -35,7 +35,8 @@ const songs = [
     { title: "Nothing else Matter", artist: "Metallica", src: "Metallica (1).mp3" },
     { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Stevie Ray Vaughan Voodoo Chile.mp3" },
     { title: "Several Specie of Small Furry Animals", artist: "Pink Floyd", src: "Pink Floyd.mp3" },
-    { title: "Another Brick in the Wall", artist: "Pink Floyd", "Pink Floyd Another Brick in the Wall.mp3" }
+    { title: "Another Brick in the Wall", artist: "Pink Floyd", src: "Pink Floyd Another Brick in the Wall.mp3" },
+    { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "Lynyrd Skynyrd" }
 ];
 
 let currentSongIndex = 0;
