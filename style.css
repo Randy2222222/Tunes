@@ -18,7 +18,7 @@ header {
 /*  line-height: 1;  */
   border-radius: 15px;
   background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
+                               lime, #2a4f32);
 }
 
     h1 {
