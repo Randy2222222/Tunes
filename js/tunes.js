@@ -24,12 +24,15 @@ const songs = [
     { title: "Dream Weaver", artist: "Gary Wright", src: "Gary Wright.mp3" },
     { title: "Child in Time", artist: "Deep Purple", src: "Deep Purple (1).mp3" },
     { title: "Johnny Winter's Dead July-17 23-30-51", artist: "Johhny Winter's", src: "JOHNNY WINTER'S DEAD-July 17 23-30-51.mp3" },
-    { title: "", artist: "Janis Joplin", src: "Janis Joplin.mp3" },
+    { title: "Me and Bobby Mcgee", artist: "Janis Joplin", src: "Janis Joplin.mp3" },
     { title: "When the Levee Breaks", artist: "Led Zeppelin", src: "Led Zeppelin.mp3" },
-    { title: "", artist: "Metallica", src: "Metallica.mp3" },
+    { title: "Enter Sandman", artist: "Metallica", src: "Metallica.mp3" },
     { title: "Gypsy (Alternate Unedited Verson)", artist: "Fleetwood Mac", src: "Gypsy (Alternate Unedited Version).mp3" },
     { title: "Ghost Song", artist: "The Doors", src: "The Doors (6).mp3" },
-    { title: "", artist: "Metallica", src: "Metallica (2)".mp3" },
+    { title: "Sad but True", artist: "Metallica", src: "Metallica (2)".mp3" },
+    { title: "Logical Song", artist: "Supertramp", src: "Supertramp (3)" },
+    { title: "Take the Long Way Home", artist: "Supertramp", src: "Supertramp (5).mp3" },
+    { title: "Nothing else Matter", artist: "Metallica", src: "Metallica (1).mp3" }
 ];
 
 let currentSongIndex = 0;
