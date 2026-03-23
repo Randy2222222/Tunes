@@ -33,9 +33,9 @@ const songs = [
     { title: "Logical Song", artist: "Supertramp", src: "Supertramp (3).mp3" },
     { title: "Take the Long Way Home", artist: "Supertramp", src: "Supertramp (5).mp3" },
     { title: "Fade to Black", artist: "Metallica", src: "Metallica (1).mp3" },
-    { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Stevie Ray Vaughan Voodoo Chile.mp3" },
+    { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Stevie Ray Vaughn Voodoo Chile.mp3" },
     { title: "Several Specie of Small Furry Animals", artist: "Pink Floyd", src: "Pink Floyd.mp3" },
-    { title: "Another Brick in the Wall", artist: "Pink Floyd", src: "Pink Floyd Another Brick in The Wall.mp3" },
+    { title: "Another Brick in the Wall", artist: "Pink Floyd", src: "Pink Floyd - Another Brick in The Wall.mp3" },
     { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "lynyrd skynyrd (2).mp3" }
 ];
 
