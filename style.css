@@ -17,8 +17,6 @@ header {
   margin: 0;
 /*  line-height: 1;  */
   border-radius: 15px;
-  background-image: radial-gradient(lime,
-                               #fff, #2a4f32);
 }
 
     h1 {
@@ -144,9 +142,9 @@ a {
    text-shadow: 1px 1px 1px ivory;
    padding: 2px;
    border-radius: 2px;
-   border: 1px solid green;
+   border: 1px solid lime;
 }
-a:link { color: green; }
+a:link { color: lime; }
 a:visited { color: gold; }
 a:active { color: crimson; }
     
