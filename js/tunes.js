@@ -29,14 +29,14 @@ const songs = [
     { title: "Enter Sandman", artist: "Metallica", src: "Metallica.mp3" },
     { title: "Gypsy (Alternate Unedited Verson)", artist: "Fleetwood Mac", src: "Gypsy (Alternate Unedited Version).mp3" },
     { title: "Ghost Song", artist: "The Doors", src: "The Doors (6).mp3" },
-    { title: "Sad but True", artist: "Metallica", src: "Metallica (2)".mp3" },
-    { title: "Logical Song", artist: "Supertramp", src: "Supertramp (3)" },
+    { title: "Sad but True", artist: "Metallica", src: "Metallica (2).mp3" },
+    { title: "Logical Song", artist: "Supertramp", src: "Supertramp (3).mp3" },
     { title: "Take the Long Way Home", artist: "Supertramp", src: "Supertramp (5).mp3" },
     { title: "Nothing else Matter", artist: "Metallica", src: "Metallica (1).mp3" },
     { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Stevie Ray Vaughan Voodoo Chile.mp3" },
     { title: "Several Specie of Small Furry Animals", artist: "Pink Floyd", src: "Pink Floyd.mp3" },
     { title: "Another Brick in the Wall", artist: "Pink Floyd", src: "Pink Floyd Another Brick in The Wall.mp3" },
-    { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "lynyrd skynyrd" }
+    { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "lynyrd skynyrd.mp3" }
 ];
 
 let currentSongIndex = 0;
