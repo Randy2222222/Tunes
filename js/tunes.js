@@ -47,13 +47,13 @@ function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
-
+}
     // 🔥 Update download link to current song
     downloadLink.href = song.src;
 
     // Set song name for download
     downloadLink.setAttribute("download", `${song.title}.mp3`);
-}
+//}
 
 function playSong() {
     audio.play();
