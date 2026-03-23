@@ -27,7 +27,9 @@ const songs = [
     { title: "", artist: "Janis Joplin", src: "Janis Joplin.mp3" },
     { title: "When the Levee Breaks", artist: "Led Zeppelin", src: "Led Zeppelin.mp3" },
     { title: "", artist: "Metallica", src: "Metallica.mp3" },
-    { title: "Gypsy (Alternate Unedited Verson)", artist: "Fleetwood Mac", src: "Gypsy (Alternate Unedited Version).mp3" }
+    { title: "Gypsy (Alternate Unedited Verson)", artist: "Fleetwood Mac", src: "Gypsy (Alternate Unedited Version).mp3" },
+    { title: "Ghost Song", artist: "The Doors", src: "The Doors (6).mp3" },
+    { title: "", artist: "Metallica", src: "Metallica (2)".mp3" },
 ];
 
 let currentSongIndex = 0;
