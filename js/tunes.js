@@ -44,7 +44,8 @@ const songs = [
     { title: "Turn the Page", artist: "Bob Seger", src: "Songs/Bob Seger.mp3" },
     { title: "The Ballad of John Henry", artist: "Bob Bonamassa", src: "Songs/06 The Ballad of John Henry.mp3" },
     { title: "", artist: "SuperTramp", src: "Songs/Supertramp (1).mp3" },
-    { title: "Child in Time", artist: "Deep Purple", src: "Songs/Child in Time.mp3" }
+    { title: "Child in Time", artist: "Deep Purple", src: "Songs/Child in Time.mp3" },
+    { title: "Black Magic Women", artist: "Santana", src: "Songs/Santana.mp3" }
 ];
 
 let currentSongIndex = 0;
