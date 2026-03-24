@@ -21,7 +21,7 @@ const songs = [
     { title: "No Smoke Without a Fire", artist: "Bad Company", src: "Songs/Bad Company (2).mp3" },
     { title: "Bad Company", artist: "Bad Company", src: "Songs/Bad Company (3).mp3" },
     { title: "Iron Man", artist: "Black Sabbath", src: "Songs/Black Sabbath (2).mp3" },
-    { title: "I Heard It Through the Grapevine", artist: "Songs/Creedence Clearwater Revival", src: "Creedence Clearwater Revival (3).mp3" },
+    { title: "I Heard It Through the Grapevine", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (3).mp3" },
     { title: "Dream Weaver", artist: "Gary Wright", src: "Songs/Gary Wright.mp3" },
     { title: "Soldier of Fortune", artist: "Deep Purple", src: "Songs/Deep Purple (1).mp3" },
     { title: "Johnny Winter's Dead July-17 23-30-51", artist: "Johhny Winter's", src: "Songs/JOHNNY WINTER'S DEAD - Jul 17 23-30-51.mp3" },
@@ -46,7 +46,7 @@ const songs = [
     { title: "", artist: "SuperTramp", src: "Songs/Supertramp (1).mp3" },
     { title: "Child in Time", artist: "Deep Purple", src: "Songs/Child in Time.mp3" },
     { title: "Black Magic Women", artist: "Santana", src: "Songs/Santana.mp3" },
-    { title: "Working for MCA", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd (2).mp3" },
+    { title: "Working for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (2).mp3" },
     { title: "Takin' It To The Streets", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers.mp3" }
 ];
 
