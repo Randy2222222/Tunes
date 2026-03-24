@@ -28,13 +28,13 @@ const songs = [
     { title: "When the Levee Breaks", artist: "Led Zeppelin", src: "Led Zeppelin.mp3" },
     { title: "Whiskey in a Jar", artist: "Metallica", src: "Metallica.mp3" },
     { title: "Gypsy (Alternate Unedited Verson)", artist: "Fleetwood Mac", src: "Gypsy (Alternate Unedited Version).mp3" },
-    { title: "Ghost Song", artist: "The Doors", src: "The Doors (6).mp3" },
-    { title: "Am I Evil", artist: "Metallica", src: "Metallica (2).mp3" },
+    { title: "Tge Changeling", artist: "The Doors", src: "The Doors (6).mp3" },
+    { title: "Fade to Black", artist: "Metallica", src: "Metallica (2).mp3" },
     { title: "Logical Song", artist: "Supertramp", src: "Supertramp (3).mp3" },
     { title: "Take the Long Way Home", artist: "Supertramp", src: "Supertramp (5).mp3" },
-    { title: "Fade to Black", artist: "Metallica", src: "Metallica (1).mp3" },
+    { title: "Am I Evil", artist: "Metallica", src: "Metallica (1).mp3" },
     { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Stevie Ray Vaughn Voodoo Chile.mp3" },
-    { title: "Several Specie of Small Furry Animals", artist: "Pink Floyd", src: "Pink Floyd.mp3" },
+    { title: "Learning to Fly", artist: "Pink Floyd", src: "Pink Floyd.mp3" },
     { title: "Another Brick in the Wall", artist: "Pink Floyd", src: "Pink Floyd - Another Brick in The Wall.mp3" },
     { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "lynyrd skynyrd (2).mp3" }
 ];
