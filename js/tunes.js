@@ -38,7 +38,7 @@ const songs = [
     { title: "Learning to Fly", artist: "Pink Floyd", src: "Songs/Pink Floyd.mp3" },
     { title: "Another Brick in the Wall", artist: "Pink Floyd", src: "Songs/Pink Floyd - Another Brick In The Wall.mp3" },
     { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd (3).mp3" },
-    { title: "not", artist: "The Doors", src: "Songs/The Doors (5).mp3}" },
+    { title: "Riders On The Storm", artist: "The Doors", src: "Songs/Riders on the Storm.mp3}" },
     { title: "Wishing Well", artist: "Black Sabbath", src: "Songs/Black Sabbath (1).mp3" },
     { title: "Slow Train", artist: "Joe Bonamassa", src: "Songs/10 Slow Train.mp3" },
     { title: "Turn the Page", artist: "Bob Seger", src: "Songs/Bob Seger.mp3" },
