@@ -46,7 +46,8 @@ const songs = [
     { title: "", artist: "SuperTramp", src: "Songs/Supertramp (1).mp3" },
     { title: "Child in Time", artist: "Deep Purple", src: "Songs/Child in Time.mp3" },
     { title: "Black Magic Women", artist: "Santana", src: "Songs/Santana.mp3" },
-    { title: 
+    { title: "Working for MCA", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd (2).mp3" },
+    { title: "Takin' It To The Streets", artist: "The Doobie Brothers", src: "Songs/Doobie Brothers.mp3" }
 ];
 
 let currentSongIndex = 0;
