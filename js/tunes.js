@@ -36,7 +36,9 @@ const songs = [
     { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughn Voodoo Chile.mp3" },
     { title: "Learning to Fly", artist: "Pink Floyd", src: "Songs/Pink Floyd.mp3" },
     { title: "Another Brick in the Wall", artist: "Pink Floyd", src: "Songs/Pink Floyd - Another Brick in The Wall.mp3" },
-    { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (2).mp3" }
+    { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (2).mp3" },
+    { title: "", artist: "The Doors", src: "Songs/The Doors (5).mp3}" },
+    { title: "", artist: "Black Sabbath", src: "Songs/Black Sabbath (1).mp3 }
 ];
 
 let currentSongIndex = 0;
