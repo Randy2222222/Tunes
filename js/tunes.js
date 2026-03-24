@@ -45,7 +45,8 @@ const songs = [
     { title: "The Ballad of John Henry", artist: "Bob Bonamassa", src: "Songs/06 The Ballad of John Henry.mp3" },
     { title: "", artist: "SuperTramp", src: "Songs/Supertramp (1).mp3" },
     { title: "Child in Time", artist: "Deep Purple", src: "Songs/Child in Time.mp3" },
-    { title: "Black Magic Women", artist: "Santana", src: "Songs/Santana.mp3" }
+    { title: "Black Magic Women", artist: "Santana", src: "Songs/Santana.mp3" },
+    { title: 
 ];
 
 let currentSongIndex = 0;
