@@ -39,7 +39,9 @@ const songs = [
     { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (2).mp3" },
     { title: "", artist: "The Doors", src: "Songs/The Doors (5).mp3}" },
     { title: "Wishing Well", artist: "Black Sabbath", src: "Songs/Black Sabbath (1).mp3" },
-    { title: "Slow Train", artist: "Joe Bonamassa", src: "Songs/10 Slow Train.mp3" }
+    { title: "Slow Train", artist: "Joe Bonamassa", src: "Songs/10 Slow Train.mp3" },
+    { title: "Turn the Page", artist: "Bob Seger", src: "Songs/Bob Seger.mp3" },
+    { title: "", artist: "Bob Bonamassa", src: "Songs/06
 ];
 
 let currentSongIndex = 0;
