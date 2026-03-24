@@ -48,7 +48,7 @@ const songs = [
     { title: "Black Magic Women", artist: "Santana", src: "Songs/Santana.mp3" },
     { title: "Working for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (2).mp3" },
     { title: "Takin' It To The Streets", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers.mp3" },
-    { title: "Sittin' On The Dock Of The Bay", artist: "Otis Redding", src: "Songs/Sittin' On The Dock Of The Bay Otis Redding.Osts Platoon.mp3" },
+    { title: "Sittin' On The Dock Of The Bay", artist: "Otis Redding", src: "Songs/Dock On The Bay.mp3" },
     { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara(Fleetwood Mac cover).mp3" },
     { title: "Alabama Song", artist: "The Doors", src: "Songs/The Doors (4).mp3" },
     { title: "Doors", artist: "The Doors", src: "The Doors (5).mp3" }
