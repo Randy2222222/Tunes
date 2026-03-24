@@ -29,7 +29,7 @@ const songs = [
     { title: "When the Levee Breaks", artist: "Led Zeppelin", src: "Songs/Led Zeppelin.mp3" },
     { title: "Whiskey in a Jar", artist: "Metallica", src: "Songs/Metallica.mp3" },
     { title: "Gypsy (Alternate Unedited Verson)", artist: "Fleetwood Mac", src: "Songs/Gypsy (Alternate Unedited Version).mp3" },
-    { title: "Tge Changeling", artist: "The Doors", src: "Songs/The Doors (6).mp3" },
+    { title: "The Changeling", artist: "The Doors", src: "Songs/The Doors (6).mp3" },
     { title: "Fade to Black", artist: "Metallica", src: "Songs/Metallica (2).mp3" },
     { title: "Logical Song", artist: "Supertramp", src: "Songs/Supertramp (3).mp3" },
     { title: "Take the Long Way Home", artist: "Supertramp", src: "Songs/Supertramp (5).mp3" },
