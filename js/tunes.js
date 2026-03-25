@@ -7,7 +7,7 @@ const volumeControl = document.getElementById('volume');
 const trackName = document.getElementById('track-name');
 const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
-const downloadLink = document.getElementById("download-link");
+const downloadLink = document.getElementById('download-link');
 
 const songs = [
     { title: "Lazy", artist: "Deep Purple", src: "Songs/Lazy.mp3" },
