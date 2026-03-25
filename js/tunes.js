@@ -56,7 +56,8 @@ const songs = [
     { title: "Drive", artist: "Joe Bonamassa", src: "Songs/12 Drive.mp3" },
     { title: "Blue and Evil", artist "Joe Bonamassa", src: "Songs/07 Blue and Evil" },
     { title: "Wish You Were Here", artist: "Pink Floyd", src: "Songs/Pink Floyd - Wish You Were Here.mp3" },
-    { title: "The Devil Went Down to Georgia", artist: "Charlie Daniels Band", src: "Songs/The Charlie Daniels Band.mp3" }
+    { title: "The Devil Went Down to Georgia", artist: "Charlie Daniels Band", src: "Songs/The Charlie Daniels Band.mp3" },
+    { title: "Dust In The Wind", artist: "Kansas", src: "Songs/Dust In The Wind.mp3" }
 ];
 
 let currentSongIndex = 0;
