@@ -61,7 +61,9 @@ const songs = [
     { title: "Several Small Species of Animals", artist: "Pink Floyd", src: "Songs/Pink Floyd - Several Small Species of animals.mp3" },
     { title: "Stray Cat Strut", artist: "Stray Cats", src: "Songs/Stray Cats.mp3" },
     { title: "Perfect Strangers", artist: "Deep Purple", src: "Songs/Deep Purple.mp3" },
-    { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper - Schools Out.mp3" }
+    { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper - Schools Out.mp3" },
+    { title: "Must Give Us Death", artist: "Jimmy Page", "Songs/Jimmy page - Must give us death I.mp3" },
+    { title: "
 ];
 
 let currentSongIndex = 0;
