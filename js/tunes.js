@@ -54,7 +54,9 @@ const songs = [
     { title: "Riders on The Storm", artist: "The Doors", src: "The Doors (5).mp3" },
     { title: "Sweet Home Alabama", artist: "Kid Rock", src: "Songs/Kid Rock.mp3" },
     { title: "Drive", artist: "Joe Bonamassa", src: "Songs/12 Drive.mp3" },
-    { title: "Blue and Evil", artist "Joe Bonamassa", src: "Songs/07 Blue and Evil" }
+    { title: "Blue and Evil", artist "Joe Bonamassa", src: "Songs/07 Blue and Evil" },
+    { title: "Wish You were Here", artist: "Pink Floyd", src: "Songs/Wish You Were Here - Pink Floyd.mp3" },
+    { title: "The Devil Went Down to Georgia", artist: "Charlie Daniels Band", src: "The Charlie Daniels Band.mp3" }
 ];
 
 let currentSongIndex = 0;
