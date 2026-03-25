@@ -57,7 +57,10 @@ const songs = [
     { title: "Blue and Evil", artist "Joe Bonamassa", src: "Songs/07 Blue and Evil" },
     { title: "Wish You Were Here", artist: "Pink Floyd", src: "Songs/Pink Floyd - Wish You Were Here.mp3" },
     { title: "The Devil Went Down to Georgia", artist: "Charlie Daniels Band", src: "Songs/The Charlie Daniels Band.mp3" },
-    { title: "Dust In The Wind", artist: "Kansas", src: "Songs/Dust In The Wind.mp3" }
+    { title: "Dust In The Wind", artist: "Kansas", src: "Songs/Dust In The Wind.mp3" },
+    { title: "Several Small Species of Furry Animals", artist: "Pink Floyd", src: "Songs/Pink Floyd - Several Small Species of Furry Animals.mp3" },
+    { title: "Stray Cat Strut", artist: "Stray Cats", src: "Songs/Stray Cats.mp3" },
+    { title: "Perfect Strangers", artist: "Deep Purple", src: "Songs/Deep Purple.mp3" }
 ];
 
 let currentSongIndex = 0;
