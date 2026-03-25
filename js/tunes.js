@@ -65,8 +65,8 @@ const songs = [
     { title: "Must Give Us Death", artist: "Jimmy Page", "Songs/Jimmy page - must give us death II.mp3" },
     { title: "Johnny be Good", artist: "Chuck Berry", src: "Songs/chuck berry.mp3" },
     { title: "You're So Vain", artist: "Carly Simon", src: "Songs/You're So Vain.mp3 },
-    { title: "Tears in Heaven", artist: "Elton John", src: "Songs/Tears in Heaven.mo3" },
-    {
+    { title: "Tears in Heaven", artist: "Elton John", src: "Songs/Tears in heaven.mo3" },
+    { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/The Chain.mp3" }
 ];
 
 let currentSongIndex = 0;
