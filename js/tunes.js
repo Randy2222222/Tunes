@@ -66,7 +66,9 @@ const songs = [
     { title: "Johnny be Good", artist: "Chuck Berry", src: "Songs/chuck berry.mp3" },
     { title: "You're So Vain", artist: "Carly Simon", src: "Songs/You're So Vain.mp3 },
     { title: "Tears in Heaven", artist: "Elton John", src: "Songs/Tears in heaven.mo3" },
-    { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/The Chain.mp3" }
+    { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/The Chain.mp3" },
+    { title: "Burn", artist: "Deep Purple", src: "Songs/Burn.mp3" },
+    { title: "C.C.Ryder", artist:"Stevie Ray Vaughan", src: "Songs/C.C. Ryder.mp3" },
 ];
 
 let currentSongIndex = 0;
