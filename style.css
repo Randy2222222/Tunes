@@ -23,15 +23,13 @@ header {
 
 /* Header */
     h1 {
- /* margin: 25px; */
-  background-color: white;
-  padding: 15px auto; /* 5px auto */
+  padding: 5px auto; /* 5px auto */
   text-align: center;
   text-shadow: 3px 3px 3px dimgray;
   font-size: 2em;
 /*  line-height: 1.2em;  */
-  background-image: radial-gradient(forestgreen,
-                                  limegreen, black);
+  background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
 }
 
 
