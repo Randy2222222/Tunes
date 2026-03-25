@@ -15,14 +15,14 @@ header {
   text-align: center;
   padding: 0.1em 0;   /* .3em 0; */
   margin: 0;
-/*  line-height: 1;  */
+  line-height: 1;  
 /*  border-radius: 15px; */
 }
 
 /* Header */
     h1 {
   margin-bottom: 25px;
-  padding: 5px auto; /* 5px auto */
+  padding: 15px auto; /* 5px auto */
   text-align: center;
   text-shadow: 3px 3px 3px dimgray;
   font-size: 2em;
