@@ -51,7 +51,9 @@ const songs = [
     { title: "Sittin' On The Dock Of The Bay", artist: "Otis Redding", src: "Songs/Dock On The Bay.mp3" },
     { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara(Fleetwood Mac cover).mp3" },
     { title: "Alabama Song", artist: "The Doors", src: "Songs/The Doors (4).mp3" },
-    { title: "Riders on The Storm", artist: "The Doors", src: "The Doors (5).mp3" }
+    { title: "Riders on The Storm", artist: "The Doors", src: "The Doors (5).mp3" },
+    { title: "Sweet Home Alabama", artist: "Kid Rock", src: "Songs/Kid Rock.mp3" },
+    { title: "Drive", artist: "Joe Bonamassa", src: "Songs/12 Drive.mp3" }
 ];
 
 let currentSongIndex = 0;
