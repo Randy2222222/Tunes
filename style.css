@@ -24,12 +24,12 @@ header {
 /* Header */
     h1 {
   background-color: white;
-  padding: 5px auto; /* 5px auto */
+  padding: 25px auto; /* 5px auto */
   text-align: center;
   text-shadow: 3px 3px 3px dimgray;
   font-size: 2em;
 /*  line-height: 1.2em;  */
-  background-image: radial-gradient(#090 25%,
+  background-image: radial-gradient(#fff 25%,
                                 #fff 60%, #2a4f32 15%);
 }
 
