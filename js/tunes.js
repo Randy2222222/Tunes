@@ -76,6 +76,7 @@ const songs = [
     { title: "Janie's Got A Gun", artist: "Aerosmith", src: "Songs/Aerosmith (2).mp3" },
     { title: "Sweet Emotions", artist: "Aerosmith", src: "Songs/Aerosmith".mp3 },
     { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper- Schools Out.mp3" },
+    { title: "Welcom To My Nightmare", artist: "Alice Cooper", src: "Songs/Alice Cooper - Welcome To My Nightmare.mp3 }
 ];
 
 let currentSongIndex = 0;
