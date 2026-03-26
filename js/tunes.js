@@ -70,7 +70,9 @@ const songs = [
     { title: "Burn", artist: "Deep Purple", src: "Songs/Burn.mp3" },
     { title: "C.C.Ryder", artist:"Stevie Ray Vaughan", src: "Songs/C.C. Ryder.mp3" },
     { title: "The Smashing Pumpkins", artist: "The Smashing Pumpkins", src: "Songs/The Smashing Pumpkins.mp3" },
-    { title: "Ghost Song", artist: "The Doors", src: "Songs/Ghost Song.mp3" }
+    { title: "Ghost Song", artist: "The Doors", src: "Songs/Ghost Song.mp3" },
+    { title: "Janie's Got A Gun", artist: "Aerosmith", src: "Songs/Aerosmith (2).mp3" },
+    { title: "Sweet Emotions", artist: "Aerosmith", src: "Songs/Aerosmith".mp3 }
 ];
 
 let currentSongIndex = 0;
