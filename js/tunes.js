@@ -89,15 +89,15 @@ const songs = [
     { title: "But Anyway", artist: "Blues Traveler", src: "Songs/Blues Traveler (1).mp3" },
     { title: "Secret Agent Man", artist: "Blues Traveler", src: "Songs/Blues Traveler (2).mp3" },
     { title: "Stir It Up", artist: "Bob Marley", src: "Songs/Stir It Up.mp3" },
-    { title: "Cocaine", artist: "Eric Claypton", src: "Songs/Eric Claypton.mp3" },
+    { title: "Cocaine", artist: "Eric Claypton", src: "Songs/Cocaine.mp3" },
     { title: "Proud Mary", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (5).mp3" },
     { title: "Bad Moon Rising", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (3).mp3" },
     { title: "Fortunate Son", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (4).mp3" },
     { title: "Who'll Stop The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
     { title: "CROSSROADS", artist: "Stevie Ray Vaughn", src: "Songs/CROSSROADS.mp3" },
-    
-    { title: "Highway Star", artist: "Jefferson Airship", src: "Songs/Jefferson Airship.mp3" },
-    { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara - (Fleetwood Mac Cover).mp3" }
+    { title: "Joe(1)", artist: "Joe Bonamassa", src: "Songs/Joe(1).mp3" },
+    { title: "Highway Star", artist: "Jefferson Airship", src: "Songs/Highway Star.mp3" },
+    { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara(Fleetwood Mac cover).mp3" }
         
 ];
 
