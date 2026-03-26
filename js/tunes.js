@@ -19,6 +19,7 @@ const songs = [
     { title: "The Sound of Silence", artist: "Simon And Garfunkel", src: "Songs/Simon And Garfunkel - The Sound Of Silence.mp3" },
     { title: "Dream On", artist: "Aerosmith", src: "Songs/Aerosmith (1).mp3" },
     { title: "No Smoke Without a Fire", artist: "Bad Company", src: "Songs/Bad Company (2).mp3" },
+    { title: "Only Women Bleed", artist: "Alice Cooper", src: "Songs/Alice Cooper - Only Women Bleed.mp3" },
     { title: "Bad Company", artist: "Bad Company", src: "Songs/Bad Company (3).mp3" },
     { title: "Iron Man", artist: "Black Sabbath", src: "Songs/Black Sabbath (2).mp3" },
     { title: "I Heard It Through the Grapevine", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (3).mp3" },
@@ -32,6 +33,7 @@ const songs = [
     { title: "The Changeling", artist: "The Doors", src: "Songs/The Doors (6).mp3" },
     { title: "Fade to Black", artist: "Metallica", src: "Songs/Metallica (2).mp3" },
     { title: "Logical Song", artist: "Supertramp", src: "Songs/Supertramp (3).mp3" },
+    { title: "Poison", artist: "Alice Cooper", src: "Songs/Alice Cooper - Poison".mp3 },
     { title: "Take the Long Way Home", artist: "Supertramp", src: "Songs/Supertramp (5).mp3" },
     { title: "Am I Evil", artist: "Metallica", src: "Songs/Metallica (1).mp3" },
     { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughn - Voodoo Chile.mp3" },
@@ -72,7 +74,8 @@ const songs = [
     { title: "The Smashing Pumpkins", artist: "The Smashing Pumpkins", src: "Songs/The Smashing Pumpkins.mp3" },
     { title: "Ghost Song", artist: "The Doors", src: "Songs/Ghost Song.mp3" },
     { title: "Janie's Got A Gun", artist: "Aerosmith", src: "Songs/Aerosmith (2).mp3" },
-    { title: "Sweet Emotions", artist: "Aerosmith", src: "Songs/Aerosmith".mp3 }
+    { title: "Sweet Emotions", artist: "Aerosmith", src: "Songs/Aerosmith".mp3 },
+    { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper- Schools Out.mp3" },
 ];
 
 let currentSongIndex = 0;
