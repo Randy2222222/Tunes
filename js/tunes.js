@@ -76,10 +76,20 @@ const songs = [
     { title: "Janie's Got A Gun", artist: "Aerosmith", src: "Songs/Aerosmith (2) 2.mp3" },
     { title: "Sweet Emotions", artist: "Aerosmith", src: "Songs/Aerosmith.mp3" },
     { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper - School's Out.mp3" },
+    { title: "Burnin' Sky", artist: "Bad Company", src: "Songs/Bad Company.mp3" },
     { title: "Welcom To My Nightmare", artist: "Alice Cooper", src: "Songs/Alice Cooper - Welcome to My Nightmare.mp3" },
+    { title: "Rubber Biscuit", artist: "The Blues Brothers", src: "Songs/The Blues Brothers.mp3" },
     { title: "Hey Stoopid", artist: "Alice Cooper", src: "Songs/Alice Cooper - Hey Stoopid.mp3" },
     { title: "Caffiene", artist: "Alice Cooper", src: "Songs/Alice Cooper - Caffeine.mp3" },
-    { title: "Eighteen", artist: "Alice Cooper", src: "Songs/Alice Cooper - Eighteen 2.mp3" }
+    { title: "Eighteen", artist: "Alice Cooper", src: "Songs/Alice Cooper - Eighteen 2.mp3" },
+    { title: "Rock 'n' Roll Fantasy", artist: "Bad Company", src: "Songs/Bad Company.mp3" },
+    { title: "Ballroom Blitz", artist: "Sweet", src: "Songs/Sweet - Ballroom Blitz.mp3" },
+    { title: "War Pigs", artist: "Black Sabbath", src: "Songs/Black Sabbath.mp3" },
+    { title: "Wishing Well", artist: "Black Sabbath", src: "Songs/Wishing Well.mp3" },
+    { title: "But Anyway", artist: "Blues Traveler", src: "Songs/But Anyway.mp3" },
+    { title: "Secret Agent Man", artist: "Blues Traveler", src: "Songs/Secret Agent Man.mp3" },
+    { title: "Stir It Up", artist: "Bob Marley", src: "Songs/Stir It Up.mp3" }
+        
 ];
 
 let currentSongIndex = 0;
