@@ -36,7 +36,7 @@ const songs = [
     { title: "Poison", artist: "Alice Cooper", src: "Songs/Alice Cooper - Poison".mp3 },
     { title: "Take the Long Way Home", artist: "Supertramp", src: "Songs/Supertramp (5).mp3" },
     { title: "Am I Evil", artist: "Metallica", src: "Songs/Metallica (1).mp3" },
-    { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughn - Voodoo Chile.mp3" },
+    { title: "Voodoo Chile", artist: "Stevie Ray Vaughn", src: "Songs/Stevie Ray Vaughn - Voodoo Chile.mp3" },
     { title: "Learning to Fly", artist: "Pink Floyd", src: "Songs/Pink Floyd.mp3" },
     { title: "Another Brick in the Wall", artist: "Pink Floyd", src: "Songs/Pink Floyd - Another Brick In The Wall.mp3" },
     { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd (3).mp3" },
@@ -70,7 +70,7 @@ const songs = [
     { title: "Tears in Heaven", artist: "Elton John", src: "Songs/Tears in heaven.mp3" },
     { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/The Chain.mp3" },
     { title: "Burn", artist: "Deep Purple", src: "Songs/Burn.mp3" },
-    { title: "C.C.Ryder", artist: "Stevie Ray Vaughan", src: "Songs/C.C.Rider.mp3" },
+    { title: "Texas Blues, Stevie Ray Vaughn", artist: "C.C.Rider", src: "Songs/C.C.Rider.mp3" },
     { title: "The Smashing Pumpkins", artist: "The Smashing Pumpkins", src: "Songs/The Smashing Pumpkins.mp3" },
     { title: "Ghost Song", artist: "The Doors", src: "Songs/The Doors (6).mp3" },
     { title: "Janie's Got A Gun", artist: "Aerosmith", src: "Songs/Aerosmith (2) 2.mp3" },
@@ -83,12 +83,19 @@ const songs = [
     { title: "Caffiene", artist: "Alice Cooper", src: "Songs/Alice Cooper - Caffeine.mp3" },
     { title: "Eighteen", artist: "Alice Cooper", src: "Songs/Alice Cooper - Eighteen 2.mp3" },
     { title: "Rock 'n' Roll Fantasy", artist: "Bad Company", src: "Songs/Bad Company.mp3" },
-    { title: "Ballroom Blitz", artist: "Sweet", src: "Songs/Sweet - Ballroom Blitz.mp3" },
+    { title: "Ballroom Blitz", artist: "Sweet", src: "Songs/Ballroom Blitz - Sweet(cover).mp3" },
     { title: "War Pigs", artist: "Black Sabbath", src: "Songs/Black Sabbath.mp3" },
     { title: "Wishing Well", artist: "Black Sabbath", src: "Songs/Wishing Well.mp3" },
     { title: "But Anyway", artist: "Blues Traveler", src: "Songs/Blues Traveler (1).mp3" },
     { title: "Secret Agent Man", artist: "Blues Traveler", src: "Songs/Blues Traveler (2).mp3" },
-    { title: "Stir It Up", artist: "Bob Marley", src: "Songs/Stir It Up.mp3" }
+    { title: "Stir It Up", artist: "Bob Marley", src: "Songs/Stir It Up.mp3" },
+    { title: "Cocaine", artist: "Eric Claypton", src: "Songs/Eric Claypton.mp3" },
+    { title: "Proud Mary", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (2).mp3" },
+    { title: "Bad Moon Rising", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (3).mp3" },
+    { title: "Fortunate Son", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (4).mp3" },
+    { title: "Who'll Stop The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival.mp3" },
+    { title: "CROSSROADS", artist: "Stevie Ray Vaughn", src: "Songs/CROSSROADS.mp3" }
+    
         
 ];
 
