@@ -80,6 +80,7 @@ const songs = [
     { title: "Welcom To My Nightmare", artist: "Alice Cooper", src: "Songs/Alice Cooper - Welcome to My Nightmare.mp3" },
     { title: "Rubber Biscuit", artist: "The Blues Brothers", src: "Songs/The Blues Brothers.mp3" },
     { title: "Hey Stoopid", artist: "Alice Cooper", src: "Songs/Alice Cooper - Hey Stoopid.mp3" },
+    { title: "Blues In B Flat Minor", artist: "Fleetwood Mac", src: "Songs/Blues in B Flat Minor" },
     { title: "Caffiene", artist: "Alice Cooper", src: "Songs/Alice Cooper - Caffeine.mp3" },
     { title: "Eighteen", artist: "Alice Cooper", src: "Songs/Alice Cooper - Eighteen 2.mp3" },
     { title: "Rock 'n' Roll Fantasy", artist: "Bad Company", src: "Songs/Bad Company.mp3" },
