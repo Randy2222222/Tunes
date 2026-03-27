@@ -122,7 +122,9 @@ const songs = [
     { title: "Candle In The Wind", artist: "Elton John", src: "Songs/Elton John - Candle in the Window.mp3" },
     { title: "Tobacco Road", artist: "Edgar Winter", src: "Songs/Edgar Winter - Tobacco Road.mp3" },
     { title: "Way Down South", artist: "Edgar Winter", src: "Songs/Edgar Winter - Way Down South.mp3" },
-    { title: "Free Ride", artist: "Edgar Winter", src: "Songs/Edgar Winter - Free Ride.mp3" }
+    { title: "Free Ride", artist: "Edgar Winter", src: "Songs/Edgar Winter - Free Ride.mp3" },
+    { title: "Goodbye Yellow Brick Road", artist: "Elton John", src: "Songs/Elton John - Goodbye Yellow Brick Road.mp3" },
+    { title: "Rocket Man", artist: "Elton John", src: "Songs/Elton John - Rocket Man(Its gonna be a long long time).mp3 }
        
 ];
 
