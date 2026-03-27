@@ -124,7 +124,12 @@ const songs = [
     { title: "Way Down South", artist: "Edgar Winter", src: "Songs/Edgar Winter - Way Down South.mp3" },
     { title: "Free Ride", artist: "Edgar Winter", src: "Songs/Edgar Winter - Free Ride.mp3" },
     { title: "Goodbye Yellow Brick Road", artist: "Elton John", src: "Songs/Elton John - Goodbye Yellow Brick Road.mp3" },
-    { title: "Rocket Man", artist: "Elton John", src: "Songs/Elton John - Rocket Man(Its gonna be a long long time).mp3 }
+    { title: "Rocket Man", artist: "Elton John", src: "Songs/Elton John - Rocket Man (I Think It's Going Ti Be A Long Long Time).mp3" },
+    { title: "Gold Dust Woman", artist: "Fleetwood Mac", src: "Songs/Fleetwood Mac - Gold Dust Woman.mp3" },
+    { title: "Chunga's Revenge", artist: "Frank Zappa", src: "Songs/Frank Zappa - Chunga's Revenge.mp3" },
+    { title: "Signs", artist: "Five Man Electric Band", src: "Songs/Five Man Electric Band - Signs.m4a" },
+    { title: "", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" }
+        
        
 ];
 
