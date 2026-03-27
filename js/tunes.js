@@ -83,7 +83,7 @@ const songs = [
     { title: "Caffiene", artist: "Alice Cooper", src: "Songs/Alice Cooper - Caffeine.mp3" },
     { title: "Eighteen", artist: "Alice Cooper", src: "Songs/Alice Cooper - Eighteen 2.mp3" },
     { title: "Rock 'n' Roll Fantasy", artist: "Bad Company", src: "Songs/Bad Company.mp3" },
-    { title: "Ballroom Blitz", artist: "Sweet", src: "Songs/Ballroom Blitz - Sweet(cover).mp3" },
+    { title: "Ballroom Blitz", artist: "Sweet", src: "Songs/Ballroom Blitz - Sweet cover.mp3" },
     { title: "War Pigs", artist: "Black Sabbath", src: "Songs/Black Sabbath.mp3" },
     { title: "Wishing Well", artist: "Black Sabbath", src: "Songs/Wishing Well.mp3" },
     { title: "But Anyway", artist: "Blues Traveler", src: "Songs/Blues Traveler (1).mp3" },
@@ -96,7 +96,7 @@ const songs = [
     { title: "Who'll Stop The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
     { title: "CROSSROADS", artist: "Stevie Ray Vaughn", src: "Songs/CROSSROADS.mp3" },
     { title: "Joe(1)", artist: "Joe Bonamassa", src: "Songs/Joe(1).mp3" },
-    { title: "Highway Star", artist: "Jefferson Airship", src: "Songs/Highway Star.mp3" },
+    { title: "Highway Star", artist: "Deep Purple", src: "Songs/Highway Star.mp3" },
     { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara(Fleetwood Mac cover).mp3" }
         
 ];
