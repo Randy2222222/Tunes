@@ -14,5 +14,5 @@ PS; might be down now and then
 as I'm still adding Tunes
 at my leisure!
 
-Instructions click Tunes then settings then pages 
+Instructions click Tunes, then settings, then pages,
 click the live link, hit share and add to Home Screen.
