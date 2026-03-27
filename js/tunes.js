@@ -92,7 +92,7 @@ const songs = [
     { title: "Cocaine", artist: "Eric Claypton", src: "Songs/Cocaine.mp3" },
     { title: "Proud Mary", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (5).mp3" },
     { title: "Dead Man's Blues", artist: "Supertramp", src: "Songs/Supertramp.mp3" },
-    { title: "Bad Moon Rising", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (3).mp3" },
+    { title: "I Heard It Through The Grapevine", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (3).mp3" },
     { title: "Fortunate Son", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (4).mp3" },
     { title: "Who'll Stop The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
     { title: "CROSSROADS", artist: "Stevie Ray Vaughn", src: "Songs/CROSSROADS.mp3" },
