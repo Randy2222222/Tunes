@@ -97,7 +97,13 @@ const songs = [
     { title: "CROSSROADS", artist: "Stevie Ray Vaughn", src: "Songs/CROSSROADS.mp3" },
     { title: "Joe(1)", artist: "Joe Bonamassa", src: "Songs/Joe(1).mp3" },
     { title: "Highway Star", artist: "Deep Purple", src: "Songs/Highway Star.mp3" },
-    { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara(Fleetwood Mac cover).mp3" }
+    { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara(Fleetwood Mac cover).mp3" },
+    { title: "I Know Where I Belong", artist: "Joe Bonamassa", src: "Songs/01 I Know Where I Belong.mp3" },
+    { title: "The River", artist: "Joe Bonamassa", src: "Songs/03 The River.mp3" },
+    { title: "Bridge to Better Days", artist: "Joe Bonanassa", src: "Songs/04 Bridge to Better Days.mp3" },
+    { title: "Blue and Evil", artist: "Joe Bonamassa", src: "Songs/07 Blue and Evil.mp3" },
+    { title: "Driving Towards the Daylight", artist: "Joe Bonamassa", src: "Songs/09 Driving Towards the Daylight.mp3" },
+    
         
 ];
 
