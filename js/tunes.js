@@ -112,7 +112,7 @@ const songs = [
     { title: "Cold Shot", artist: "Stevie Ray Vaughn", src: "Songs/Cold Shot.mp3" },
     { title: "Crossroads", artist: "Cream", src: "Songs/Cream - Crossroads.mp3" },
     { title: "Strange Brew", artist: "Cream", src: "Songs/Cream - Strange Brew.mp3" },
-    { title: "Girls Just Wanna Have Fun", artist: "Cindi Lauper", src: "Songs/Cindi Lauper - Girls Just Wanna Have Fun.mp3" },
+    { title: "Girls Just Wanna Have Fun", artist: "Cyndi Lauper", src: "Songs/Cyndi Lauper - Girls Just Wanna Have Fun.mp3" },
     { title: "Space Truckin'", artist: "Deep Purple", src: "Songs/Deep Purple - Space Truckin'.mp3" },
     { title: "American Pie", artist: "Don McLean", src: "Songs/Don McLean.mp3" },
     { title: "She Takes My Breath Away", artist: "Eddie Money", src: "Songs/Eddie Money - She Takes My Breath Away.mo3" },
