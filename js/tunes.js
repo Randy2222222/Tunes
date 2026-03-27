@@ -128,7 +128,7 @@ const songs = [
     { title: "Gold Dust Woman", artist: "Fleetwood Mac", src: "Songs/Fleetwood Mac - Gold Dust Woman.mp3" },
     { title: "Chunga's Revenge", artist: "Frank Zappa", src: "Songs/Frank Zappa - Chunga's Revenge.mp3" },
     { title: "Signs", artist: "Five Man Electric Band", src: "Songs/Five Man Electric Band - Signs.m4a" },
-    { title: "", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" }
+    { title: "Let It Rock(Live Version)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" }
         
        
 ];
