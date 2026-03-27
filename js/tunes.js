@@ -80,7 +80,7 @@ const songs = [
     { title: "Welcom To My Nightmare", artist: "Alice Cooper", src: "Songs/Alice Cooper - Welcome to My Nightmare.mp3" },
     { title: "Rubber Biscuit", artist: "The Blues Brothers", src: "Songs/The Blues Brothers.mp3" },
     { title: "Hey Stoopid", artist: "Alice Cooper", src: "Songs/Alice Cooper - Hey Stoopid.mp3" },
-    { title: "Blues In B Flat Minor", artist: "Fleetwood Mac", src: "Songs/Blues in B Flat Minor" },
+    { title: "Blues In B Flat Minor", artist: "Fleetwood Mac", src: "Songs/Blues in B Flat Minor.mp3" },
     { title: "Caffiene", artist: "Alice Cooper", src: "Songs/Alice Cooper - Caffeine.mp3" },
     { title: "Eighteen", artist: "Alice Cooper", src: "Songs/Alice Cooper - Eighteen 2.mp3" },
     { title: "Rock 'n' Roll Fantasy", artist: "Bad Company", src: "Songs/Bad Company.mp3" },
@@ -103,10 +103,11 @@ const songs = [
     { title: "I Know Where I Belong", artist: "Joe Bonamassa", src: "Songs/01 I Know Where I Belong.mp3" },
     { title: "White Summer", artist: "Jimmy Page", src: "Songs/White Summer (Jimmy Page).mp3" },
     { title: "The River", artist: "Joe Bonamassa", src: "Songs/03 The River.mp3" },
+    { title: "Jamming", artist: "Bob Marley", src: "Songs/Bob Marley - Jamming.mp3" },
     { title: "Bridge to Better Days", artist: "Joe Bonanassa", src: "Songs/04 Bridge to Better Days.mp3" },
     { title: "Different Shades of Blue", artist: "Joe Bonamassa", src: "Songs/11 Different Shades of Blue.mp3" },
     { title: "Driving Towards the Daylight", artist: "Joe Bonamassa", src: "Songs/09 Driving Towards the Daylight.mp3" },
-    { title: "Hide in Your Shell", artist: "Supertramp", src: "Songs/Supertramp (4).mp3" }
+    { title: "Hide in Your Shell", artist: "Supertramp", src: "Songs/Supertramp (4).mp3" },
     
         
 ];
