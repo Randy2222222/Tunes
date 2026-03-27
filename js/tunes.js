@@ -78,7 +78,7 @@ const songs = [
     { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper - School's Out.mp3" },
     { title: "Burnin' Sky", artist: "Bad Company", src: "Songs/Bad Company.mp3" },
     { title: "Welcom To My Nightmare", artist: "Alice Cooper", src: "Songs/Alice Cooper - Welcome to My Nightmare.mp3" },
-    { title: "Rubber Biscuit", artist: "The Blues Brothers", src: "Songs/The Blues Brothers.mp3" },
+    { title: "Rubber Biscuit(Live)", artist: "The Blues Brothers", src: "Songs/The Blues Brothers.mp3" },
     { title: "Hey Stoopid", artist: "Alice Cooper", src: "Songs/Alice Cooper - Hey Stoopid.mp3" },
     { title: "Blues In B Flat Minor", artist: "Fleetwood Mac", src: "Songs/Blues in B Flat Minor.mp3" },
     { title: "Caffiene", artist: "Alice Cooper", src: "Songs/Alice Cooper - Caffeine.mp3" },
@@ -117,7 +117,7 @@ const songs = [
     { title: "American Pie", artist: "Don McLean", src: "Songs/Don McLean.mp3" },
     { title: "She Takes My Breath Away", artist: "Eddie Money", src: "Songs/Eddie Money - She Takes My Breath Away.mo3" },
     { title: "Against The Law", artist: "Edgar Winter", src: "Songs/Edgar Winter - Against The Law.mp3" },
-    { title: "Frankenstein", artist: "Edgar Winter", src: "Songs/Edgar Winter - Frankenstein.mp3" },
+    { title: "Frankenstein(Live)", artist: "Edgar Winter", src: "Songs/Edgar Winter - Frankenstein.mp3" },
     { title: "Crocodile Rock", artist: "Elton John", src: "Elton John - Crocodile Rock.mp3" },
     { title: "Candle In The Wind", artist: "Elton John", src: "Songs/Elton John - Candle in the Window.mp3" },
     { title: "Tobacco Road", artist: "Edgar Winter", src: "Songs/Edgar Winter - Tobacco Road.mp3" },
@@ -128,7 +128,7 @@ const songs = [
     { title: "Gold Dust Woman", artist: "Fleetwood Mac", src: "Songs/Fleetwood Mac - Gold Dust Woman.mp3" },
     { title: "Chunga's Revenge", artist: "Frank Zappa", src: "Songs/Frank Zappa - Chunga's Revenge.mp3" },
     { title: "Signs", artist: "Five Man Electric Band", src: "Songs/Five Man Electric Band - Signs.m4a" },
-    { title: "Let It Rock(Live Version)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" }
+    { title: "Let It Rock(Live)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" }
         
        
 ];
