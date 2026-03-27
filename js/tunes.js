@@ -94,6 +94,7 @@ const songs = [
     { title: "Proud Mary", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (5).mp3" },
     { title: "Dead Man's Blues", artist: "Supertramp", src: "Songs/Supertramp.mp3" },
     { title: "I Heard It Through The Grapevine", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (3).mp3" },
+    { title: "White Room", artist: "Cream", src: "Songs/Cream - White Room.mp3" },
     { title: "Fortunate Son", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (4).mp3" },
     { title: "Who'll Stop The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
     { title: "CROSSROADS", artist: "Stevie Ray Vaughn", src: "Songs/CROSSROADS.mp3" },
@@ -108,6 +109,9 @@ const songs = [
     { title: "Different Shades of Blue", artist: "Joe Bonamassa", src: "Songs/11 Different Shades of Blue.mp3" },
     { title: "Driving Towards the Daylight", artist: "Joe Bonamassa", src: "Songs/09 Driving Towards the Daylight.mp3" },
     { title: "Hide in Your Shell", artist: "Supertramp", src: "Songs/Supertramp (4).mp3" },
+    { title: "Cold Shot", artist: "Stevie Ray Vaughn", src: "Songs/Cold Shot.mp3" },
+    { title: "Crossroads", artist: "Cream", src: "Songs/Cream - Crossroads.mp3" },
+    { title: "Strange Brew", artist: "Cream", src: "Songs/Cream - Strange Brew.mp3" }
     
         
 ];
