@@ -100,7 +100,7 @@ const songs = [
     { title: "CROSSROADS", artist: "Stevie Ray Vaughn", src: "Songs/CROSSROADS.mp3" },
     { title: "Joe(1)", artist: "Joe Bonamassa", src: "Songs/Joe(1).mp3" },
     { title: "Highway Star", artist: "Deep Purple", src: "Songs/Highway Star.mp3" },
-    { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara(Fleetwood Mac cover).mp3" },
+    { title: "Nadia", artist: "Jeff Beck", src: "Songs/Jeff Beck - Nadia.mp3" },
     { title: "I Know Where I Belong", artist: "Joe Bonamassa", src: "Songs/01 I Know Where I Belong.mp3" },
     { title: "White Summer", artist: "Jimmy Page", src: "Songs/White Summer (Jimmy Page).mp3" },
     { title: "The River", artist: "Joe Bonamassa", src: "Songs/03 The River.mp3" },
@@ -127,8 +127,12 @@ const songs = [
     { title: "Rocket Man", artist: "Elton John", src: "Songs/Elton John - Rocket Man (I Think It's Going Ti Be A Long Long Time).mp3" },
     { title: "Gold Dust Woman", artist: "Fleetwood Mac", src: "Songs/Fleetwood Mac - Gold Dust Woman.mp3" },
     { title: "Chunga's Revenge", artist: "Frank Zappa", src: "Songs/Frank Zappa - Chunga's Revenge.mp3" },
-    { title: "Signs", artist: "Five Man Electric Band", src: "Songs/Five Man Electric Band - Signs.m4a" },
-    { title: "Let It Rock(Live)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" }
+    { title: "Signs", artist: "Five Man Electric Band", src: "Songs/Five Man Electric Band - Signs.mp3" },
+    { title: "Let It Rock(Live)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" },
+    { title: "Welcome To The Jungle", artist: "Guns and Roses", src: "Songs/Guns and Roses.mp3" },
+    { title: "Gypsy(Alternate Unedited Version)", artist: "Fleetwood Mac", src: "Songs/Gypsy (Alternate Unedited Version).mp3" },
+    { title: "Loaded", artist: "Jeff Beck", src: "Songs/Jeff Beck - Loaded.mp3" },
+    { title: "If The House Is A Rocking", artist: "Stevie Ray Vaughn", src: "Songs/If The House Is A Rocking.mp3" }
         
        
 ];
