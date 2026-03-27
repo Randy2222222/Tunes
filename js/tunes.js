@@ -113,9 +113,17 @@ const songs = [
     { title: "Crossroads", artist: "Cream", src: "Songs/Cream - Crossroads.mp3" },
     { title: "Strange Brew", artist: "Cream", src: "Songs/Cream - Strange Brew.mp3" },
     { title: "Girls Just Wanna Have Fun", artist: "Cindi Lauper", src: "Songs/Cindi Lauper - Girls Just Wanna Have Fun.mp3" },
-    { title: "Space Truckin'", artist: "Deep Purple", src: "Songs/Deep Purple - Space Truckin'.mp3" }
-    
-        
+    { title: "Space Truckin'", artist: "Deep Purple", src: "Songs/Deep Purple - Space Truckin'.mp3" },
+    { title: "American Pie", artist: "Don McLean", src: "Songs/Don McLean.mp3" },
+    { title: "She Takes My Breath Away", artist: "Eddie Money", src: "Songs/Eddie Money - She Takes My Breath Away.mo3" },
+    { title: "Against The Law", artist: "Edgar Winter", src: "Songs/Edgar Winter - Against The Law.mp3" },
+    { title: "Frankenstein", artist: "Edgar Winter", src: "Songs/Edgar Winter - Frankenstein.mp3" },
+    { title: "Crocodile Rock", artist: "Elton John", src: "Elton John - Crocodile Rock.mp3" },
+    { title: "Candle In The Wind", artist: "Elton John", src: "Songs/Elton John - Candle in the Window.mp3" },
+    { title: "Tobacco Road", artist: "Edgar Winter", src: "Songs/Edgar Winter - Tobacco Road.mp3" },
+    { title: "Way Down South", artist: "Edgar Winter", src: "Songs/Edgar Winter - Way Down South.mp3" },
+    { title: "Free Ride", artist: "Edgar Winter", src: 'Songs/Edgar Winter - Free Ride.mp3" }
+       
 ];
 
 let currentSongIndex = 0;
