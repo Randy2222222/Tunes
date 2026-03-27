@@ -14,7 +14,7 @@ const songs = [
     { title: "What Baby Wants", artist: "Alice Cooper", src: "Songs/Alice Cooper - What Baby Wants.mp3" },
     { title: "Smoke Two Joints", artist: "Bob Marley", src: "Songs/Bob Marley and the Wailers.mp3" },
     { title: "Low Rider", artist: "War", src: "Songs/War.mp3" },
-    { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Songs/Mary Had A Little Lamb.mp3" },
+    { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughn", src: "Songs/Mary Had A Little Lamb.mp3" },
     { title: "Pink Floyd Animals", artist: "Pink Floyd", src: "Songs/Pink Floyd 1977 Animals.mp3" },
     { title: "The Sound of Silence", artist: "Simon And Garfunkel", src: "Songs/Simon And Garfunkel - The Sound Of Silence.mp3" },
     { title: "Dream On", artist: "Aerosmith", src: "Songs/Aerosmith (1).mp3" },
@@ -91,6 +91,7 @@ const songs = [
     { title: "Stir It Up", artist: "Bob Marley", src: "Songs/Stir It Up.mp3" },
     { title: "Cocaine", artist: "Eric Claypton", src: "Songs/Cocaine.mp3" },
     { title: "Proud Mary", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (5).mp3" },
+    { title: "Dead Man's Blues", artist: "Supertramp", src: "Songs/Supertramp.mp3" },
     { title: "Bad Moon Rising", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (3).mp3" },
     { title: "Fortunate Son", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (4).mp3" },
     { title: "Who'll Stop The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
@@ -103,6 +104,7 @@ const songs = [
     { title: "Bridge to Better Days", artist: "Joe Bonanassa", src: "Songs/04 Bridge to Better Days.mp3" },
     { title: "Different Shades of Blue", artist: "Joe Bonamassa", src: "Songs/11 Different Shades of Blue.mp3" },
     { title: "Driving Towards the Daylight", artist: "Joe Bonamassa", src: "Songs/09 Driving Towards the Daylight.mp3" },
+    { title: "Hide in Your Shell", artist: "Supertramp", src: "Songs/Supertramp (4).mp3" }
     
         
 ];
