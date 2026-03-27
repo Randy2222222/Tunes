@@ -100,6 +100,7 @@ const songs = [
     { title: "Highway Star", artist: "Deep Purple", src: "Songs/Highway Star.mp3" },
     { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara(Fleetwood Mac cover).mp3" },
     { title: "I Know Where I Belong", artist: "Joe Bonamassa", src: "Songs/01 I Know Where I Belong.mp3" },
+    { title: "White Summer", artist: "Jimmy Page", src: "Songs/White Summer (Jimmy Page).mp3" },
     { title: "The River", artist: "Joe Bonamassa", src: "Songs/03 The River.mp3" },
     { title: "Bridge to Better Days", artist: "Joe Bonanassa", src: "Songs/04 Bridge to Better Days.mp3" },
     { title: "Different Shades of Blue", artist: "Joe Bonamassa", src: "Songs/11 Different Shades of Blue.mp3" },
