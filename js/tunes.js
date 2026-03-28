@@ -132,7 +132,16 @@ const songs = [
     { title: "Welcome To The Jungle", artist: "Guns and Roses", src: "Songs/Guns and Roses.mp3" },
     { title: "Gypsy(Alternate Unedited Version)", artist: "Fleetwood Mac", src: "Songs/Gypsy (Alternate Unedited Version).mp3" },
     { title: "Loaded", artist: "Jeff Beck", src: "Songs/Jeff Beck - Loaded.mp3" },
-    { title: "If The House Is A Rocking", artist: "Stevie Ray Vaughn", src: "Songs/If The House Is A Rocking.mp3" }
+    { title: "If The House Is A Rocking", artist: "Stevie Ray Vaughn", src: "Songs/If The House Is A Rocking.mp3" },
+    { title: "Superstition", artist: "Jeff Beck", src: "Songs/Jeff Beck - Superstition.mp3" },
+    { title: "Hyperdrive", artist: "Jefferson Starship", src: "Songs/Jefferson Starship - Hyperdrive.mp3" },
+    { title: "White Rabbit", artist: "Jefferson Starship", src: "Songs/Jefferson Starship - White Rabbit.mp3" },
+    { title: "Queenie", artist: "Jerry Lee Lewis", src: "Songs/Jerry Lee Lewis.mp3" },
+    { title: "Jesse", artist: "Carly Simon", src: "Songs/Jesse.mp3" },
+    { title: "Boat Drinks", artist: "Jimmy Buffett", src: "Songs/Jimmy Buffett - Boat Drinks.mp3" },
+    { title: "Fruitcakes", artist: "Jimmy Buffett", src: "Songs/Jimmy Buffett - Fruitcakes.mp3" },
+    { title: "Grapefruit-Juicy Fruit", artist: "Songs/Jimmy Buffett - Grapefruit-Juicy Fruit.mp3" },
+    { title: "Pencil Thin Moustache", artist: "Songs/Jimmy Buffett - Pencil Thin Moustache.mp3" }
         
        
 ];
