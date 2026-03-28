@@ -15,7 +15,7 @@ const songs = [
     { title: "Smoke Two Joints", artist: "Bob Marley", src: "Songs/Bob Marley and the Wailers.mp3" },
     { title: "Low Rider", artist: "War", src: "Songs/War.mp3" },
     { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Songs/Mary Had A Little Lamb.mp3" },
-    { title: "Pink Floyd Animals", artist: "Pink Floyd", src: "Songs/Pink Floyd 1977 Animals.mp3" },
+    { title: "Pigs(Three Different Ones)", artist: "Pink Floyd", src: "Songs/Pink Floyd 1977 Animals.mp3" },
     { title: "The Sound of Silence", artist: "Simon And Garfunkel", src: "Songs/Simon And Garfunkel - The Sound Of Silence.mp3" },
     { title: "Dream On", artist: "Aerosmith", src: "Songs/Aerosmith (1).mp3" },
     { title: "No Smoke Without a Fire", artist: "Bad Company", src: "Songs/Bad Company (2).mp3" },
@@ -147,7 +147,15 @@ const songs = [
     { title: "Lay Down Sally", artist: "Eric Clapton", src: "Songs/Lay Down Sally (Eric Clapton.mp3" },
     { title: "Lucille", artist: "Jerry Lee Lewis", src: "Songs/Lucille.mp3" },
     { title: "Lenny", artist: "Stevie Ray Vaughan", src: "Songs/Lenny (Stevie Ray Vaughan).mp3" },
-    { title: "Gimme Back My Bulletts", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd (3).mp3" }
+    { title: "Gimme Back My Bulletts", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd (3).mp3" },
+    { title: "Sweet Home Alabama", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd - Sweet Home Alabama.mp3" },
+    { title: "Invisible Man", artist: "Peter Frampton", src: "Songs/Peter Frampton - Invisible Man.mp3" },
+    { title: "Thank You Mr Churchill", artist: "Peter Frampton", src: "Songs/Peter Frampton - Thank You Mr Churchill.mp3" },
+    { title: "Time", artist: "Pink Floyd", src: "Songs/Pink Floyd - Time.mp3" },
+    { title: "Brain Damage", artist: "Pink Floyd", src: "Songs/Pink Floyd - Brain Damage.mp3" },
+    { title: "Money", artist: "Pink Floyd", src: "Songs/Pink Floyd (1)mp3" },
+    { title: "Money", artist: "Pink Floyd", src: "Songs/Pink Floyd.mp3" }
+        
         
        
 ];
