@@ -162,9 +162,18 @@ const songs = [
     { title: "Texas Flood", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan (Texas Flood).mp3" },
     { title: "Black Water", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers - Black Water.mp3" },
     { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/TheChain.mp3" },
-    { title: "Riot in Cell Block #9", artist: "Songs/The Blues Brothers (1).mp3" },
-    { title: "China Grove", artist: "Songs/The Doobie Brothers - China Grove.mp3" },
-    { title: "Jailhouse Rock", artist: "Songs/The Blues Brothers (2).mp3" }
+    { title: "Riot in Cell Block #9", artist: "The Blue Brothers", src: "Songs/The Blues Brothers (1).mp3" },
+    { title: "China Grove", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers - China Grove.mp3" },
+    { title: "Jailhouse Rock", artist: "Songs/The Blues Brothers (2).mp3" },
+    { title: "Freeze Frame", artist: "The J. Geils Band", src: "Songs/The J. Geils Band - Freeze-Frame.mp3" },
+    { title: "Can't You See", artist: "The Marshall Tucker Band'", src: "Songs/The Marshall Tucker Band - Can't You See.mp3" },
+    { title: "Fire On The Mountain", artist: "The Marshall Tucker Band", src: "Songs/The Marshall Tucker Band - Fire on the Mountain.mp3" },
+    { title: "Ramblin'", artist: "The Marshall Tucker Band", src: "Songs/The Marshall Tucker Band - Ramblin'.mp3" },
+    { title: "Diablo Canyon", artist: "The Outlaws", src: "Songs/The Outlaws - Diablo Canyon.mp3" },
+    { title: "Green Grass & High Tides", artist: "The Outlaws", src: "Songs/The Outlaws - Green Grass & High Tides" },
+    { title: "Hot For Teacher", artist: "Van Halen", src: "Songs/Van Halen - Hot For Teacher.mp3" },
+    { title: "Ice Cream Man", artist: "Van Halen", src: "Songs/Van Halen.mp3" },
+    { title: "Beautiful Girl", artist: "Van Halen", src: "Songs/Van Halen (1).mp3" }
     
         
         
