@@ -72,7 +72,7 @@ const songs = [
     { title: "Burn", artist: "Deep Purple", src: "Songs/Burn.mp3" },
     { title: "Texas Blues, Stevie Ray Vaughan", artist: "C.C.Rider", src: "Songs/C.C.Rider.mp3" },
     { title: "The Smashing Pumpkins", artist: "The Smashing Pumpkins", src: "Songs/The Smashing Pumpkins.mp3" },
-    { title: "Ghost Song", artist: "The Doors", src: "Songs/The Doors (6).mp3" },
+    { title: "Ghost Song", artist: "The Doors", src: "Songs/The Doors (2).mp3" },
     { title: "Janie's Got A Gun", artist: "Aerosmith", src: "Songs/Aerosmith (2) 2.mp3" },
     { title: "Sweet Emotions", artist: "Aerosmith", src: "Songs/Aerosmith.mp3" },
     { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper - School's Out.mp3" },
