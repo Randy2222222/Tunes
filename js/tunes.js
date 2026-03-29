@@ -181,7 +181,8 @@ const songs = [
     { title: "Have You Ever Seen The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
     { title: "Roadhouse Blues(Live)", artist: "The Doors", src: "Songs/The Doors.mp3" },
     { title: "The Wasp", artist: "The Doors", src: "Songs/The Doors (1).mp3" },
-    { title: "Wanted Dead or Alive", artist: "Bon Jovi", src: "Songs/Wanted Dead or Alive.mp3" }
+    { title: "Wanted Dead or Alive", artist: "Jon Bon Jovi", src: "Songs/Wanted Dead or Alive.mp3" },
+    { title: "Blaze of Glory", artist: "Jon Bon Jovi", src: "Songs/Blaze of Glory.mp3" }
     
         
         
