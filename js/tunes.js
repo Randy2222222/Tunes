@@ -179,8 +179,8 @@ const songs = [
     { title: "Dust Bowl", artist: "Joe Bonamassa", src: "Songs/Joe.mp3" },
     { title: "Soul Man", artist: "Blues Brothers", src: "Songs/blues brother.mp3" },
     { title: "Have You Ever Seen The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
-    { title: "The Wasp", artist: "The Doors", src: "Songs/The Doors.mp3" },
-    { title: "Roadhouse Blues", artist: "The Doors", src: "Songs/The Doors (1).mp3" }
+    { title: "Roadhouse Blues(Live)", artist: "The Doors", src: "Songs/The Doors.mp3" },
+    { title: "The Wasp", artist: "The Doors", src: "Songs/The Doors (1).mp3" }
         
         
        
