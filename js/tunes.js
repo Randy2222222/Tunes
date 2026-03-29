@@ -178,7 +178,7 @@ const songs = [
     { title: "Stop", artist: "Joe Bonamassa", src: "Songs/Joe (1).mp3" },
     { title: "Dust Bowl", artist: "Joe Bonamassa", src: "Songs/Joe.mp3" },
     { title: "Soul Man", artist: "Blues Brothers", src: "Songs/blues brother.mp3" },
-    { title: "Have You Ever Seen The Rain", artist: 'Creedence Clearwater Revival", src: "Creedence Clearwater Revival (6).mp3" }
+    { title: "Have You Ever Seen The Rain", artist: "Creedence Clearwater Revival", src: "Creedence Clearwater Revival (6).mp3" }
         
         
        
