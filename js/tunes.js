@@ -157,7 +157,8 @@ const songs = [
     { title: "Evil Ways", artist: "Santana", src: "Songs/Santana - Evil Ways.mp3" },
     { title: "Pride & Joy", artist: "Stevie Ray Vaughan", src: "Songs/Pride & Joy (Stevie Ray Vaughan).mp3" },
     { title: "Rude Mood Jam", artist: "Stevie Ray Vaughan", src: "Songs/Rude Mood jam (Stevie Ray Vaughan).mp3" },
-    { title: "", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan (1).mp3" }
+    { title: "", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan (1).mp3" },
+    { title: "She's Sexy 17", artist: "Stray Cat Strut", src: "Songs/Stray Cat Strut (1).mp3" }
     
         
         
