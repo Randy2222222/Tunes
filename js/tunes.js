@@ -175,7 +175,9 @@ const songs = [
     { title: "Ice Cream Man", artist: "Van Halen", src: "Songs/Van Halen.mp3" },
     { title: "Beautiful Girl", artist: "Van Halen", src: "Songs/Van Halen (1).mp3" },
     { title: "Stop", artist: "Joe Bonamassa", src: "Songs/Joe (1).mp3" },
-    { title: "Dust Bowl", artist: "Joe Bonamassa", src: "Songs/Joe.mp3" }
+    { title: "Dust Bowl", artist: "Joe Bonamassa", src: "Songs/Joe.mp3" },
+    { title: "Soul Man", artist: "Blues Brothers", src: "Songs/blues brother.mp3" },
+    { title: "Have You Ever Seen The Rain", artist: 'Creedence Clearwater Revival", src: "Creedence Clearwater Revival.mp3" }
         
         
        
