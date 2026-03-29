@@ -165,7 +165,7 @@ const songs = [
     { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/TheChain.mp3" },
     { title: "Riot in Cell Block #9", artist: "The Blue Brothers", src: "Songs/The Blues Brothers (1).mp3" },
     { title: "China Grove", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers - China Grove.mp3" },
-    { title: "Jailhouse Rock", artist: "Songs/The Blues Brothers (2).mp3" },
+    { title: "Jailhouse Rock", artist: "The Blues Brothers", src: "Songs/The Blues Brothers (2).mp3" },
     { title: "Freeze Frame", artist: "The J. Geils Band", src: "Songs/The J. Geils Band - Freeze-Frame.mp3" },
     { title: "Can't You See", artist: "The Marshall Tucker Band'", src: "Songs/The Marshall Tucker Band - Can't You See.mp3" },
     { title: "Fire On The Mountain", artist: "The Marshall Tucker Band", src: "Songs/The Marshall Tucker Band - Fire on the Mountain.mp3" },
@@ -177,7 +177,7 @@ const songs = [
     { title: "Beautiful Girl", artist: "Van Halen", src: "Songs/Van Halen (1).mp3" },
     { title: "Stop", artist: "Joe Bonamassa", src: "Songs/Joe (1).mp3" },
     { title: "Dust Bowl", artist: "Joe Bonamassa", src: "Songs/Joe.mp3" },
-    { title: "Soul Man", artist: "Blues Brothers", src: "Songs/blues brother.mp3" },
+    { title: "Soul Man", artist: "Blues Brothers", src: "Songs/blues brothers.mp3" },
     { title: "Have You Ever Seen The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
     { title: "Roadhouse Blues(Live)", artist: "The Doors", src: "Songs/The Doors.mp3" },
     { title: "The Wasp", artist: "The Doors", src: "Songs/The Doors (1).mp3" }
