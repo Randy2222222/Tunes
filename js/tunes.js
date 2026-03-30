@@ -63,7 +63,7 @@ const songs = [
     { title: "Dust In The Wind", artist: "Kansas", src: "Songs/Dust In The Wind.mp3" },
     { title: "Several Small Species of Animals", artist: "Pink Floyd", src: "Songs/Pink Floyd - Several Small Species of animals.mp3" },
     { title: "Schools Out", artist: "Stray Cats", src: "Songs/Stray Cats.mp3" },
-    { title: "Perfect Strangers", artist: "Deep Purple", src: "Songs/Deep Purple.mp3" },
+    { title: "Perfect Strangers", artist: "Deep Purple", src: "Deep Purple (1).mp3" },
     { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper - Schools Out.mp3" },
     { title: "Must Give Us Death II", artist: "Jimmy Page", src: "Songs/Jimmy page - must give us death II.mp3" },
     { title: "Johnny be Good", artist: "Chuck Berry", src: "Songs/chuck berry.mp3" },
