@@ -186,7 +186,8 @@ const songs = [
     { title: "Blaze of Glory", artist: "Jon Bon Jovi", src: "Songs/Blaze of Glory.mp3" },
     { title: "Smokin' In the Boys Room", artist: "Brownsville Station", src: "Songs/Smokin' In The Boys Room.mp3" },
     { title: "In The Air Tonight (Live)", artist: "Phil Collins", src: "Songs/In The Air Tonight (Live).mp3" },
-    { title: "Oh, Pretty Woman (Live, Black ‘n’ White Night)", artist: "Roy Orbison", src: "Songs/Oh, Pretty Woman (Live Black ‘n’ White Night).mp3" }
+    { title: "Oh, Pretty Woman (Live, Black ‘n’ White Night)", artist: "Roy Orbison", src: "Songs/Oh, Pretty Woman (Live Black ‘n’ White Night).mp3" },
+    { title: "Piano Man", artist: "Billy Joel", src: "Songs/Piano Man.mp3" }
     
     
         
