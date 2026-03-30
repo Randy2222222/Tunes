@@ -8,10 +8,3 @@ collection!
 
 PWA made for mobile phone.
 Enjoy the Tunes! 😎
-
-
-PS; might be down now and then 
-as I'm still adding Tunes
-at my leisure!
-
-
