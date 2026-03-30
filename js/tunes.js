@@ -194,7 +194,8 @@ const songs = [
     { title: "Piano Man", artist: "Billy Joel", src: "Songs/Piano Man.mp3" },
     { title: "A Horse with No Name", artist: "America", src: "Songs/A Horse with No Name.mp3" },
     { title: "Sweet Dreams (Are Made of This)", artist: "Marilyn Manson", src: "Songs/Sweet Dreams (Are Made of This).mp3" },
-    { title: "Workin' for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (1).mp3" }
+    { title: "Workin' for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (1).mp3" },
+    { title: "Double Trouble", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd.mp3" }
     
     
         
