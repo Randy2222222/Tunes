@@ -153,7 +153,7 @@ const songs = [
     { title: "Lay Down Sally", artist: "Eric Clapton", src: "Songs/Lay Down Sally (Eric Clapton.mp3" },
     { title: "Lucille", artist: "Jerry Lee Lewis", src: "Songs/Lucille.mp3" },
     { title: "Lenny", artist: "Stevie Ray Vaughan", src: "Songs/Lenny (Stevie Ray Vaughan).mp3" },
-    { title: "Gimme Back My Bulletts", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd (3).mp3" },
+    { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (2).mp3" },
     { title: "Sweet Home Alabama", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd - Sweet Home Alabama.mp3" },
     { title: "Invisible Man", artist: "Peter Frampton", src: "Songs/Peter Frampton - Invisible Man.mp3" },
     { title: "Thank You Mr Churchill", artist: "Peter Frampton", src: "Songs/Peter Frampton - Thank You Mr Churchill.mp3" },
@@ -193,7 +193,8 @@ const songs = [
     { title: "Oh, Pretty Woman (Live, Black ‘n’ White Night)", artist: "Roy Orbison", src: "Songs/Oh, Pretty Woman (Black ‘n’ White Night Live).mp3" },
     { title: "Piano Man", artist: "Billy Joel", src: "Songs/Piano Man.mp3" },
     { title: "A Horse with No Name", artist: "America", src: "Songs/A Horse with No Name.mp3" },
-    { title: "Sweet Dreams (Are Made of This)", artist: "Marilyn Manson", src: "Songs/Sweet Dreams (Are Made of This).mp3" }
+    { title: "Sweet Dreams (Are Made of This)", artist: "Marilyn Manson", src: "Songs/Sweet Dreams (Are Made of This).mp3" },
+    { title: "Workin' for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (1).mp3" }
     
     
         
