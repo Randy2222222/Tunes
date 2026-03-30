@@ -183,7 +183,8 @@ const songs = [
     { title: "The Wasp", artist: "The Doors", src: "Songs/The Doors (1).mp3" },
     { title: "Wanted Dead or Alive", artist: "Jon Bon Jovi", src: "Songs/Wanted Dead or Alive.mp3" },
     { title: "Blaze of Glory", artist: "Jon Bon Jovi", src: "Songs/Blaze of Glory.mp3" },
-    { title: "Smokin' In the Boys Room", artist: "Brownsville Station", src: "Songs/Smokin' In The Boys Room.mp3" }
+    { title: "Smokin' In the Boys Room", artist: "Brownsville Station", src: "Songs/Smokin' In The Boys Room.mp3" },
+    { title: "In The Air Tonight (Live)", artist: "Phil Collins", src: "Songs/In The Air Tonight (Live).mp3" }
     
     
         
