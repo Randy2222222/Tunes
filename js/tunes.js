@@ -197,7 +197,8 @@ const songs = [
     { title: "Double Trouble", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd.mp3" },
     { title: "Burn It To The Ground", artist: "Nickleback ", src: "Songs/Nickleback (1).mp3" },
     { title: "If Today Was Your Last Day", artist: "Nickleback", src: "Songs/nickleback.mp3" },
-    { title: "Rockstar", artist: "Nickleback", src: "Songs/Nickleback (2).mp3" }
+    { title: "Rockstar", artist: "Nickleback", src: "Songs/Nickleback (2).mp3" },
+    { title: "While My Guitar Gently Weeps", artist: "Peter Frampton", src: "Songs/Peter Frampton - While My Guitar Gently Weeps.mp3" }
     
     
         
