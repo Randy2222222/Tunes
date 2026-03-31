@@ -61,7 +61,7 @@ const songs = [
     { title: "Wish You Were Here", artist: "Pink Floyd", src: "Songs/Pink Floyd - Wish You Were Here.mp3" },
     { title: "The Devil Went Down to Georgia", artist: "Charlie Daniels Band", src: "Songs/The Charlie Daniels Band.mp3" },
     { title: "Dust In The Wind", artist: "Kansas", src: "Songs/Dust In The Wind.mp3" },
-    { title: "Several Species of Small Animals", artist: "Pink Floyd", src: "Songs/Pink Floyd - Several Species of Small Animals.mp3" },
+    { title: "Several Species of Small Animals", artist: "Pink Floyd", src: "Songs/Pink Floyd - Several Species of Small animals.mp3" },
     { title: "Schools Out", artist: "Stray Cats", src: "Songs/Stray Cats.mp3" },
     { title: "Perfect Strangers", artist: "Deep Purple", src: "Songs/Deep Purple (1).mp3" },
     { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper - Schools Out.mp3" },
