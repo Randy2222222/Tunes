@@ -78,7 +78,7 @@ const songs = [
     { title: "Sweet Emotions", artist: "Aerosmith", src: "Songs/Aerosmith.mp3" },
     { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper - School's Out.mp3" },
     { title: "Burnin' Sky", artist: "Bad Company", src: "Songs/Bad Company.mp3" },
-    { title: "Welcom To My Nightmare", artist: "Alice Cooper", src: "Songs/Alice Cooper - Welcome to My Nightmare.mp3" },
+    { title: "Welcome To My Nightmare", artist: "Alice Cooper", src: "Songs/Alice Cooper - Welcome to My Nightmare.mp3" },
     { title: "Riot in Cell Block #9", artist: "The Blues Brothers", src: "Songs/The Blues Brothers.mp3" },
     { title: "Hey Stoopid", artist: "Alice Cooper", src: "Songs/Alice Cooper - Hey Stoopid.mp3" },
     { title: "Blues In B Flat Minor", artist: "Fleetwood Mac", src: "Songs/Blues in B Flat Minor.mp3" },
