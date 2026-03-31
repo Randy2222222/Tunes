@@ -54,7 +54,7 @@ const songs = [
     { title: "Sittin' On The Dock Of The Bay", artist: "Otis Redding", src: "Songs/Dock On The Bay.mp3" },
     { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara (Fleetwood Mac cover).mp3" },
     { title: "Alabama Song (Whiskey Bar)", artist: "The Doors", src: "Songs/The Doors (4).mp3" },
-    { title: "Riders on The Storm", artist: "The Doors", src: "Songs/The Doors (5).mp3" },
+    { title: "Riders on The Storm", artist: "The Doors", src: "Songs/Riders on the Storm.mp3" },
     { title: "Sweet Home Alabama", artist: "Kid Rock", src: "Songs/kid rock.mp3" },
     { title: "Drive", artist: "Joe Bonamassa", src: "Songs/12 Drive.mp3" },
     { title: "Blue and Evil", artist: "Joe Bonamassa", src: "Songs/07 Blue and Evil.mp3" },
@@ -195,7 +195,8 @@ const songs = [
     { title: "A Horse with No Name", artist: "America", src: "Songs/A Horse with No Name.mp3" },
     { title: "Sweet Dreams (Are Made of This)", artist: "Marilyn Manson", src: "Songs/Sweet Dreams (Are Made of This).mp3" },
     { title: "Workin' for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (1).mp3" },
-    { title: "Double Trouble", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd.mp3" }
+    { title: "Double Trouble", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd.mp3" },
+    { title: "", artist: "The Doors", src: "Songs/The Doors (5) 2.mp3" }
     
     
         
