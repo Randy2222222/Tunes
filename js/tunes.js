@@ -195,7 +195,10 @@ const songs = [
     { title: "If Today Was Your Last Day", artist: "Nickleback ", src: "Songs/Nickleback (1).mp3" },
     { title: "Rockstar", artist: "Nickleback", src: "Songs/nickleback.mp3" },
     { title: "Burn It To The Ground", artist: "Nickleback", src: "Songs/Nickleback (2).mp3" },
-    { title: "While My Guitar Gently Weeps", artist: "Peter Frampton", src: "Songs/Peter Frampton - While My Guitar Gently Weeps.mp3" }
+    { title: "While My Guitar Gently Weeps", artist: "Peter Frampton", src: "Songs/Peter Frampton - While My Guitar Gently Weeps.mp3" },
+    { title: "CROSSROADS", artist: "Stevie Ray Vaughan", src: "Songs/CROSSROADS.mp3" },
+    { title: "For Your Love", artist:"The Yardbirds(1965)", src: "Songs/The Yardbirds (1).mp3" },
+    { title: "Lost Woman", artist: "The Yardbirds(1966)", src: "Songs/The Yardbirds.mp3" }
     
     
         
