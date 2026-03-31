@@ -176,7 +176,7 @@ const songs = [
     { title: "Ramblin'", artist: "The Marshall Tucker Band", src: "Songs/The Marshall Tucker Band - Ramblin'.mp3" },
     { title: "Diablo Canyon", artist: "The Outlaws", src: "Songs/The Outlaws - Diablo Canyon.mp3" },
     { title: "Green Grass & High Tides", artist: "The Outlaws", src: "Songs/The Outlaws - Green Grass & High Tides.mp3" },
-    { ptitle: "Hot For Teacher", artist: "Van Halen", src: "Songs/Van Halen - Hot For Teacher.mp3" },
+    { title: "Hot For Teacher", artist: "Van Halen", src: "Songs/Van Halen - Hot For Teacher.mp3" },
     { title: "Ice Cream Man", artist: "Van Halen", src: "Songs/Van Halen.mp3" },
     { title: "Beautiful Girl", artist: "Van Halen", src: "Songs/Van Halen (1).mp3" },
     { title: "Stop", artist: "Joe Bonamassa", src: "Songs/Joe (1).mp3" },
