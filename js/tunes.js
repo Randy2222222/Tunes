@@ -196,7 +196,8 @@ const songs = [
     { title: "Sweet Dreams (Are Made of This)", artist: "Marilyn Manson", src: "Songs/Sweet Dreams (Are Made of This).mp3" },
     { title: "Workin' for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (1).mp3" },
     { title: "Double Trouble", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd.mp3" },
-    { title: "", artist: "The Doors", src: "Songs/The Doors (5) 2.mp3" }
+    { title: "nickleback", artist: "The Doors", src: "Songs/The Doors (5) 2.mp3" },
+    { title: "nickleback", artist: "Nickleback", src: "Songs/nickleback.mp3" }
     
     
         
