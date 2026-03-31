@@ -190,15 +190,15 @@ const songs = [
     { title: "Blaze of Glory", artist: "Jon Bon Jovi", src: "Songs/Blaze of Glory.mp3" },
     { title: "Smokin' In the Boys Room", artist: "Brownsville Station", src: "Songs/Smokin' In The Boys Room.mp3" },
     { title: "In The Air Tonight (Live)", artist: "Phil Collins", src: "Songs/In The Air Tonight (Live).mp3" },
-    { title: "Oh, Pretty Woman (Live, Black ‘n’ White Night)", artist: "Roy Orbison", src: "Songs/Oh, Pretty Woman (Black ‘n’ White Night Live).mp3" },
+    { title: "Oh, Pretty Woman (Live, Black ‘n’ White Night)", artist: "Roy Orbison", src: "Songs/Pretty Woman (Black ‘n’ White Night Live).mp3" },
     { title: "Piano Man", artist: "Billy Joel", src: "Songs/Piano Man.mp3" },
     { title: "A Horse with No Name", artist: "America", src: "Songs/A Horse with No Name.mp3" },
     { title: "Sweet Dreams (Are Made of This)", artist: "Marilyn Manson", src: "Songs/Sweet Dreams (Are Made of This).mp3" },
     { title: "Workin' for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (1).mp3" },
     { title: "Double Trouble", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd.mp3" },
-    { title: "Burn It To The Ground", artist: "Nickleback ", src: "Songs/nickleback (1).mp3" },
+    { title: "Burn It To The Ground", artist: "Nickleback ", src: "Songs/Nickleback (1).mp3" },
     { title: "If Today Was Your Last Day", artist: "Nickleback", src: "Songs/nickleback.mp3" },
-    { title: "Rockstar", artist: "Nickleback", src: "Songs/nickleback (2).mp3" }
+    { title: "Rockstar", artist: "Nickleback", src: "Songs/Nickleback (2).mp3" }
     
     
         
