@@ -98,7 +98,6 @@ const songs = [
     { title: "White Room", artist: "Cream", src: "Songs/Cream - White Room.mp3" },
     { title: "Fortunate Son", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (4).mp3" },
     { title: "Who'll Stop The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
-    { title: "CROSSROADS", artist: "Stevie Ray Vaughan", src: "Songs/CROSSROADS.mp3" },
     { title: "Mountain Time", artist: "Joe Bonamassa", src: "Songs/02 Mountain Time.mp3" },
     { title: "Highway Star", artist: "Deep Purple", src: "Songs/Highway Star.mp3" },
     { title: "Nadia", artist: "Jeff Beck", src: "Songs/Jeff Beck - Nadia.mp3" },
