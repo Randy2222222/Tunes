@@ -88,7 +88,7 @@ const songs = [
     { title: "War Pigs", artist: "Black Sabbath", src: "Songs/Black Sabbath.mp3" },
     { title: "But Anyway", artist: "Blues Traveler", src: "Songs/Blues Traveler (1).mp3" },
     { title: "Secret Agent Man", artist: "Blues Traveler", src: "Songs/Blues Traveler (2).mp3" },
-    { title: "Stir It Up", artist: "Bob Marley", src: "Songs/Stir It Up.mp3" },
+    { title: "Stir It Up", artist: "Bob Marley", src: "Songs/Bob Marley - Stir It Up.mp3" },
     { title: "Cocaine", artist: "Eric Claypton", src: "Songs/Cocaine.mp3" },
     { title: "Proud Mary", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (5).mp3" },
     { title: "Dead Man's Blues", artist: "Supertramp", src: "Songs/Supertramp.mp3" },
