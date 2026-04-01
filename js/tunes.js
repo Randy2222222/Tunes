@@ -207,6 +207,7 @@ const songs = [
     { title: "Short People (Live)", artist: "Randy Newman", src: "Songs/Short People.mp3" },
     { title: "Let It Rock (Live)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" },
     { title: "SCUTTLE BUTTIN", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan.mp3" },
+    { title: "Chitlins Cone Carne", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan - Chitlins Cone Carne.mp3" },
     { title: "That Smell", artist: "Lynyrd Skynyrd", src: "Songs/That Smell.mp3" },
     { title: "Stairway To Heaven", artist: "Led Zeppelin", src: "Songs/Stairway To Heaven.mp3" }
     
