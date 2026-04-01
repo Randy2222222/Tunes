@@ -199,9 +199,11 @@ const songs = [
     { title: "CROSSROADS", artist: "Stevie Ray Vaughan", src: "Songs/CROSSROADS.mp3" },
     { title: "For Your Love", artist:"The Yardbirds(1965)", src: "Songs/The Yardbirds (1).mp3" },
     { title: "Lost Woman", artist: "The Yardbirds(1966)", src: "Songs/The Yardbirds.mp3" },
-    { title: "I Love Rock 'N Roll", artist: "Joan Jett", src: "Songs/I Love Rock 'N Roll-1-1.mp3" },
-    { title: "Locomotive Breath", artist: "Jethro Tall", src: "Songs/Locomotive Breath.mp3" },
-    { title: "Stairway To Heaven", artist: "Led Zeppelin", src: "Songs/Stairway To Heaven.mp3" }
+    { title: "I Love Rock 'N Roll", artist: "Joan Jett & The Blackhearts", src: "Songs/I Love Rock 'N Roll-1-1.mp3" },
+    { title: "Locomotive Breath", artist: "Jethro Tull", src: "Songs/Locomotive Breath.mp3" },
+    { title: "Stairway To Heaven", artist: "Led Zeppelin", src: "Songs/Stairway To Heaven.mp3" },
+    { title: "La Grange", artist: "ZZ Top", src: "Songs/La Grange.mp3" },
+    { title: "Wipe Out", artist: "The Surfaris", "Songs/Wipe Out.mp3" }
     
     
         
