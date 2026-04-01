@@ -203,7 +203,7 @@ const songs = [
     { title: "Locomotive Breath", artist: "Jethro Tull", src: "Songs/Locomotive Breath.mp3" },
     { title: "Stairway To Heaven", artist: "Led Zeppelin", src: "Songs/Stairway To Heaven.mp3" },
     { title: "La Grange", artist: "ZZ Top", src: "Songs/La Grange.mp3" },
-    { title: "Wipe Out", artist: "The Surfaris", "Songs/Wipe Out.mp3" }
+    { title: "Wipe Out", artist: "The Surfaris", src: "Songs/Wipe Out.mp3" }
     
     
         
