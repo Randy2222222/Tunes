@@ -203,7 +203,9 @@ const songs = [
     { title: "Locomotive Breath", artist: "Jethro Tull", src: "Songs/Locomotive Breath.mp3" },
     { title: "Stairway To Heaven", artist: "Led Zeppelin", src: "Songs/Stairway To Heaven.mp3" },
     { title: "La Grange", artist: "ZZ Top", src: "Songs/La Grange.mp3" },
-    { title: "Wipe Out", artist: "The Surfaris", src: "Songs/Wipe Out.mp3" }
+    { title: "Wipe Out", artist: "The Surfaris", src: "Songs/Wipe Out.mp3" },
+    { title: "I Hate Myself For Loving You", artist: "Joan Jett & The Blackhearts", src: "Songs/I Hate Myself For Loving You" },
+    { title: "Short People (Live)", artist: "Randy Newman", src: "Songs/Short People.mp3" }
     
     
         
