@@ -184,7 +184,7 @@ const songs = [
     { title: "The Wasp", artist: "The Doors", src: "Songs/The Doors (1).mp3" },
     { title: "Wanted Dead or Alive", artist: "Jon Bon Jovi", src: "Songs/Wanted Dead or Alive.mp3" },
     { title: "Blaze of Glory", artist: "Jon Bon Jovi", src: "Songs/Blaze of Glory.mp3" },
-    { title: "Smokin' In the Boys Room", artist: "Brownsville Station", src: "Songs/Smokin' in the Boys Room.mp3" },
+    { title: "Smokin' In the Boys Room", artist: "Brownsville Station", src: "Songs/Smokin' in the Boys Room 2.mp3" },
     { title: "In The Air Tonight (Live)", artist: "Phil Collins", src: "Songs/In The Air Tonight (Live).mp3" },
     { title: "Oh, Pretty Woman (Live, Black ‘n’ White Night)", artist: "Roy Orbison", src: "Songs/Pretty Woman (Black ‘n’ White Night Live).mp3" },
     { title: "Piano Man", artist: "Billy Joel", src: "Songs/Piano Man.mp3" },
@@ -198,7 +198,8 @@ const songs = [
     { title: "While My Guitar Gently Weeps", artist: "Peter Frampton", src: "Songs/Peter Frampton - While My Guitar Gently Weeps.mp3" },
     { title: "CROSSROADS", artist: "Stevie Ray Vaughan", src: "Songs/CROSSROADS.mp3" },
     { title: "For Your Love", artist:"The Yardbirds(1965)", src: "Songs/The Yardbirds (1).mp3" },
-    { title: "Lost Woman", artist: "The Yardbirds(1966)", src: "Songs/The Yardbirds.mp3" }
+    { title: "Lost Woman", artist: "The Yardbirds(1966)", src: "Songs/The Yardbirds.mp3" },
+    { title: "I Love Rock 'N Roll", artist: "Jone Jett", src: "Songs/I Love Rock 'N Roll-1-1.mp3" }
     
     
         
