@@ -52,8 +52,8 @@ header {
 /* Audio MP3 Player */
 .player {
     width: 200px;
-  background-color: white;
-  color: black;
+    background-color: white;
+    color: black;
     margin: auto;
     position: absolute; 
     left: 2%;
@@ -141,7 +141,7 @@ header {
 /* Download Styles */
 a { 
    display: block; /* added for equalizer🔥  */
-   position: relative; /* 🔥 same added */
+   position: absolute; /* 🔥 same added */
    font-size: 0.8em; 
    text-decoration: none;
    font-weight: 700;
