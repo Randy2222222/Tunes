@@ -211,7 +211,7 @@ const songs = [
     { title: "Sad But True", artist: "Metallica", src: "Songs/Sad But True.mp3" },
     { title: "Long Train Running", artist: "The Doobie Brothers", src: "Songs/Long Train Running.mp3" },
     { title: "The Unforgiven", artist: "Metallica", src: "Songs/Metalica (4).mp3" },
-    { title: "Enter Sandman", artist: "Metallica", src: "Songs/ Metallica (3).mp3" },
+    { title: "Enter Sandman", artist: "Metallica", src: "Songs/Metallica (3).mp3" },
     { title: "Voodoo Child", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughn - Voodoo Child.mp3" },
     { title: "Chitlins Con Carne", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan_Chitlins con carne .mp3" },
     { title: "That Smell", artist: "Lynyrd Skynyrd", src: "Songs/That Smell.mp3" },
