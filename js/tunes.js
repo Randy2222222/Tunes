@@ -36,7 +36,7 @@ const songs = [
     { title: "Poison", artist: "Alice Cooper", src: "Songs/Songs_Alice Cooper - Poison.mp3" },
     { title: "Take the Long Way Home", artist: "Supertramp", src: "Songs/Supertramp (5).mp3" },
     { title: "Am I Evil", artist: "Metallica", src: "Songs/Metallica (1).mp3" },
-    { title: "Voodoo Chile", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughn - Voodoo Chile.mp3" },
+    { title: "Voodoo Child", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughn - Voodoo Chile.mp3" },
     { title: "Learning to Fly", artist: "Pink Floyd", src: "Songs/Pink Floyd.mp3" },
     { title: "Another Brick in the Wall", artist: "Pink Floyd", src: "Songs/Pink Floyd - Another Brick In The Wall.mp3" },
     { title: "Gimme Back My Bulletts", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd (3).mp3" },
