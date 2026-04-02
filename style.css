@@ -39,7 +39,7 @@ header {
       display: block;
       justify-content: center;
       align-items: center;
-      margin: 130px auto auto auto; /* margin: 150 auto auto auto 🔥 minus 20px for equalizer */
+      margin: 110px auto auto auto; /* margin: 150 auto auto auto 🔥 minus 40px for equalizer */
       position: relative; /* Relative */
       width: 200px;
       height: 100px; /* set at 80 🔥 add 20px for equalizer */
@@ -142,6 +142,8 @@ header {
 a { 
    display: block; /* added for equalizer🔥  */
    position: absolute; /* 🔥 same added */
+   justify-content: center; /*🔥 */
+   align-items: center; /*🔥*/
    font-size: 0.8em; 
    text-decoration: none;
    font-weight: 700;
