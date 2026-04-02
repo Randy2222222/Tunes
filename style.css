@@ -140,7 +140,8 @@ header {
 
 /* Download Styles */
 a { 
-   margin-top: 20px; /* added for equalizer */
+   display: block; /* added for equalizer🔥  */
+   position: relative; /* 🔥 same added */
    font-size: 0.8em; 
    text-decoration: none;
    font-weight: 700;
