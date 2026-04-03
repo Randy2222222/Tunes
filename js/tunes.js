@@ -7,21 +7,22 @@ const volumeControl = document.getElementById('volume');
 const trackName = document.getElementById('track-name');
 const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
+// add const downloadLink
 const downloadLink = document.getElementById('download-link');
 // add equalizer
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const source = audioContext.createMediaElementSource(audio);
-
 // Create EQ filters
+// Bass
 const bass = audioContext.createBiquadFilter();
 bass.type = "lowshelf";
 bass.frequency.value = 200;
-
+// Mid
 const mid = audioContext.createBiquadFilter();
 mid.type = "peaking";
 mid.frequency.value = 1000;
 mid.Q.value = 1;
-
+// Treble
 const treble = audioContext.createBiquadFilter();
 treble.type = "highshelf";
 treble.frequency.value = 3000;
@@ -242,17 +243,7 @@ const songs = [
     { title: "Stairway To Heaven", artist: "Led Zeppelin", src: "Songs/Stairway To Heaven.mp3" }      
       
 ];
-document.getElementById('bass').addEventListener('input', e => {
-    bass.gain.value = e.target.value;
-});
 
-document.getElementById('mid').addEventListener('input', e => {
-    mid.gain.value = e.target.value;
-});
-
-document.getElementById('treble').addEventListener('input', e => {
-    treble.gain.value = e.target.value;
-});
 
 let currentSongIndex = 0;
 
@@ -261,7 +252,6 @@ function loadSong(song) {
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
     
-     // const downloadLink up top with rest
     //  Update download link to current song
     downloadLink.href = song.src;
     // Set song name for download
@@ -289,6 +279,20 @@ function previousSong() {
 }
 
 //playButton.addEventListener('click', playSong);
+// add event listeners for equalizer
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('bass').addEventListener('input', e => {
+        bass.gain.value = parseFloat(e.target.value);
+    });
+
+    document.getElementById('mid').addEventListener('input', e => {
+        mid.gain.value = parseFloat(e.target.value);
+    });
+
+    document.getElementById('treble').addEventListener('input', e => {
+        treble.gain.value = parseFloat(e.target.value);
+    });
+});
 // add equalizer resume play event listener
 playButton.addEventListener('click', () => {
     audioContext.resume();
