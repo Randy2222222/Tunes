@@ -287,6 +287,11 @@ function previousSong() {
 }
 
 playButton.addEventListener('click', playSong);
+// add equalizer resume play event listener
+playButton.addEventListener('click', () => {
+    audioContext.resume();
+    playSong();
+});
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', nextSong);
 previousButton.addEventListener('click', previousSong);
