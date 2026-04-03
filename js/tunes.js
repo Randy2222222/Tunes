@@ -1,3 +1,25 @@
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+const source = audioContext.createMediaElementSource(audio);
+
+// Create EQ filters
+const bass = audioContext.createBiquadFilter();
+bass.type = "lowshelf";
+bass.frequency.value = 200;
+
+const mid = audioContext.createBiquadFilter();
+mid.type = "peaking";
+mid.frequency.value = 1000;
+mid.Q.value = 1;
+
+const treble = audioContext.createBiquadFilter();
+treble.type = "highshelf";
+treble.frequency.value = 3000;
+
+// Connect everything
+source.connect(bass);
+bass.connect(mid);
+mid.connect(treble);
+treble.connect(audioContext.destination);
 const audio = document.getElementById('audio');
 const playButton = document.getElementById('play');
 const pauseButton = document.getElementById('pause');
