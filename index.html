@@ -19,33 +19,34 @@
 
  /* Equalizer */
 .EQ {
-  font-size:  1em;
+  font-size:  0.8em;
   text-align: left;
   color:  lime;
   text-shadow: 2px 2px 2px ivory;
   font-weight: 700;
-  margin-top:  5px;
+  margin-top:  0px;
   margin-left:  5px;
 }
 
 /* Sidebar */
 .sidebar {
   position: fixed;
-  margin-top: 10px;
-  margin-left: -205px; 
+  margin-top: 5px;
+  margin-left: -200px; 
   width: 200px; 
   height: 80px;
+  color: black;
   background: white;
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
   text-align: left;
   font-size: 1em;
-  padding: 5px 5px auto auto;  /* 60px 20px */
+  padding: auto; /* 60px 20px */
   transition: 0.3s;
 }
 
 .sidebar.active {
-  margin-left: 0px;
+  margin-left: -2px;
 }
   </style>
  
@@ -84,9 +85,9 @@
          </div>
          <div id="sidebar" class="sidebar">
 
-<label for=“bass”>Bass</label>
+<label for=“bass”>  Bass</label>
 <input type="range" min="-10" max="10" value="0" id="bass"><br>
-<label for=“mid”>Mid</label>
+<label for=“mid”>   Mid</label>
 <input type="range" min="-10" max="10" value="0" id="mid"><br>
 <label for=“treble”>Treble</label>
 <input type="range" min="-10" max="10" value="0" id="treble">
