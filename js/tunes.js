@@ -1,3 +1,14 @@
+const audio = document.getElementById('audio');
+const playButton = document.getElementById('play');
+const pauseButton = document.getElementById('pause');
+const nextButton = document.getElementById('next');
+const previousButton = document.getElementById('previous');
+const volumeControl = document.getElementById('volume');
+const trackName = document.getElementById('track-name');
+const trackArtist = document.getElementById('track-artist');
+const playlistElement = document.getElementById('playlist');
+const downloadLink = document.getElementById('download-link');
+// add equalizer
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const source = audioContext.createMediaElementSource(audio);
 
@@ -20,16 +31,7 @@ source.connect(bass);
 bass.connect(mid);
 mid.connect(treble);
 treble.connect(audioContext.destination);
-const audio = document.getElementById('audio');
-const playButton = document.getElementById('play');
-const pauseButton = document.getElementById('pause');
-const nextButton = document.getElementById('next');
-const previousButton = document.getElementById('previous');
-const volumeControl = document.getElementById('volume');
-const trackName = document.getElementById('track-name');
-const trackArtist = document.getElementById('track-artist');
-const playlistElement = document.getElementById('playlist');
-const downloadLink = document.getElementById('download-link');
+
 
 const songs = [
     { title: "Lazy", artist: "Deep Purple", src: "Songs/Lazy.mp3" },
@@ -286,7 +288,7 @@ function previousSong() {
     playSong();
 }
 
-playButton.addEventListener('click', playSong);
+//playButton.addEventListener('click', playSong);
 // add equalizer resume play event listener
 playButton.addEventListener('click', () => {
     audioContext.resume();
