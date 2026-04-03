@@ -10,6 +10,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>TUNES</title>
+  <style>  
+    /* equalizercontainer */
+.equalizercontainer {
+  cursor: pointer;
+  
+}
+
+ /* Equalizer */
+.EQ {
+  font-size:  1.5em;
+  color:  lime;
+  text-shadow: 1px 1px 1px ivory;
+  font-weight: 700;
+  margin-top:  200px;
+  margin-left:  5px;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  margin-top: 200px;
+  margin-left: -150px; 
+  width: 150px; 
+  height: 60px;
+  background: white;
+  background-image: radial-gradient(#090,
+                                #fff, #2a4f32);
+  text-align: left;
+  font-size: 1em;
+  padding: 10px auto auto auto;  /* 60px 20px */
+  transition: 0.3s;
+}
+
+.sidebar.active {
+  margin-left: 0px;
+}
+  </style>
  
   
 </head>
@@ -40,7 +77,25 @@
     </div></div>
         <!-- Build Download -->
   <a id="download-link" href="#" download>Download Song</a>
-  
+  <!-- Equalizer -->
+  <div class="equalizercontainer" onclick="toggleSidebar()">
+         <div class="EQ">[ EQ ]</div>
+         </div>
+         <div id="sidebar" class="sidebar">
+<br>
+<label for=“bass”>Bass</label>
+<input type="range" min="-10" max="10" value="0" id="bass"><br>
+<label for=“mid”>Mid</label><br>
+<input type="range" min="-10" max="10" value="0" id="mid"><br>
+<label for=“treble”>Treble</label>
+<input type="range" min="-10" max="10" value="0" id="treble">
+</div>
+  <!-- toggle sidebar function -->   
+<script>
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("active");
+}
+</script>
 
 
   
