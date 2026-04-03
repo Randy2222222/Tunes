@@ -237,13 +237,20 @@ const songs = [
     { title: "Voodoo Child", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughn - Voodoo Child.mp3" },
     { title: "Chitlins Con Carne", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan_Chitlins con carne .mp3" },
     { title: "That Smell", artist: "Lynyrd Skynyrd", src: "Songs/That Smell.mp3" },
-    { title: "Stairway To Heaven", artist: "Led Zeppelin", src: "Songs/Stairway To Heaven.mp3" }
-    
-    
-        
-        
-       
+    { title: "Stairway To Heaven", artist: "Led Zeppelin", src: "Songs/Stairway To Heaven.mp3" }      
+      
 ];
+document.getElementById('bass').addEventListener('input', e => {
+    bass.gain.value = e.target.value;
+});
+
+document.getElementById('mid').addEventListener('input', e => {
+    mid.gain.value = e.target.value;
+});
+
+document.getElementById('treble').addEventListener('input', e => {
+    treble.gain.value = e.target.value;
+});
 
 let currentSongIndex = 0;
 
