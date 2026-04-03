@@ -21,8 +21,6 @@
 .EQ {
   font-size:  0.8em;
   text-align: left;
-  padding: 2px;
-  border: 1px solid lime;
   color: lime;
   text-shadow: 1px 1px 1px ivory;
   font-weight: bold;
@@ -32,7 +30,6 @@
 
 /* Sidebar */
 .sidebar {
-  display: flex;
   position: fixed;
   margin-top: 5px;
   margin-left: -210px; 
@@ -42,8 +39,7 @@
   background: white;
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   font-size: 1em;
   padding: 5px 5px auto auto; /* 60px 20px */
   transition: 0.3s;
@@ -85,7 +81,7 @@
   <a id="download-link" href="#" download>Download Song</a>
   <!-- Equalizer -->
   <div class="equalizercontainer" onclick="toggleSidebar()">
-         <div class="EQ">EQ</div>
+         <div class="EQ">[EQ]</div>
          </div>
          <div id="sidebar" class="sidebar">
 
