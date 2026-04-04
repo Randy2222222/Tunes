@@ -198,9 +198,12 @@ a {
    border-radius: 2px;
    border: 1px solid lime;
 }
-a:link { color: lime; }
-a:visited { color: gold; }
-a:active { color: crimson; }
+a:link { color: lime; 
+         text-shadow: 1px 1px 1px ivory; }
+a:visited { color: lime;
+         text-shadow: 1px 1px 1px ivory; }
+a:active { color: lime; 
+         text-shadow: 1px 1px 1px ivory; }
 
 /* copyright */    
 .footer { /* was text */
