@@ -158,7 +158,7 @@ header {
   color: lime;
   text-shadow: 1px 1px 1px ivory;
   font-weight: bold;
-  margin-top:  -5px;
+  margin-top:  -15px;
   margin-left:  3px;
   padding: 2px;
   border: 1px solid lime;
@@ -168,7 +168,7 @@ header {
 /* Sidebar Equalizer */
 .sidebar {
   position: fixed;
-  margin-top: 0px;
+  margin-top: -10px;
   margin-left: -210px; 
   width: 200px; 
   height: 70px;
