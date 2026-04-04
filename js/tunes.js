@@ -278,8 +278,8 @@ function previousSong() {
     playSong();
 }
 
-//playButton.addEventListener('click', playSong);
-// add event listeners for equalizer
+
+// add EventListeners for Equalizer 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('bass').addEventListener('input', e => {
         bass.gain.value = parseFloat(e.target.value);
@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
         treble.gain.value = parseFloat(e.target.value);
     });
 });
-// add equalizer resume play event listener
+// Add Equalizer Resume Play Eventlistener
 playButton.addEventListener('click', () => {
     audioContext.resume();
     playSong();
