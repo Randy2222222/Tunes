@@ -33,6 +33,9 @@ bass.connect(mid);
 mid.connect(treble);
 treble.connect(audioContext.destination);
 
+// Auto-advance when song ends
+audio.addEventListener('ended', nextSong);
+
 
 const songs = [
     { title: "Lazy", artist: "Deep Purple", src: "Songs/Lazy.mp3" },
