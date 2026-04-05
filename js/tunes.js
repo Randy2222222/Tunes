@@ -240,10 +240,24 @@ treble.type = "highshelf";
 treble.frequency.value = 3000;
 
 // Connect everything
+// Normal EQ chain
+function connectEQ() { // add disconnect
+    source.disconnect(); // add disconnect
 source.connect(bass);
 bass.connect(mid);
 mid.connect(treble);
 treble.connect(audioContext.destination);
+    }
+
+// Bypass EQ (direct audio)
+function bypassEQ() {
+    source.disconnect();
+    source.connect(audioContext.destination);
+}
+
+// Initial connection
+connectEQ();
+// end disconnect ⬆️
 
 // Auto-advance when song ends
 audio.addEventListener('ended', nextSong);
