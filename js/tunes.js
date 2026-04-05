@@ -239,11 +239,26 @@ const treble = audioContext.createBiquadFilter();
 treble.type = "highshelf";
 treble.frequency.value = 3000;
 
-// Connect everything
-source.connect(bass);
-bass.connect(mid);
-mid.connect(treble);
-treble.connect(audioContext.destination);
+// Disable Equalizer🔥
+let eqEnabled = true; // Keep track if EQ should be active
+
+// Normal EQ chain
+function connectEQ() {  // added this line for disable🔥
+    source.disconnect(); // added this line for disable🔥
+    source.connect(bass);
+    bass.connect(mid);
+    mid.connect(treble);
+    treble.connect(audioContext.destination);
+}
+
+// Bypass EQ (direct audio)🔥
+function bypassEQ() {
+    source.disconnect();
+    source.connect(audioContext.destination);
+}
+
+// Initial connection🔥
+connectEQ();
     
 
 // Auto-advance when song ends
@@ -299,16 +314,41 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 // Add Equalizer Resume Play Eventlistener
+//playButton.addEventListener('click', () => {
+ //   audioContext.resume();
+  //  playSong();
+//});
+
+// add for equalizer disable🔥
+// Play button — resume AudioContext only once if EQ is active
 playButton.addEventListener('click', () => {
-    audioContext.resume();
+    if (eqEnabled && audioContext.state === 'suspended') {
+        audioContext.resume();
+    }
     playSong();
 });
+// end play song change for equalizer disable🔥 
+
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', nextSong);
 previousButton.addEventListener('click', previousSong);
 volumeControl.addEventListener('input', (e) => {
     audio.volume = e.target.value;
 });
+
+// disable equalizer🔥
+// Auto bypass/reconnect on screen/tab visibility
+document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+        eqEnabled = false; // EQ temporarily off
+        bypassEQ();
+    } else {
+        eqEnabled = true; // Re-enable EQ
+        connectEQ();
+    }
+});
+// end disable🔥 
+
 
 
 // Load the first song
