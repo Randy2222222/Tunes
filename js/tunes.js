@@ -9,32 +9,7 @@ const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
 // add const downloadLink
 const downloadLink = document.getElementById('download-link');
-// add equalizer
-const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-const source = audioContext.createMediaElementSource(audio);
-// Create EQ filters
-// Bass
-const bass = audioContext.createBiquadFilter();
-bass.type = "lowshelf";
-bass.frequency.value = 200;
-// Mid
-const mid = audioContext.createBiquadFilter();
-mid.type = "peaking";
-mid.frequency.value = 1000;
-mid.Q.value = 1;
-// Treble
-const treble = audioContext.createBiquadFilter();
-treble.type = "highshelf";
-treble.frequency.value = 3000;
 
-// Connect everything
-source.connect(bass);
-bass.connect(mid);
-mid.connect(treble);
-treble.connect(audioContext.destination);
-
-// Auto-advance when song ends
-audio.addEventListener('ended', nextSong);
 
 
 const songs = [
@@ -246,6 +221,32 @@ const songs = [
     { title: "Stairway To Heaven", artist: "Led Zepagain(tribute band)", src: "Songs/Stairway To Heaven.mp3" }      
       
 ];
+// add equalizer
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+const source = audioContext.createMediaElementSource(audio);
+// Create EQ filters
+// Bass
+const bass = audioContext.createBiquadFilter();
+bass.type = "lowshelf";
+bass.frequency.value = 200;
+// Mid
+const mid = audioContext.createBiquadFilter();
+mid.type = "peaking";
+mid.frequency.value = 1000;
+mid.Q.value = 1;
+// Treble
+const treble = audioContext.createBiquadFilter();
+treble.type = "highshelf";
+treble.frequency.value = 3000;
+
+// Connect everything
+source.connect(bass);
+bass.connect(mid);
+mid.connect(treble);
+treble.connect(audioContext.destination);
+
+// Auto-advance when song ends
+audio.addEventListener('ended', nextSong);
 
 
 let currentSongIndex = 0;
