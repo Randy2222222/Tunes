@@ -308,6 +308,16 @@ previousButton.addEventListener('click', previousSong);
 volumeControl.addEventListener('input', (e) => {
     audio.volume = e.target.value;
 });
+// ---- Hybrid fallback for iPad background ----
+document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+        // Page hidden / screen off → suspend EQ
+        audioContext.suspend();
+    } else {
+        // Page visible → resume EQ
+        audioContext.resume();
+    }
+});
 
 // Load the first song
 loadSong(songs[currentSongIndex]);
