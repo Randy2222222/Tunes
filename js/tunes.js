@@ -240,24 +240,11 @@ treble.type = "highshelf";
 treble.frequency.value = 3000;
 
 // Connect everything
-// Normal EQ chain
-function connectEQ() { // add disconnect
-    source.disconnect(); // add disconnect
 source.connect(bass);
 bass.connect(mid);
 mid.connect(treble);
 treble.connect(audioContext.destination);
-    }
-
-// Bypass EQ (direct audio)
-function bypassEQ() {
-    source.disconnect();
-    source.connect(audioContext.destination);
-}
-
-// Initial connection
-connectEQ();
-// end disconnect ⬆️
+    
 
 // Auto-advance when song ends
 audio.addEventListener('ended', nextSong);
@@ -322,16 +309,7 @@ previousButton.addEventListener('click', previousSong);
 volumeControl.addEventListener('input', (e) => {
     audio.volume = e.target.value;
 });
-// ---- Hybrid fallback for iPad background ----
-document.addEventListener('visibilitychange', () => {
-    if (document.hidden) {
-        // Page hidden / screen off → suspend EQ
-        audioContext.suspend();
-    } else {
-        // Page visible → resume EQ
-        audioContext.resume();
-    }
-});
+
 
 // Load the first song
 loadSong(songs[currentSongIndex]);
