@@ -241,9 +241,9 @@ function loadSong(song) {
             title: song.title,
             artist: song.artist,
             album: 'My Player',
-            artwork: song.artwork ? [
+            artwork: [
                 { src: cover.jpg, sizes: '512x512', type: 'image/jpeg' }
-            ] : []
+            ];
         });
     }
 }
