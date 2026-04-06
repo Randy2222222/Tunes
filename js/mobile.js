@@ -239,11 +239,8 @@ function loadSong(song) {
  if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
-            artist: song.artist,
-            album: 'My Player',
-            artwork: [
-                { src: cover.jpg, sizes: '512x512', type: 'image/jpeg' }
-            ];
+            artist: song.artist
+        
         });
     }
 }
