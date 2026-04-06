@@ -236,18 +236,18 @@ function loadSong(song) {
     // Set song name for download
     downloadLink.setAttribute("download", `${song.title}.mp3`);
 //}
-if ('mediaSession' in navigator) {
+ if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
             artist: song.artist,
             album: 'My Player',
-            artwork: [
-                { src: 'cover.jpg', sizes: '512x512', type: 'image/jpeg' }
-            ]
-        ]);
+            artwork: song.artwork ? [
+                { src: cover.jpg, sizes: '512x512', type: 'image/jpeg' }
+            ] : []
+        });
     }
-  }
 }
+
 function playSong() {
     audio.play();
 }
