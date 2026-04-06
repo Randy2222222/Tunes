@@ -221,6 +221,7 @@ const songs = [
     { title: "Stairway To Heaven", artist: "Led Zepagain(tribute band)", src: "Songs/Stairway To Heaven.mp3" }      
       
 ];
+
 // add equalizer
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const source = audioContext.createMediaElementSource(audio);
@@ -239,30 +240,11 @@ const treble = audioContext.createBiquadFilter();
 treble.type = "highshelf";
 treble.frequency.value = 3000;
 
-// Disable Equalizer🔥
-let eqEnabled = true; // Keep track if EQ should be active
-
-// Normal EQ chain
-function connectEQ() {  // added this line for disable🔥
-    source.disconnect(); // added this line for disable🔥
+    
     source.connect(bass);
     bass.connect(mid);
     mid.connect(treble);
     treble.connect(audioContext.destination);
-}
-
-// Bypass EQ (direct audio)🔥
-function bypassEQ() {
-    source.disconnect();
-    source.connect(audioContext.destination);
-}
-
-// Initial connection🔥
-connectEQ();
-    
-
-// Auto-advance when song ends
-audio.addEventListener('ended', nextSong);
 
 
 let currentSongIndex = 0;
@@ -298,7 +280,6 @@ function previousSong() {
     playSong();
 }
 
-
 // add EventListeners for Equalizer 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('bass').addEventListener('input', e => {
@@ -314,21 +295,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 // Add Equalizer Resume Play Eventlistener
-//playButton.addEventListener('click', () => {
- //   audioContext.resume();
-  //  playSong();
-//});
-
-// add for equalizer disable🔥
-// Play button — resume AudioContext only once if EQ is active
 playButton.addEventListener('click', () => {
-    if (eqEnabled && audioContext.state === 'suspended') {
-        audioContext.resume();
-    }
+    audioContext.resume();
     playSong();
 });
-// end play song change for equalizer disable🔥 
 
+// Auto-advance when song ends
+audio.addEventListener('ended', nextSong);
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', nextSong);
 previousButton.addEventListener('click', previousSong);
@@ -336,18 +309,6 @@ volumeControl.addEventListener('input', (e) => {
     audio.volume = e.target.value;
 });
 
-// disable equalizer🔥
-// Auto bypass/reconnect on screen/tab visibility
-document.addEventListener('visibilitychange', () => {
-    if (document.hidden) {
-        eqEnabled = false; // EQ temporarily off
-        bypassEQ();
-    } else {
-        eqEnabled = true; // Re-enable EQ
-        connectEQ();
-    }
-});
-// end disable🔥 
 
 
 
