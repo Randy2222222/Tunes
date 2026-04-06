@@ -246,8 +246,8 @@ if ('mediaSession' in navigator) {
             ]
         ]);
     }
+  }
 }
-
 function playSong() {
     audio.play();
 }
