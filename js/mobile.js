@@ -237,6 +237,8 @@ function loadSong(song) {
     downloadLink.setAttribute("download", `${song.title}.mp3`);
 //}
  if ('mediaSession' in navigator) {
+     navigator.mediaSession.setActionHandler('nexttrack', nextSong);
+navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
             artist: song.artist,
