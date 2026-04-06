@@ -235,7 +235,7 @@ function loadSong(song) {
     downloadLink.href = song.src;
     // Set song name for download
     downloadLink.setAttribute("download", `${song.title}.mp3`);
-}
+//}
 if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
