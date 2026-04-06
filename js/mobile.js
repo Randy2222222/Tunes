@@ -241,10 +241,10 @@ if ('mediaSession' in navigator) {
             title: song.title,
             artist: song.artist,
             album: 'My Player',
-            artwork: song.artwork ? [
-                { src: song.artwork, sizes: '512x512', type: 'image/jpeg' }
-            ] : []
-        });
+            artwork: [
+                { src: 'cover.jpg', sizes: '512x512', type: 'image/jpeg' }
+            ]
+        ]);
     }
 }
 
