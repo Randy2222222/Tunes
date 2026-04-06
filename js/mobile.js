@@ -239,7 +239,7 @@ function loadSong(song) {
  if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
-            artist: song.artist
+            artist: song.artist,
         
         });
     }
