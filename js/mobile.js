@@ -71,7 +71,7 @@ const songs = [
     { title: "Johnny be Good", artist: "Chuck Berry", src: "Songs/chuck berry.mp3" },
     { title: "You're So Vain", artist: "Carly Simon", src: "Songs/You're So Vain.mp3" },
     { title: "Tears in Heaven", artist: "Elton John", src: "Songs/Tears in heaven.mp3" },
-    { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/The Chain.mp3" },
+    { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/Fleetwood Mac - The Chain.mp3" },
     { title: "Burn", artist: "Deep Purple", src: "Songs/Burn.mp3" },
     { title: "Texas Blues, Stevie Ray Vaughan", artist: "C.C. Rider", src: "Songs/C.C. Rider.mp3" },
     { title: "The Smashing Pumpkins", artist: "The Smashing Pumpkins", src: "Songs/The Smashing Pumpkins.mp3" },
