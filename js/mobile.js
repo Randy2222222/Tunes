@@ -130,7 +130,7 @@ const songs = [
     { title: "Goodbye Yellow Brick Road", artist: "Elton John", src: "Songs/Elton John - Goodbye Yellow Brick Road.mp3" },
     { title: "Rocket Man", artist: "Elton John", src: "Songs/Elton John - Rocket Man .mp3" },
     { title: "Gold Dust Woman", artist: "Fleetwood Mac", src: "Songs/Fleetwood Mac - Gold Dust Woman.mp3" },
-    { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/Fleetwood Mac - The Chain.mp3" },
+    { title: "The Chain", artist: "Fleetwood Mac", src: "Songs/The-Chain.mp3" },
     { title: "Chunga's Revenge", artist: "Frank Zappa", src: "Songs/Frank Zappa - Chungas Revenge.mp3" },
     { title: "Signs", artist: "Five Man Electric Band", src: "Songs/Five Man Electric Band - Signs.mp3" },
     { title: "Let It Rock(Live)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" },
