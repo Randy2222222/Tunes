@@ -19,7 +19,7 @@ const songs = [
     { title: "Low Rider", artist: "War", src: "Songs/War.mp3" },
     { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Songs/Mary Had A Little Lamb.mp3" },
     { title: "Pigs(Three Different Ones)", artist: "Pink Floyd", src: "Songs/Pink Floyd 1977 Animals.mp3" },
-    { title: "The Sound of Silence", artist: "Simon and Garfunkel", src: "Songs/Simon And Garfunkel - The Sound of Silence.mp3" },
+    { title: "The Sound of Silence", artist: "Simon and Garfunkel", src: "Songs/Simon and Garfunkel - The Sound of Silence.mp3" },
     { title: "Dream On", artist: "Aerosmith", src: "Songs/Aerosmith (1).mp3" },
     { title: "No Smoke Without a Fire", artist: "Bad Company", src: "Songs/Bad Company (2).mp3" },
     { title: "Only Women Bleed", artist: "Alice Cooper", src: "Songs/Alice Cooper - Only Women Bleed.mp3" },
