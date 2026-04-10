@@ -134,7 +134,7 @@ const songs = [
     { title: "Chunga's Revenge", artist: "Frank Zappa", src: "Songs/Frank Zappa - Chungas Revenge.mp3" },
     { title: "Signs", artist: "Five Man Electric Band", src: "Songs/Five Man Electric Band - Signs.mp3" },
     { title: "Let It Rock(Live)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" },
-    { title: "Welcome To The Jungle", artist: "Guns and Roses", src: "Songs/Guns and Roses.mp3" },
+    { title: "Welcome To The Jungle", artist: "Guns and Roses", src: "Songs/Guns and Roses - Welcome to The Jungle.mp3" },
     { title: "Loaded", artist: "Jeff Beck", src: "Songs/Jeff Beck - Loaded.mp3" },
     { title: "If The House Is A Rocking", artist: "Stevie Ray Vaughan", src: "Songs/If The House Is A Rocking.mp3" },
     { title: "Superstition", artist: "Jeff Beck", src: "Songs/Jeff Beck - Superstition.mp3" },
