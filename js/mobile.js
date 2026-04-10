@@ -184,7 +184,7 @@ const songs = [
     { title: "Have You Ever Seen The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
     { title: "Roadhouse Blues(Live)", artist: "The Doors", src: "Songs/The Doors.mp3" },
     { title: "The Wasp", artist: "The Doors", src: "Songs/The Doors (1).mp3" },
-    { title: "Wanted Dead or Alive", artist: "Jon Bon Jovi", src: "Songs/Wanted Dead or Alive.mp3" },
+    { title: "Wanted Dead or Alive", artist: "Jon Bon Jovi", src: "Songs/Jon Bon Jovi - Wanted Dead or Alive.mp3" },
     { title: "Blaze of Glory", artist: "Jon Bon Jovi", src: "Songs/Jon Bon Jovi - Blaze of Glory.mp3" },
     { title: "Smokin' In the Boys Room", artist: "Brownsville Station", src: "Songs/Brownsville Station - Smokin in the Boys Room.mp3" },
     { title: "In The Air Tonight (Live)", artist: "Phil Collins", src: "Songs/Phil Collins - In The Air Tonight.mp3" },
