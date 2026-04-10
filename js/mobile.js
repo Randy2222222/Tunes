@@ -121,7 +121,7 @@ const songs = [
     { title: "Against The Law", artist: "Edgar Winter", src: "Songs/Edgar Winter - Against The Law.mp3" },
     { title: "Frankenstein(Live)", artist: "Edgar Winter", src: "Songs/Edgar Winter - Frankenstein.mp3" },
     { title: "Crocodile Rock", artist: "Elton John", src: "Songs/Elton John - Crocodile Rock.mp3" },
-    { title: "Candle In The Wind", artist: "Elton John", src: "Songs/Elton John - Candle in the Wind.mp3" },
+    { title: "Candle In The Wind", artist: "Elton John", src: "Songs/Elton John - Candle in The Wind.mp3" },
     { title: "Tobacco Road", artist: "Edgar Winter", src: "Songs/Edgar Winter - Tobacco Road.mp3" },
     { title: "Green River", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival - Green River.mp3" },
     { title: "Way Down South", artist: "Edgar Winter", src: "Songs/Edgar Winter - Way Down South.mp3" },
