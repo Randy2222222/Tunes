@@ -172,7 +172,7 @@ const songs = [
     { title: "Freeze Frame", artist: "The J. Geils Band", src: "Songs/The J. Geils Band - Freeze-Frame.mp3" },
     { title: "Can't You See", artist: "The Marshall Tucker Band'", src: "Songs/The Marshall Tucker Band - Can’t You See.mp3" },
     { title: "Fire On The Mountain", artist: "The Marshall Tucker Band", src: "Songs/The Marshall Tucker Band - Fire on the Mountain.mp3" },
-    { title: "Ramblin'", artist: "The Marshall Tucker Band", src: "Songs/ },
+    { title: "Ramblin'", artist: "The Marshall Tucker Band", src: "Songs/The Marshall Tucker Band - Ramblin.mp3" },
     { title: "Diablo Canyon", artist: "The Outlaws", src: "Songs/The Outlaws - Diablo Canyon.mp3" },
     { title: "Green Grass & High Tides", artist: "The Outlaws", src: "Songs/The Outlaws - Green Grass & High Tides.mp3" },
     { title: "Hot For Teacher", artist: "Van Halen", src: "Songs/Van Halen - Hot For Teacher.mp3" },
