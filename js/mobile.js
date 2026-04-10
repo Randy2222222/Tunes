@@ -195,7 +195,7 @@ const songs = [
     { title: "Workin' for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (1).mp3" },
     { title: "Double Trouble", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd.mp3" },
     { title: "If Today Was Your Last Day", artist: "Nickleback ", src: "Songs/Nickleback - If Today Was Your Last Day.mp3" },
-    { title: "Rockstar", artist: "Nickleback", src: "Songs/nickleback.mp3" },
+    { title: "Rockstar", artist: "Nickleback", src: "Songs/Nickleback - Rockstar.mp3" },
     { title: "Burn It To The Ground", artist: "Nickleback", src: "Songs/Nickleback - Burn It To The Ground.mp3" },
     { title: "While My Guitar Gently Weeps", artist: "Peter Frampton", src: "Songs/Peter Frampton - While My Guitar Gently Weeps.mp3" },
     { title: "CROSSROADS", artist: "Stevie Ray Vaughan", src: "Songs/CROSSROADS.mp3" },
