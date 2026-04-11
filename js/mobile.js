@@ -36,7 +36,7 @@ const songs = [
     { title: "The Changeling", artist: "The Doors", src: "Songs/The Doors (6).mp3" },
     { title: "Fade to Black", artist: "Metallica", src: "Songs/Metallica (2).mp3" },
     { title: "Perfect Stranger", artist: "Supertramp", src: "Songs/Supertramp (3).mp3" },
-    { title: "Poison", artist: "Alice Cooper", src: "Songs/Songs_Alice Cooper - Poison.mp3" },
+    { title: "Poison", artist: "Alice Cooper", src: "Songs/Alice Cooper - Poison.mp3" },
     { title: "Take the Long Way Home", artist: "Supertramp", src: "Songs/Supertramp (5).mp3" },
     { title: "Am I Evil", artist: "Metallica", src: "Songs/Metallica (1).mp3" },
     { title: "Voodoo Child", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughn - Voodoo Chile.mp3" },
