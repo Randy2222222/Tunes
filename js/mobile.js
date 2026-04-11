@@ -208,7 +208,7 @@ const songs = [
     { title: "Nothing Else Matters", artist: "Metallica", src: "Songs/Metallica - Nothing Else Matters.mp3" },
     { title: "Wipe Out", artist: "The Surfaris", src: "Songs/Wipeout-1.mp3" },
     { title: "I Hate Myself For Loving You", artist: "Joan Jett & The Blackhearts", src: "Songs/I Hate Myself for Loving You.mp3" },
-    { title: "Short People (Live)", artist: "Randy Newman", src: "Songs/Short People.mp3" },
+    { title: "Short People (Live)", artist: "Randy Newman", src: "Songs/Randy Newman - Short People(live).mp3" },
     { title: "Let It Rock (Live)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" },
     { title: "SCUTTLE BUTTIN", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan.mp3" },
     { title: "Sad But True", artist: "Metallica", src: "Songs/Metallica - Sad But True.mp3" },
