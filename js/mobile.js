@@ -104,7 +104,7 @@ const songs = [
     { title: "Nadia", artist: "Jeff Beck", src: "Songs/Jeff Beck - Nadia.mp3" },
     { title: "I Know Where I Belong", artist: "Joe Bonamassa", src:"Joe Bonamassa - I Know Where I Belong.mp3" },
     { title: "White Summer", artist: "Jimmy Page", src: "Songs/White Summer (Jimmy Page).mp3" },
-    { title: "The River", artist: "Joe Bonamassa", src: "Songs/03 The River.mp3" },
+    { title: "The River", artist: "Joe Bonamassa", src: "Songs/Joe Bonamassa - The River.mp3" },
     { title: "Jamming", artist: "Bob Marley", src: "Songs/Bob Marley - Jamming.mp3" },
     { title: "Bridge to Better Days", artist: "Joe Bonanassa", src: "Songs/Joe Bonamassa - Bridge to Better Days.mp3" },
     { title: "Different Shades of Blue", artist: "Joe Bonamassa", src: "Songs/11 Different Shades Of Blue.mp3" },
