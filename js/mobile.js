@@ -156,7 +156,7 @@ const songs = [
     { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (2).mp3" },
     { title: "Sweet Home Alabama", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd - Sweet Home Alabama.mp3" },
     { title: "Invisible Man", artist: "Peter Frampton", src: "Songs/Peter Frampton - Invisible Man.mp3" },
-    { title: "Thank You Mr Churchill", artist: "Peter Frampton", src: "Songs/Peter Frampton - Thank You Mr Churchill.mp3" },
+    { title: "Thank You Mr Churchill", artist: "Peter Frampton", src: "Songs/Peter Frampton - Thank you Mr Churchill .mp3" },
     { title: "Time", artist: "Pink Floyd", src: "Songs/Pink Floyd - Time.mp3" },
     { title: "Brain Damage", artist: "Pink Floyd", src: "Songs/Pink Floyd - Brain Damage.mp3"},
     { title: "Money", artist: "Pink Floyd", src: "Songs/Pink Floyd (1).mp3" },
