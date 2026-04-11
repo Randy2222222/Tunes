@@ -47,7 +47,7 @@ const songs = [
     { title: "Wishing Well", artist: "Black Sabbath", src: "Songs/Black Sabbath (1).mp3" },
     { title: "Slow Train", artist: "Joe Bonamassa", src: "Songs/Joe Bonamassa - Slow Train.mp3" },
     { title: "Turn the Page", artist: "Bob Seger", src: "Songs/Bob Seger.mp3" },
-    { title: "The Ballad of John Henry", artist: "Bob Bonamassa", src: "Songs/06 The Ballad of John Henry.mp3" },
+    { title: "The Ballad of John Henry", artist: "Bob Bonamassa", src: "Songs/Joe Bonamassa - The Ballad of John Henry.mp3" },
     { title: "Cats In The Cradle", artist: "Harry Chapin", src: "Songs/Harry Chapin - Cats in The Cradle.mp3" },
     { title: "Logical Song", artist: "SuperTramp", src: "Songs/Supertramp (1).mp3" },
     { title: "Child in Time", artist: "Deep Purple", src: "Songs/Child In Time.mp3" },
