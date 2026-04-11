@@ -138,6 +138,7 @@ const songs = [
     { title: "Loaded", artist: "Jeff Beck", src: "Songs/Jeff Beck - Loaded.mp3" },
     { title: "If The House Is A Rocking", artist: "Stevie Ray Vaughan", src: "Songs/If The House Is A Rocking.mp3" },
     { title: "Superstition", artist: "Jeff Beck", src: "Songs/Jeff Beck - Superstition.mp3" },
+    { title: "Somebody to Love", artist: "Jefferson Starship", src: "Songs/Jefferson Starship - Somebody to Love.mp3" },
     { title: "Hyperdrive", artist: "Jefferson Starship", src: "Songs/Jefferson Starship - Hyperdrive.mp3" },
     { title: "White Rabbit", artist: "Jefferson Starship", src: "Songs/Jefferson Starship - White Rabbit.mp3" },
     { title: "Queenie", artist: "Jerry Lee Lewis", src: "Songs/Jerry Lee Lewis.mp3" },
