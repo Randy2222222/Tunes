@@ -45,7 +45,7 @@ const songs = [
     { title: "Gimme Back My Bulletts", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd (3).mp3" },
     { title: "One of These Days", artist: "Alvin Lee & Joe Bonamassa", src: "Songs/05 One of These Days.mp3" },
     { title: "Wishing Well", artist: "Black Sabbath", src: "Songs/Black Sabbath (1).mp3" },
-    { title: "Slow Train", artist: "Joe Bonamassa", src: "Songs/10 Slow Train.mp3" },
+    { title: "Slow Train", artist: "Joe Bonamassa", src: "Songs/Joe Bonamassa - Slow Train.mp3" },
     { title: "Turn the Page", artist: "Bob Seger", src: "Songs/Bob Seger.mp3" },
     { title: "The Ballad of John Henry", artist: "Bob Bonamassa", src: "Songs/06 The Ballad of John Henry.mp3" },
     { title: "Cats In The Cradle", artist: "Harry Chapin", src: "Songs/Harry Chapin - Cats in The Cradle.mp3" },
