@@ -109,7 +109,7 @@ const songs = [
     { title: "Bridge to Better Days", artist: "Joe Bonanassa", src: "Songs/Joe Bonamassa - Bridge to Better Days.mp3" },
     { title: "Different Shades of Blue", artist: "Joe Bonamassa", src: "Songs/11 Different Shades Of Blue.mp3" },
     { title: "House of the Rising Sun", artist: "The Animals", src: "Songs/The Animals- House of The Rising Sun.mp3" },
-    { title: "Driving Towards the Daylight", artist: "Joe Bonamassa", src: "Songs/09 Driving Towards the Daylight.mp3" },
+    { title: "Driving Towards the Daylight", artist: "Joe Bonamassa", src: "Songs/Joe Bonamassa- Driving Towards the Daylight.mp3" },
     { title: "Hide in Your Shell", artist: "Supertramp", src: "Songs/Supertramp (4).mp3" },
     { title: "Cold Shot", artist: "Stevie Ray Vaughan", src: "Songs/Cold Shot.mp3" },
     { title: "Crossroads", artist: "Cream", src: "Songs/Cream - Crossroads.mp3" },
