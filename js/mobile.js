@@ -170,7 +170,7 @@ const songs = [
     { title: "Jailhouse Rock", artist: "The Blue Brothers", src: "Songs/Blues Brothers - Jailhouse Rock.mp3" },
     { title: "China Grove", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers - China Grove.mp3" },
     { title: "Rubber Biscuit(Live)", artist: "The Blues Brothers", src: "Songs/The Blues Brothers (2).mp3" },
-    { title: "Freeze Frame", artist: "The J. Geils Band", src: "Songs/The J. Geils Band - Freeze-Frame.mp3" },
+    { title: "Freeze Frame", artist: "The J. Geils Band", src: "Songs/The J Geils Band - Freeze Frame.mp3" },
     { title: "Can't You See", artist: "The Marshall Tucker Band'", src: "Songs/The Marshall Tucker Band - Can’t You See.mp3" },
     { title: "Fire On The Mountain", artist: "The Marshall Tucker Band", src: "Songs/The Marshall Tucker Band - Fire on the Mountain .mp3" },
     { title: "Ramblin'", artist: "The Marshall Tucker Band", src: "Songs/The Marshall Tucker Band - Ramblin.mp3" },
