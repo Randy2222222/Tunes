@@ -126,7 +126,7 @@ const songs = [
     { title: "Green River", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival - Green River.mp3" },
     { title: "Way Down South", artist: "Edgar Winter", src: "Songs/Edgar Winter - Way Down South.mp3" },
     { title: "Free Ride", artist: "Edgar Winter", src: "Songs/Edgar Winter - Free Ride.mp3" },
-    { title: "Money for Nothing", artist: "Dire Straits", src: "Songs/Money for Nothing.mp3" },
+    { title: "Money for Nothing", artist: "Dire Straits", src: "Songs/Dire Straits - Money For Nothing.mp3" },
     { title: "Goodbye Yellow Brick Road", artist: "Elton John", src: "Songs/Elton John - Goodbye Yellow Brick Road.mp3" },
     { title: "Rocket Man", artist: "Elton John", src: "Songs/Elton John - Rocket Man .mp3" },
     { title: "Gold Dust Woman", artist: "Fleetwood Mac", src: "Songs/Fleetwood Mac - Gold Dust Woman.mp3" },
