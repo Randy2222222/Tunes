@@ -58,7 +58,7 @@ const songs = [
     { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara (Fleetwood Mac cover).mp3" },
     { title: "Alabama Song (Whiskey Bar)", artist: "The Doors", src: "Songs/The Doors (4).mp3" },
     { title: "Riders on The Storm", artist: "The Doors", src: "Songs/Riders on the Storm.mp3" },
-    { title: "Sweet Home Alabama", artist: "Kid Rock", src: "Songs/kid rock.mp3" },
+    { title: "Sweet Home Alabama", artist: "Kid Rock", src: "Songs/Kid Rock - Sweet Home Alabama.mp3" },
     { title: "Drive", artist: "Joe Bonamassa", src: "Songs/Joe Bonamassa - Drive.mp3" },
     { title: "Blue and Evil", artist: "Joe Bonamassa", src: "Songs/Joe Bonamassa - Blue and Evil.mp3" },
     { title: "Wish You Were Here", artist: "Pink Floyd", src: "Songs/Pink Floyd - Wish You Were Here.mp3" },
