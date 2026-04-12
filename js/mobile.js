@@ -203,7 +203,7 @@ const songs = [
     { title: "For Your Love", artist:"The Yardbirds(1965)", src: "Songs/The Yardbirds (1).mp3" },
     { title: "Lost Woman", artist: "The Yardbirds(1966)", src: "Songs/The Yardbirds.mp3" },
     { title: "I Love Rock 'N Roll", artist: "Joan Jett & The Blackhearts", src: "Songs/I Love Rock ‘N Roll.mp3" },
-    { title: "Locomotive Breath", artist: "Jethro Tull", src: "Songs/Locomotive Breath.mp3" },
+    { title: "Locomotive Breath", artist: "Jethro Tull", src: "Songs/Jethro Tull - Locomotive Breath.mp3" },
     { title: "La Grange", artist: "ZZ Top", src: "Songs/Z Z Top - La Grange.mp3" },
     { title: "Nothing Else Matters", artist: "Metallica", src: "Songs/Metallica - Nothing Else Matters.mp3" },
     { title: "Wipe Out", artist: "The Surfaris", src: "Songs/Surfaris - Wipe Out.mp3" },
