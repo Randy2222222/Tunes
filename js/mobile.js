@@ -192,7 +192,7 @@ const songs = [
     { title: "Oh, Pretty Woman (Live, Black ‘n’ White Night)", artist: "Roy Orbison", src: "Songs/Pretty Woman (Black ‘n’ White Night Live).mp3" },
     { title: "Piano Man", artist: "Billy Joel", src: "Songs/Billy Joel - Piano Man.mp3" },
     { title: "A Horse with No Name", artist: "America", src: "Songs/America - Horse With No Name.mp3" },
-    { title: "Sweet Dreams (Are Made of This)", artist: "Marilyn Manson", src: "Songs/Sweet Dreams (Are Made of This).mp3" },
+    { title: "Sweet Dreams (Are Made of This)", artist: "Marilyn Manson", src: "Songs/Marilyn Manson - Sweet Dreams are Made of This.mp3" },
     { title: "Workin' for MCA", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (1).mp3" },
     { title: "Double Trouble", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd.mp3" },
     { title: "If Today Was Your Last Day", artist: "Nickleback ", src: "Songs/Nickleback - If Today Was Your Last Day.mp3" },
