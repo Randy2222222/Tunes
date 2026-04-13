@@ -146,7 +146,7 @@ const songs = [
     { title: "Boat Drinks", artist: "Jimmy Buffett", src: "Songs/Jimmy Buffett - Boat Drinks.mp3" },
     { title: "Fruitcakes", artist: "Jimmy Buffett", src: "Songs/Jimmy Buffett - Fruitcakes.mp3" },
     { title: "Grapefruit-Juicy Fruit", artist: "Jimmy Buffett", src: "Songs/Jimmy Buffett - Grapefruit Juicyfruit.mp3" },
-    { title: "Rainbow in the Dark", artist: "Dio", src: "Songs/Rainbow in the Dark.mp3" },
+    { title: "Rainbow in the Dark", artist: "Dio", src: "Songs/Dio - Rainbow in the Dark.mp3" },
     { title: "Pencil Thin Moustache", artist: "Jimmy Buffett", src: "Songs/Jimmy Buffett - Pencil Thin Moustache.mp3" },
     { title: "Jimmy Page Solo", artist: "Jimmy Page", src: "Songs/Jimmy Page Solo.mp3" },
     { title: "Jump", artist: "Van Halen", src: "Songs/Jump.mp3" },
