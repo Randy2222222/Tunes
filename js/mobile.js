@@ -212,7 +212,7 @@ const songs = [
     { title: "Let It Rock (Live)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" },
     { title: "SCUTTLE BUTTIN", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan.mp3" },
     { title: "Sad But True", artist: "Metallica", src: "Songs/Metallica - Sad But True .mp3" },
-    { title: "Long Train Running", artist: "The Doobie Brothers", src: "Songs/Long Train Running-2.mp3" },
+    { title: "Long Train Running", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers - Long Train Running.mp3" },
     { title: "The Unforgiven", artist: "Metallica", src: "Songs/Metallica - The Unforgiven.mp3" },
     { title: "Enter Sandman", artist: "Metallica", src: "Songs/Metallica - Sad But True .mp3" },
     { title: "Voodoo Child", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughn - Voodoo Child.mp3" },
