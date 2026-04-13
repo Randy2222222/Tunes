@@ -143,6 +143,24 @@ header {
     margin-top: 10px;
 }
 
+/* Download Styles */
+a { 
+   font-size: 0.8em; 
+   text-decoration: none;
+   font-weight: 700;
+   text-shadow: 1px 1px 1px ivory;
+   padding: 2px;
+   border-radius: 2px;
+   border: 1px solid lime;
+}
+a:link { color: lime; 
+         text-shadow: 1px 1px 1px ivory; }
+a:visited { color: lime;
+         text-shadow: 1px 1px 1px ivory; }
+a:active { color: lime; 
+         text-shadow: 1px 1px 1px ivory; }
+
+
  /* Equalizer */
 .equalizercontainer {
   cursor: pointer;
@@ -188,23 +206,6 @@ header {
 .sidebar.active {
   margin-left: 0px;
 }
-
-/* Download Styles */
-a { 
-   font-size: 0.8em; 
-   text-decoration: none;
-   font-weight: 700;
-   text-shadow: 1px 1px 1px ivory;
-   padding: 2px;
-   border-radius: 2px;
-   border: 1px solid lime;
-}
-a:link { color: lime; 
-         text-shadow: 1px 1px 1px ivory; }
-a:visited { color: lime;
-         text-shadow: 1px 1px 1px ivory; }
-a:active { color: lime; 
-         text-shadow: 1px 1px 1px ivory; }
 
 /* copyright */    
 .footer { /* was text */
