@@ -247,7 +247,8 @@ treble.frequency.value = 3000;
     mid.connect(treble);
     treble.connect(audioContext.destination);
 
-
+// Auto-advance when song ends
+audio.addEventListener('ended', nextSong);
 let currentSongIndex = 0;
 
 function loadSong(song) {
@@ -259,6 +260,16 @@ function loadSong(song) {
     downloadLink.href = song.src;
     // Set song name for download
     downloadLink.setAttribute("download", `${song.title}.mp3`);
+//}
+    if ('mediaSession' in navigator) {
+     navigator.mediaSession.setActionHandler('nexttrack', nextSong);
+navigator.mediaSession.setActionHandler('previoustrack', previousSong);
+        navigator.mediaSession.metadata = new MediaMetadata({
+            title: song.title,
+            artist: song.artist,
+        
+        });
+    }
 }
 
 function playSong() {
@@ -301,8 +312,7 @@ playButton.addEventListener('click', () => {
     playSong();
 });
 
-// Auto-advance when song ends
-audio.addEventListener('ended', nextSong);
+
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', nextSong);
 previousButton.addEventListener('click', previousSong);
