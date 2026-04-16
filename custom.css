@@ -30,7 +30,7 @@ header {
   font-size: 2em;
 /*  line-height: 1.2em;  */
   background-image: radial-gradient(#fff 25%,
-                                #fff 60%, #2a4f32 15%);
+                                #fff 60%, darkviolet 15%);
 }
 
 
@@ -73,15 +73,15 @@ header {
     top: 20px; 
     border-radius: 5px;
     padding-bottom: 1px; /* add padding*/
-    background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
+    background-image: radial-gradient(darkviolet;
+                                 mediumpurple, black);
     color: darkviolet;
     align-text: center;   /* Centers items */
 }
 #play {
   background-color: white;
-  background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
+  background-image: radial-gradient(darkviolet;
+                                 mediumpurple, black);
   color: black;
   font-weight: bold;
   border-radius: 5px;
@@ -94,8 +94,8 @@ header {
   
   #pause{
     background-color: white;
-    background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
+    background-image: radial-gradient(darkviolet;
+                                 mediumpurple, black);
     color: black;
     font-weight: bold;
     border-radius: 5px;
@@ -110,8 +110,8 @@ header {
 
     #next {
       background-color: white;
-      background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
+      background-image: radial-gradient(darkviolet;
+                                 mediumpurple, black);
       color: black;
       font-weight: bold;
       border-radius: 5px;
@@ -124,8 +124,8 @@ header {
 
       #previous {
       background-color: white;
-      background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
+      background-image: radial-gradient(darkviolet;
+                                 mediumpurple, black);
       color: black;
       font-weight: bold;
       border: 1px solid darkviolet;
@@ -182,7 +182,7 @@ a:active { color: mediumpurple;
   margin-top:  -15px;
   margin-left:  3px;
   padding: 2px;
-  border: 1px solid lime;
+  border: 1px solid darkviolet;
   border-radius: 2px;
 }
 
@@ -195,8 +195,8 @@ a:active { color: mediumpurple;
   height: 70px;
   color: black;
   background: white;
-  background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
+  background-image: radial-gradient(darkviolet;
+                                 mediumpurple, black);
   text-align: center;
   font-size: 1em;
   padding-top: 10px; 
