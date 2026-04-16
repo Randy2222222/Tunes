@@ -74,7 +74,7 @@ header {
     border-radius: 5px;
     padding-bottom: 1px; /* add padding*/
     background-image: radial-gradient(darkviolet;
-                                 ehite, mediumpurple);
+                                 white, mediumpurple);
     color: darkviolet;
     align-text: center;   /* Centers items */
 }
