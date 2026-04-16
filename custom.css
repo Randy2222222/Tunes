@@ -18,7 +18,7 @@ header {
   line-height: 80%;  
 /*  border-radius: 15px; */
   background-image: radial-gradient(darkviolet;
-                                 mediumpurple, black);
+                                 white, mediumpurple);
 }
 
 /* Header */
@@ -43,7 +43,7 @@ header {
       position: relative; /* Relative */
       width: 200px;
       height: 80px; 
-      background-color: Black;
+      background-color: white;
       color: darkviolet;
       padding: 20px;
     
@@ -61,7 +61,7 @@ header {
     height: 60px; 
     padding: 20px; /* was 20 */
     background-image: radial-gradient(darkviolet;
-                                 mediumpurple, black);
+                                 white, mediumpurple);
  /*   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);*/
     border-radius: 10px;
@@ -69,19 +69,19 @@ header {
 
 /* Control & Button Styles */
 .controls {
-    back-ground: White;
+    background-color: White;
     top: 20px; 
     border-radius: 5px;
     padding-bottom: 1px; /* add padding*/
     background-image: radial-gradient(darkviolet;
-                                 mediumpurple, black);
+                                 ehite, mediumpurple);
     color: darkviolet;
     align-text: center;   /* Centers items */
 }
 #play {
   background-color: white;
   background-image: radial-gradient(darkviolet;
-                                 mediumpurple, black);
+                                 white, mediumpurple);
   color: black;
   font-weight: bold;
   border-radius: 5px;
@@ -95,7 +95,7 @@ header {
   #pause{
     background-color: white;
     background-image: radial-gradient(darkviolet;
-                                 mediumpurple, black);
+                                white, mediumpurple);
     color: black;
     font-weight: bold;
     border-radius: 5px;
@@ -111,7 +111,7 @@ header {
     #next {
       background-color: white;
       background-image: radial-gradient(darkviolet;
-                                 mediumpurple, black);
+                                 white, mediumpurple);
       color: black;
       font-weight: bold;
       border-radius: 5px;
@@ -125,7 +125,7 @@ header {
       #previous {
       background-color: white;
       background-image: radial-gradient(darkviolet;
-                                 mediumpurple, black);
+                                white, mediumpurple);
       color: black;
       font-weight: bold;
       border: 1px solid darkviolet;
@@ -196,7 +196,7 @@ a:active { color: mediumpurple;
   color: black;
   background: white;
   background-image: radial-gradient(darkviolet;
-                                 mediumpurple, black);
+                                 white, mediumpurple);
   text-align: center;
   font-size: 1em;
   padding-top: 10px; 
