@@ -224,7 +224,7 @@ const songs = [
 ];
 
 // Auto-advance when song ends
-//audio.addEventListener('ended', nextSong);
+audio.addEventListener('ended', nextSong);
 let currentSongIndex = 0;
 
 function loadSong(song) {
