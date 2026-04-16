@@ -3,22 +3,22 @@
    body {
   box-sizing: border-box;
   background-color: Black;
-  color: forestgreen;
+  color: darkviolet;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 /* Header (Green banner) */
 header {
-  background-color: forestgreen;
+  background-color: darkviolet;
   color: Black;
   text-align: center;
   padding: 0.1em 0;   /* .3em 0; */
   margin: 0;
   line-height: 80%;  
 /*  border-radius: 15px; */
-  background-image: radial-gradient(forestgreen,
-                                  limegreen, black);
+  background-image: radial-gradient(darkviolet;
+                                 mediumpurple, black);
 }
 
 /* Header */
@@ -44,7 +44,7 @@ header {
       width: 200px;
       height: 80px; 
       background-color: Black;
-      color: Green;
+      color: darkviolet;
       padding: 20px;
     
     }
@@ -60,8 +60,10 @@ header {
     bottom:  70%;
     height: 60px; 
     padding: 20px; /* was 20 */
-    background-image: radial-gradient(#090,
-                                #fff, #2a4f32);
+    background-image: radial-gradient(darkviolet;
+                                 mediumpurple, black);
+ /*   background-image: radial-gradient(#090,
+                                #fff, #2a4f32);*/
     border-radius: 10px;
 }
 
@@ -73,7 +75,7 @@ header {
     padding-bottom: 1px; /* add padding*/
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
-    color: Green;
+    color: darkviolet;
     align-text: center;   /* Centers items */
 }
 #play {
@@ -83,7 +85,7 @@ header {
   color: black;
   font-weight: bold;
   border-radius: 5px;
-  border: 1px solid green;
+  border: 1px solid darkviolet;
   text-align: center;
   padding: 5px auto 5px auto;
   margin-bottom: 10px;
@@ -97,7 +99,7 @@ header {
     color: black;
     font-weight: bold;
     border-radius: 5px;
-    border: 1px solid green;
+    border: 1px solid darkviolet;
     text-align: center;
     padding: 5px auto 5px auto;
     margin-bottom: 10px;
@@ -113,7 +115,7 @@ header {
       color: black;
       font-weight: bold;
       border-radius: 5px;
-      border: 1px solid green;
+      border: 1px solid darkviolet;
       text-align: center;
       padding: 5px auto 5px auto;
       margin-bottom: 10px;
@@ -126,7 +128,7 @@ header {
                                 #fff, #2a4f32);
       color: black;
       font-weight: bold;
-      border: 1px solid green;
+      border: 1px solid darkviolet;
       margin: 2px 20px;
       padding: 2px auto;
       border-radius: 5px;
@@ -139,7 +141,7 @@ header {
         }
 
 .playlist {
-    color: green;
+    color: darkviolet;
     margin-top: 10px;
 }
 
@@ -151,13 +153,13 @@ a {
    text-shadow: 1px 1px 1px ivory;
    padding: 2px;
    border-radius: 2px;
-   border: 1px solid lime;
+   border: 1px solid mediumpurple;
 }
-a:link { color: lime; 
+a:link { color: mediumpurpoe; 
          text-shadow: 1px 1px 1px ivory; }
-a:visited { color: lime;
+a:visited { color: mediumpurple;
          text-shadow: 1px 1px 1px ivory; }
-a:active { color: lime; 
+a:active { color: mediumpurple;
          text-shadow: 1px 1px 1px ivory; }
 
 
@@ -174,7 +176,7 @@ a:active { color: lime;
 .EQ {
   font-size:  0.8em;
   text-align: left;
-  color: lime;
+  color: mediumpurple;
   text-shadow: 1px 1px 1px ivory;
   font-weight: bold;
   margin-top:  -15px;
