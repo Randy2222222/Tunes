@@ -39,8 +39,26 @@
     </div></div>
         <!-- Build Download -->
   <a id="download-link" href="#" download>Download Song</a>
+                      <!-- Equalizer Switch -->
   
-                <!-- Equalizer 
+<div>
+<label for="EQswitch" Equalizer Switch</label>
+<input type="checkbox" name="EQswitch" id="EQswitch" switch checked value ="true"/>
+
+
+<script id="loader"></script>
+<script>
+const script = document.getElementById('loader');
+
+if (EQswitch="true") {
+    script.src = "js/tunes.js";   // EQ version
+} else {
+    script.src = "js/mobile.js";  // simple version (background-friendly)
+}
+</script>
+</div>
+  
+                <!-- Equalizer -->
        <div class="equalizercontainer" onclick="toggleSidebar()">
          <div class="EQ">EQ</div>
          </div>
@@ -53,7 +71,7 @@
 <label for="treble">Treble</label>
 <input type="range" min="-10" max="10" value="0" id="treble">
 </div>
-  <!-- toggle sidebar function 
+  <!-- toggle sidebar function -->
 <script>
 function toggleSidebar() {
   document.getElementById("sidebar").classList.toggle("active");
@@ -66,8 +84,8 @@ function toggleSidebar() {
 
   
                        <!-- JavaScript Files -->
-              <!--  <script src="js/tunes.js"></script> -->
-                    <script src="js/mobile.js"></script> 
+              <!--  <script src="js/tunes.js"></script> 
+                    <script src="js/mobile.js"></script> -->
 
 
 
