@@ -77,7 +77,7 @@ const songs = [
     { title: "Ghost Song", artist: "The Doors", src: "Songs/The Doors (2).mp3" },
     { title: "Janie's Got A Gun", artist: "Aerosmith", src: "Songs/Aerosmith - Janie’s Got A Gun.mp3" },
     { title: "Riot in Cell Block #9", artist: "The Blues Brothers", src: "Songs/Riot-in-Cell-Block-9.mp3" },
-    { title: "Sweet Emotions", artist: "Aerosmith", src: "Songs/Aerosmith.mp3" },
+    { title: "Sweet Emotions", artist: "Aerosmith", src: "Songs/Aerosmiths-Sweet Emotion.mp3" },
     { title: "Schools Out", artist: "Alice Cooper", src: "Songs/Alice Cooper - Schools Out.mp3" },
     { title: "Burnin' Sky", artist: "Bad Company", src: "Songs/Bad Company.mp3" },
     { title: "Welcome To My Nightmare", artist: "Alice Cooper", src: "Songs/Alice Cooper - Welcome to My Nightmare.mp3" },
