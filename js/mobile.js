@@ -15,7 +15,7 @@ const downloadLink = document.getElementById('download-link');
 const songs = [
     { title: "Lazy", artist: "Deep Purple", src: "Songs/Lazy.mp3" },
     { title: "What Baby Wants", artist: "Alice Cooper", src: "Songs/Alice Cooper - What Baby Wants.mp3" },
-    { title: "Smoke Two Joints", artist: "Bob Marley", src: "Songs/Bob Marley and the Wailers.mp3" },
+    { title: "Smoke Two Joints", artist: "Bob Marley", src: "Songs/Bob Marley - Smoke Two Joints.mp3" },
     { title: "Low Rider", artist: "War", src: "Songs/War.mp3" },
     { title: "Mary Had A Little Lamb", artist: "Stevie Ray Vaughan", src: "Songs/Mary Had A Little Lamb.mp3" },
     { title: "Pigs(Three Different Ones)", artist: "Pink Floyd", src: "Songs/Pink Floyd - Pigs Three Different Ones.mp3" },
