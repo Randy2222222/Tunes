@@ -117,7 +117,7 @@ const songs = [
     { title: "Girls Just Wanna Have Fun", artist: "Cyndi Lauper", src: "Songs/Cyndi Lauper - Girls Just Wanna Have Fun.mp3" },
     { title: "Space Truckin'", artist: "Deep Purple", src: "Songs/Deep Purple - Space Truckin.mp3" },
     { title: "American Pie", artist: "Don McLean", src: "Songs/Don Mclean - American Pie.mp3" },
-    { title: "She Takes My Breath Away", artist: "Eddie Money", src: "Songs/Eddie Money - She Takes My Breath Away.mp3" },
+    { title: "She Takes My Breath Away", artist: "Eddie Money", src: "Songs/She-Takes-My-Breath-Away.mp3" },
     { title: "Against The Law", artist: "Edgar Winter", src: "Songs/Edgar Winter - Against The Law.mp3" },
     { title: "Frankenstein(Live)", artist: "Edgar Winter", src: "Songs/Edgar Winter - Frankenstein.mp3" },
     { title: "Crocodile Rock", artist: "Elton John", src: "Songs/Elton John - Crocodile Rock.mp3" },
