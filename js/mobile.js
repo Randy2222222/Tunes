@@ -163,7 +163,7 @@ const songs = [
     { title: "Pride & Joy", artist: "Stevie Ray Vaughan", src: "Songs/Pride & Joy (Stevie Ray Vaughan).mp3" },
     { title: "Rude Mood Jam", artist: "Stevie Ray Vaughan", src: "Songs/Rude Mood jam (Stevie Ray Vaughan).mp3" },
     { title: "The Sky Is Crying", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan (1).mp3" },
-    { title: "Sray Cat Strut", artist: "Stray Cats", src: "Songs/Stray Cats (1).mp3" },
+    { title: "Stray Cat Strut", artist: "Stray Cats", src: "Songs/Stray Cats (1).mp3" },
     { title: "Texas Flood", artist: "Stevie Ray Vaughan", src: "Songs/Texas Flood.mp3" },
     { title: "Black Water", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers-Black Water.mp3" },
     { title: "Jailhouse Rock", artist: "The Blue Brothers", src: "Songs/Blues Brothers - Jailhouse Rock.mp3" },
@@ -218,7 +218,8 @@ const songs = [
     { title: "Chitlins Con Carne", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan_Chitlins con carne .mp3" },
     { title: "That Smell", artist: "Lynyrd Skynyrd", src: "Songs/Lynyrd Skynyrd - That Smell.mp3" },
     { title: "Stairway To Heaven", artist: "Led Zepagain(tribute band)", src: "Songs/Led Zepagain-Stairway to Heaven m.mp3" },
-    { title: "Run Through The Jungle", artist: "Creedance Clearwater Revival", src: "Songs/Creedence Clearwater Revival - Run Through The Jungle.mp3" }
+    { title: "Run Through The Jungle", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival - Run Through The Jungle.mp3" },
+    { title: "Bad Moon Rising", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival - Bad Moon Rising.mp3" }
       
 ];
 
