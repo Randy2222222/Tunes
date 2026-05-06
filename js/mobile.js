@@ -52,7 +52,6 @@ const songs = [
     { title: "Logical Song", artist: "SuperTramp", src: "Songs/Supertramp (1).mp3" },
     { title: "Child in Time", artist: "Deep Purple", src: "Songs/Child In Time.mp3" },
     { title: "Black Magic Women", artist: "Santana", src: "Songs/Santana.mp3" },
-    { title: "Swamp Music", artist: "Lynyrd Skynyrd", src: "Songs/lynyrd skynyrd (2).mp3" },
     { title: "Takin' It To The Streets", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers.mp3" },
     { title: "Sittin' On The Dock Of The Bay", artist: "Otis Redding", src: "Songs/Dock On The Bay.mp3" },
     { title: "Sara", artist: "Fleetwood Mac", src: "Songs/Sara (Fleetwood Mac cover).mp3" },
