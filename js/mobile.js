@@ -166,7 +166,7 @@ const songs = [
     { title: "The Sky Is Crying", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan (1).mp3" },
     { title: "Sray Cat Strut", artist: "Stray Cats", src: "Songs/Stray Cats (1).mp3" },
     { title: "Texas Flood", artist: "Stevie Ray Vaughan", src: "Songs/Texas Flood.mp3" },
-    { title: "Black Water", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers - Black Water.mp3" },
+    { title: "Black Water", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers-Black Water.mp3" },
     { title: "Jailhouse Rock", artist: "The Blue Brothers", src: "Songs/Blues Brothers - Jailhouse Rock.mp3" },
     { title: "China Grove", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers - China Grove.mp3" },
     { title: "Rubber Biscuit(Live)", artist: "The Blues Brothers", src: "Songs/The Blues Brothers (2).mp3" },
