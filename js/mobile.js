@@ -207,7 +207,6 @@ const songs = [
     { title: "Wipe Out", artist: "The Surfaris", src: "Songs/Surfaris - Wipe Out.mp3" },
     { title: "I Hate Myself For Loving You", artist: "Joan Jett & The Blackhearts", src: "Songs/Joan Jett-I Hate Myself For Loving You.mp3" },
     { title: "Short People (Live)", artist: "Randy Newman", src: "Songs/Randy Newman - Short People(live).mp3" },
-    { title: "Let It Rock (Live)", artist: "Eric Clapton & The Yardbirds", src: "Songs/Eric Clapton & The Yardbirds.mp3" },
     { title: "SCUTTLE BUTTIN", artist: "Stevie Ray Vaughan", src: "Songs/Stevie Ray Vaughan.mp3" },
     { title: "Sad But True", artist: "Metallica", src: "Songs/Metallica - Sad But True .mp3" },
     { title: "Long Train Running", artist: "The Doobie Brothers", src: "Songs/The Doobie Brothers - Long Train Running.mp3" },
