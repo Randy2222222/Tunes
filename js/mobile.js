@@ -94,7 +94,6 @@ const songs = [
     { title: "Proud Mary", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (5).mp3" },
     { title: "Dead Man's Blues", artist: "Supertramp", src: "Songs/Supertramp.mp3" },
     { title: "Sunglasses at Night", artist: "Corey Hart", src: "Songs/Corey Hart - Sunglasses at Night.mp3" },
-    { title: "I Heard It Through The Grapevine", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (3).mp3" },
     { title: "White Room", artist: "Cream", src: "Songs/Cream - White Room.mp3" },
     { title: "Fortunate Son", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (4).mp3" },
     { title: "Who'll Stop The Rain", artist: "Creedence Clearwater Revival", src: "Songs/Creedence Clearwater Revival (6).mp3" },
