@@ -8,7 +8,7 @@ const trackName = document.getElementById('track-name');
 const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
 // add const downloadLink
-//const downloadLink = document.getElementById('download-link');
+const downloadLink = document.getElementById('download-link');
 
 
 
