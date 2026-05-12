@@ -230,6 +230,12 @@ function updateEqualizer() {
     const midGain = midSlider.value / 100;
     const highGain = highSlider.value / 100;
 
+    lowGain.frequency.value = 200;
+
+    midGain.frequency.value = 1000;
+
+    highGain.frequency.value = 3000;
+
     // Here you would normally apply the gains to the audio source
     // This is a placeholder for actual audio processing
    (`Low: ${lowGain}, Mid: ${midGain}, High: ${highGain}`);
