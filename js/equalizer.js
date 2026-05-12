@@ -229,11 +229,7 @@ function updateEqualizer() {
     const bassGain = parseFloat(bassSlider.value);
     const midGain = parseFloat(midSlider.value);
     const trebleGain = parseFloat(trebleSlider.value);
-    bassGain.frequency.value.(min=100,max=200);
-
-    midGain.frequency.value.(min=500,max=1500);
-
-    trebleGain.frequency.value.(min=2000,max=3000);
+    
     
     // Logic to adjust audio frequencies based on slider values
     // This would typically involve using the Web Audio API
