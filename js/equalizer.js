@@ -229,16 +229,19 @@ function updateEqualizer() {
     const bassGain = parseFloat(bassSlider.value);
     const midGain = parseFloat(midSlider.value);
     const trebleGain = parseFloat(trebleSlider.value);
-    bassGain.frequency.value = 200;
+    bas.frequency.value.(min=100,max=200);
 
-    midGain.frequency.value = 1000;
+    mid.frequency.value.(min=500,max=1500);
 
-    trebleGain.frequency.value = 3000;
+    treble.frequency.value.(min=2000,max=3000);
     
     // Logic to adjust audio frequencies based on slider values
     // This would typically involve using the Web Audio API
     // For a simple implementation, you can adjust volume or effects here
 }
+bassSlider.addEventListener('input', updateEqualizer);
+midSlider.addEventListener('input', updateEqualizer);
+trebleSlider.addEventListener('input', updateEqualizer);
 
 // Auto-advance when song ends
 audio.addEventListener('ended', nextSong);
@@ -284,9 +287,7 @@ function previousSong() {
     loadSong(songs[currentSongIndex]);
     playSong();
 }
-bassSlider.addEventListener('input', updateEqualizer);
-midSlider.addEventListener('input', updateEqualizer);
-trebleSlider.addEventListener('input', updateEqualizer);
+
 
 playButton.addEventListener('click', playSong);
 pauseButton.addEventListener('click', pauseSong);
