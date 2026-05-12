@@ -31,10 +31,10 @@
             <button id="pause">Pause</button>
             <button id="next">Next</button>
             <button id="previous">Previous</button>
-            <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+            <input type="range" id="volume" min="0" max="100" value="75">
         </div>
         <div class="playlist" id="playlist"></div>
-        <audio id="audio"></audio> 
+        <audio id="audio"></audio>
     </div></div>
         <!-- Build Download -->
   <a id="download-link" href="#" download>Download Song</a>
@@ -44,24 +44,16 @@
          <div class="EQ">EQ</div>
          </div>
          <div id="sidebar" class="sidebar"> 
-<!-- old
-<label for="bass">Bass</label>
-<input type="range" min="-10" max="10" value="0" id="bass"><br>
-<label for="mid">Mid</label>
-<input type="range" min="-10" max="10" value="0" id="mid"><br>
-<label for="treble">Treble</label>
-<input type="range" min="-10" max="10" value="0" id="treble">
-new -->
 
   <div id="equalizer">
     <label for="low">Bass</label>
-    <input type="range" id="low" min="0" max="100" value="50"><br>
+    <input type="range" id="low" min="0" max="100" value="60"><br>
     
     <label for="mid">Mid</label>
-    <input type="range" id="mid" min="0" max="100" value="50"><br>
+    <input type="range" id="mid" min="0" max="100" value="40"><br>
     
     <label for="high">Treble</label>
-    <input type="range" id="high" min="0" max="100" value="50">
+    <input type="range" id="high" min="0" max="100" value="100">
   </div></div>
   <!-- toggle sidebar function -->
 <script>
