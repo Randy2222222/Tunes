@@ -229,7 +229,7 @@ function updateEqualizer() {
     const bassGain = parseFloat(bassSlider.value);
     const midGain = parseFloat(midSlider.value);
     const trebleGain = parseFloat(trebleSlider.value);
-    bas.frequency.value.(min=100,max=200);
+    bass.frequency.value.(min=100,max=200);
 
     mid.frequency.value.(min=500,max=1500);
 
