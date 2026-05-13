@@ -234,7 +234,7 @@ function updateEqualizer() {
     lowGain.frequency.value = 60;
 
     midGain.type = "peaking";
-    midGain.frequency.value = 600;
+    midGain.frequency.value = 1500;
     midGain.Q.value = 1;
 
     highGain.type = "highshelf";
