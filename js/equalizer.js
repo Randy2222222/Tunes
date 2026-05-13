@@ -234,21 +234,12 @@ function updateEqualizer() {
     lowGain.frequency.value = 60;
 
     midGain.type = "peaking";
-    midGain.frequency.value = 1500;
-    midGain.Q.value = 1;
+    midGain.frequency.value = 600;
+    midGain.Q.value = 1.5;
 
     highGain.type = "highshelf";
     highGain.frequency.value = 6000;
 
-  //  lowGain.frequency.value = 60;
-
- //   midGain.frequency.value = 600;
-
- //   highGain.frequency.value = 6000;
-
-        // 200, 1000, 3000
-    // Here you would normally apply the gains to the audio source
-    // This is a placeholder for actual audio processing
    (`Low: ${lowGain}, Mid: ${midGain}, High: ${highGain}`);
 }
 
