@@ -224,28 +224,24 @@ const songs = [
 const lowSlider = document.getElementById('low');
 const midSlider = document.getElementById('mid');
 const highSlider = document.getElementById('high');
-const minValue = 0;  // Set your desired minimum value
-const maxValue = 100;  // Set your desired maximum value
 
 function updateEqualizer() {
-//    const lowGain = lowSlider.value / 100;
-    const lowGain = Math.min(Math.max(lowSlider.value / 100, minValue), maxValue);
-    const midGain = Math.min(Math.max(midSlider.value / 100, minValue), maxValue);
-    const highGain = Math.min(Math.max(highSlider.value / 100, minValue), maxValue);
- //   const midGain = midSlider.value / 100;
- //   const highGain = highSlider.value / 100;
+    const lowGain = lowSlider.value / 100;
     
-//    lowGain.type = "lowshelf";
-//    lowGain.frequency.value = 60;
+    const midGain = midSlider.value / 100;
+    const highGain = highSlider.value / 100;
+    
+    lowGain.type = "lowshelf";
+    lowGain.frequency.value = 60;
 
-//    midGain.type = "peaking";
-//    midGain.frequency.value = 600;
- //   midGain.Q.value = 1.5;
+    midGain.type = "peaking";
+    midGain.frequency.value = 600;
+    midGain.Q.value = 1;
 
-//    highGain.type = "highshelf";
-//    highGain.frequency.value = 6000;
+    highGain.type = "highshelf";
+    highGain.frequency.value = 6000;
 
-//   (`Low: ${lowGain}, Mid: ${midGain}, High: ${highGain}`);
+   (`Low: ${lowGain}, Mid: ${midGain}, High: ${highGain}`);
 }
 
 // Auto-advance when song ends
