@@ -1,6 +1,6 @@
 {
-  "name": "My App",
-  "short_name": "MyApp",
+  "name": "Tunes",
+  "short_name": "Tunes",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
