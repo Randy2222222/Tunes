@@ -321,11 +321,11 @@ volumeControl.addEventListener('input', (e) => {
 documentaddEventListener('visibilitychange',function() {
     if (document.visibilityState === 'hidden') {
         audioContext.resume().then(()=>{
-            audioElement.play();
+            audio.play();
         });
     }
 });
-audioElement.play();
+
 
 
 
