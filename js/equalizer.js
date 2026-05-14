@@ -288,15 +288,15 @@ function previousSong() {
 }
 // add EventListeners for Equalizer 
     document.getElementById('low').addEventListener('input', updateEqualizer {
-        lowSlider.lowGain.value = parseFloat( 60 / 100 );
+        lowSlider.lowGain.value = parseFloat(  / 100 );
     });
 
     document.getElementById('mid').addEventListener('input', updateEqualizer {
-        midSlider.midGain.value = parseFloat( 600 / 100 );
+        midSlider.midGain.value = parseFloat(  / 100 );
     });
 
     document.getElementById('high').addEventListener('input', updateEqualizer {
-        highSlider.highGain.value = parseFloat( 6000 / 100 );
+        highSlider.highGain.value = parseFloat(  / 100 );
     });
 
 //lowSlider.addEventListener('input', updateEqualizer);
