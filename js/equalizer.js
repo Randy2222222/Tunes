@@ -255,7 +255,16 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
 function updateEqualizer() {
     const lowGain = lowSlider.value / 100;
     const midGain = midSlider.value / 100;
-    const highGain = highSlider.value / 100;    
+    const highGain = highSlider.value / 100;
+    lowGain.type = "lowshelf";
+    lowGain.frequency.value = 60;
+
+    midGain.type = "peaking";
+    midGain.frequency.value = 600;
+    midGain.Q.value = 1;
+
+    highGain.type = "highshelf";
+    highGain.frequency.value = 6000;
 }
 function playSong() {
     audio.play();
@@ -277,9 +286,23 @@ function previousSong() {
     playSong();
   
 }
-lowSlider.addEventListener('input', updateEqualizer);
-midSlider.addEventListener('input', updateEqualizer);
-highSlider.addEventListener('input', updateEqualizer);
+// add EventListeners for Equalizer 
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('low').addEventListener('input', e => {
+        lowSlider.gain.value = parseFloat(e.target.value);
+    });
+
+    document.getElementById('mid').addEventListener('input', e => {
+        midSlider.gain.value = parseFloat(e.target.value);
+    });
+
+    document.getElementById('high').addEventListener('input', e => {
+        highSlider.gain.value = parseFloat(e.target.value);
+    });
+});
+//lowSlider.addEventListener('input', updateEqualizer);
+//midSlider.addEventListener('input', updateEqualizer);
+//highSlider.addEventListener('input', updateEqualizer);
 
 
 playButton.addEventListener('click', playSong);
