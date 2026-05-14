@@ -318,6 +318,14 @@ previousButton.addEventListener('click', previousSong);
 volumeControl.addEventListener('input', (e) => {
     audio.volume = e.target.value;
 });
+documentaddEventListener('visibilitychange',function() {
+    if (document.visibilityState === 'hidden') {
+        audioContext.resume().then(()=>{
+            audioElement.play();
+        });
+    }
+});
+audioElement.play();
 
 
 
