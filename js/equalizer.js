@@ -287,19 +287,18 @@ function previousSong() {
   
 }
 // add EventListeners for Equalizer 
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('low').addEventListener('input', e => {
-        lowSlider.gain.value = parseFloat(e.target.value);
+    document.getElementById('low').addEventListener('input', updateEqualizer {
+        lowSlider.lowGain.value = parseFloat( 60 / 100 );
     });
 
-    document.getElementById('mid').addEventListener('input', e => {
-        midSlider.gain.value = parseFloat(e.target.value);
+    document.getElementById('mid').addEventListener('input', updateEqualizer {
+        midSlider.midGain.value = parseFloat( 600 / 100 );
     });
 
-    document.getElementById('high').addEventListener('input', e => {
-        highSlider.gain.value = parseFloat(e.target.value);
+    document.getElementById('high').addEventListener('input', updateEqualizer {
+        highSlider.highGain.value = parseFloat( 6000 / 100 );
     });
-});
+
 //lowSlider.addEventListener('input', updateEqualizer);
 //midSlider.addEventListener('input', updateEqualizer);
 //highSlider.addEventListener('input', updateEqualizer);
