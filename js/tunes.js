@@ -310,20 +310,21 @@ playButton.addEventListener('click', () => {
     audioContext.resume();
     playSong();
 });
-// Add change in visibilty event
-//document.addEventListener('visibilitychange',function() {
-  //  if (document.visibilityState === 'hidden') {
-     //   audioContext.resume().then(()=>{
-        //    playSong();
-     //   });
- //   }
-//});
 
 pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', nextSong);
 previousButton.addEventListener('click', previousSong);
 volumeControl.addEventListener('input', (e) => {
     audio.volume = e.target.value;
+});
+
+// Add change in visibilty event
+document.addEventListener('visibilitychange',function() {
+    if (document.visibilityState === 'hidden') {
+        audioContext.resume().then(()=>{
+            playSong();
+        });
+    }
 });
 
 
