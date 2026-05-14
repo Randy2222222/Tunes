@@ -9,6 +9,9 @@ const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
 // add const downloadLink
 const downloadLink = document.getElementById('download-link');
+const lowSlider = document.getElementById('low');
+const midSlider = document.getElementById('mid');
+const highSlider = document.getElementById('high');
 
 
 
@@ -221,28 +224,9 @@ const songs = [
       
 ];
 
-const lowSlider = document.getElementById('low');
-const midSlider = document.getElementById('mid');
-const highSlider = document.getElementById('high');
 
-function updateEqualizer() {
-    const lowGain = lowSlider.value / 100;
-    
-    const midGain = midSlider.value / 100;
-    const highGain = highSlider.value / 100;
-    
-    lowGain.type = "lowshelf";
-    lowGain.frequency.value = 60;
 
-    midGain.type = "peaking";
-    midGain.frequency.value = 600;
-    midGain.Q.value = 1;
 
-    highGain.type = "highshelf";
-    highGain.frequency.value = 6000;
-
-   (`Low: ${lowGain}, Mid: ${midGain}, High: ${highGain}`);
-}
 
 // Auto-advance when song ends
 audio.addEventListener('ended', nextSong);
@@ -268,7 +252,11 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         });
     }
 }
-
+function updateEqualizer() {
+    const lowGain = lowSlider.value / 100;
+    const midGain = midSlider.value / 100;
+    const highGain = highSlider.value / 100;    
+}
 function playSong() {
     audio.play();
 }
