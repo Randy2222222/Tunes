@@ -254,7 +254,8 @@ function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
-    
+    // handle download
+    downloadLink.onclick = handleDownload;
     //  Update download link to current song
     downloadLink.href = song.src;
     // Set song name for download
@@ -270,7 +271,23 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         });
     }
 }
+// handle download function
+function handleDownload(e) {
 
+    e.preventDefault();
+
+    audio.pause();
+
+    if (audioContext && audioContext.state === "running") {
+        audioContext.suspend().catch(() => {});
+    }
+
+    setTimeout(() => {
+        audioContext?.resume().catch(() => {});
+        audio.play().catch(() => {});
+    }, 1500);
+}
+// play song function
 function playSong() {
     audio.play();
 }
