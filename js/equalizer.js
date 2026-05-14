@@ -287,17 +287,17 @@ function previousSong() {
   
 }
 // add EventListeners for Equalizer 
-    document.getElementById('low').addEventListener('input', updateEqualizer {
+    document.getElementById('low').addEventListener('input', updateEqualizer ) {
         lowSlider.lowGain.value = parseFloat(  / 100 );
-    });
+    };
 
-    document.getElementById('mid').addEventListener('input', updateEqualizer {
+    document.getElementById('mid').addEventListener('input', updateEqualizer ) {
         midSlider.midGain.value = parseFloat(  / 100 );
-    });
+    };
 
-    document.getElementById('high').addEventListener('input', updateEqualizer {
+    document.getElementById('high').addEventListener('input', updateEqualizer ) {
         highSlider.highGain.value = parseFloat(  / 100 );
-    });
+    };
 
 //lowSlider.addEventListener('input', updateEqualizer);
 //midSlider.addEventListener('input', updateEqualizer);
