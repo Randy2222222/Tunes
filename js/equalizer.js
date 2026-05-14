@@ -9,9 +9,6 @@ const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
 // add const downloadLink
 const downloadLink = document.getElementById('download-link');
-const lowSlider = document.getElementById('low');
-const midSlider = document.getElementById('mid');
-const highSlider = document.getElementById('high');
 
 
 
@@ -224,9 +221,25 @@ const songs = [
       
 ];
 
+const lowSlider = document.getElementById('low');
+const midSlider = document.getElementById('mid');
+const highSlider = document.getElementById('high');
 
+function updateEqualizer() {
+    const lowGain = lowSlider.value / 100;
+    const midGain = midSlider.value / 100;
+    const highGain = highSlider.value / 100;
+    
+    lowGain.type = "lowshelf";
+    lowGain.frequency.value = 60;
 
+    midGain.type = "peaking";
+    midGain.frequency.value = 1200;
+    midGain.Q.value = 1;
 
+    highGain.type = "highshelf";
+    highGain.frequency.value = 12000;
+}
 
 // Auto-advance when song ends
 audio.addEventListener('ended', nextSong);
@@ -252,20 +265,7 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         });
     }
 }
-function updateEqualizer() {
-    const lowGain = lowSlider.value / 100;
-    const midGain = midSlider.value / 100;
-    const highGain = highSlider.value / 100;
-    lowGain.type = "lowshelf";
-    lowGain.frequency.value = 60;
-
-    midGain.type = "peaking";
-    midGain.frequency.value = 600;
-    midGain.Q.value = 1;
-
-    highGain.type = "highshelf";
-    highGain.frequency.value = 6000;
-}
+    
 function playSong() {
     audio.play();
 }
@@ -287,21 +287,9 @@ function previousSong() {
   
 }
 // add EventListeners for Equalizer 
-    document.getElementById('low').addEventListener('input', updateEqualizer ) {
-        lowSlider.lowGain.value = parseFloat(  / 100 );
-    };
-
-    document.getElementById('mid').addEventListener('input', updateEqualizer ) {
-        midSlider.midGain.value = parseFloat(  / 100 );
-    };
-
-    document.getElementById('high').addEventListener('input', updateEqualizer ) {
-        highSlider.highGain.value = parseFloat(  / 100 );
-    };
-
-//lowSlider.addEventListener('input', updateEqualizer);
-//midSlider.addEventListener('input', updateEqualizer);
-//highSlider.addEventListener('input', updateEqualizer);
+lowSlider.addEventListener('input', updateEqualizer);
+midSlider.addEventListener('input', updateEqualizer);
+highSlider.addEventListener('input', updateEqualizer);
 
 
 playButton.addEventListener('click', playSong);
