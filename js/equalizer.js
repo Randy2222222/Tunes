@@ -234,11 +234,11 @@ function updateEqualizer() {
     lowGain.frequency.value = 60;
 
     midGain.type = "peaking";
-    midGain.frequency.value = 1200;
+    midGain.frequency.value = 600;
     midGain.Q.value = 1;
 
     highGain.type = "highshelf";
-    highGain.frequency.value = 12000;
+    highGain.frequency.value = 6000;
 }
 
 // Auto-advance when song ends
