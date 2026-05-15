@@ -228,7 +228,7 @@ const source = audioContext.createMediaElementSource(audio);
 // Bass
 const bass = audioContext.createBiquadFilter();
 bass.type = "lowshelf";
-bass.frequency.value = 120;
+bass.frequency.value = 200;
 // Mid
 const mid = audioContext.createBiquadFilter();
 mid.type = "peaking";
@@ -237,7 +237,7 @@ mid.Q.value = 1;
 // Treble
 const treble = audioContext.createBiquadFilter();
 treble.type = "highshelf";
-treble.frequency.value = 3500;
+treble.frequency.value = 3000;
 
     
     source.connect(bass);
@@ -254,7 +254,7 @@ function loadSong(song) {
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
     
-    // Blob Download 🤨 Set song name for downloadn/ update download link for current song
+    // Blob Download 🤨/ Set Song Name for download/ update download link for current Song
     downloadLink.onclick = async (e) => {
     e.preventDefault();
 
