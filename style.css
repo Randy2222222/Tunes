@@ -18,7 +18,6 @@ header {
   padding: 0.1em 0;   /* .3em 0; */
   margin: 0;
   line-height: 80%;  
-/*  border-radius: 15px; */
   background-image: radial-gradient(forestgreen,
                                   limegreen, black);
 }
@@ -30,7 +29,6 @@ header {
   text-align: center;
   text-shadow: 3px 3px 3px dimgray;
   font-size: 2em;
-/*  line-height: 1.2em;  */
   background-image: radial-gradient(#fff 25%,
                                 #fff 60%, #2a4f32 15%);
 }
