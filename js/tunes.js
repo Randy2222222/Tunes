@@ -256,9 +256,38 @@ function loadSong(song) {
     trackArtist.textContent = song.artist;
     
     //  Update download link to current song
-    downloadLink.href = song.src;
+  //  downloadLink.href = song.src;
     // Set song name for download
-    downloadLink.setAttribute("download", `${song.title}.mp3`);
+ //   downloadLink.setAttribute("download", `${song.title}.mp3`);
+    // Blob Download🤨
+    downloadLink.onclick = async (e) => {
+    e.preventDefault();
+
+    try {
+        audio.pause();
+
+        const response = await fetch(song.src);
+        const blob = await response.blob();
+
+        const url = window.URL.createObjectURL(blob);
+
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `${song.title}.mp3`;
+
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        window.URL.revokeObjectURL(url);
+
+        audio.play();
+
+    } catch (err) {
+        // optional on-screen debug
+        console.log(err);
+    }
+};
 //}
     if ('mediaSession' in navigator) {
      navigator.mediaSession.setActionHandler('nexttrack', nextSong);
