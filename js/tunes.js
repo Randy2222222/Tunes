@@ -222,7 +222,6 @@ const songs = [
 ];
 
 // add equalizer
-//const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const audioContext = new (window.AudioContext)();
 const source = audioContext.createMediaElementSource(audio);
 // Create EQ filters
@@ -255,11 +254,7 @@ function loadSong(song) {
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
     
-    //  Update download link to current song
-  //  downloadLink.href = song.src;
-    // Set song name for download
- //   downloadLink.setAttribute("download", `${song.title}.mp3`);
-    // Blob Download🤨
+    // Blob Download 🤨 Set song name for downloadn/ update download link for current song
     downloadLink.onclick = async (e) => {
     e.preventDefault();
 
@@ -288,7 +283,7 @@ function loadSong(song) {
         console.log(err);
     }
 };
-//}
+
     if ('mediaSession' in navigator) {
      navigator.mediaSession.setActionHandler('nexttrack', nextSong);
 navigator.mediaSession.setActionHandler('previoustrack', previousSong);
@@ -356,11 +351,6 @@ document.addEventListener('visibilitychange',function() {
         });
     }
 });
-
-
-
-
-
 
 // Load the first song
 loadSong(songs[currentSongIndex]);
