@@ -239,7 +239,7 @@ mid.Q.value = 1;
 const treble = audioContext.createBiquadFilter();
 treble.type = "highshelf";
 treble.frequency.value = 3000;
-treble.Q.value = 1;
+treble.Q.value = 2;
 
     
     source.connect(bass);
