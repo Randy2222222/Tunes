@@ -278,9 +278,9 @@ function loadSong(song) {
 
         audio.play();
 
-    } catch (err) {
+  //  } catch (err) {
         // optional on-screen debug
-        console.log(err);
+   //     console.log(err);
     }
 };
 
