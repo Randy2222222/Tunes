@@ -335,14 +335,6 @@ playButton.addEventListener('click', () => {
     audioContext.resume();
     playSong();
 });
-
-pauseButton.addEventListener('click', pauseSong);
-nextButton.addEventListener('click', nextSong);
-previousButton.addEventListener('click', previousSong);
-volumeControl.addEventListener('input', (e) => {
-    audio.volume = e.target.value;
-});
-
 // Add change in visibilty event
 document.addEventListener('visibilitychange',function() {
     if (document.visibilityState === 'hidden') {
@@ -351,6 +343,15 @@ document.addEventListener('visibilitychange',function() {
         });
     }
 });
+
+pauseButton.addEventListener('click', pauseSong);
+nextButton.addEventListener('click', nextSong);
+previousButton.addEventListener('click', previousSong);
+volumeControl.addEventListener('input', (e) => {
+    audio.volume = e.target.value;
+});
+
+
 
 // Load the first song
 loadSong(songs[currentSongIndex]);
