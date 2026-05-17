@@ -259,8 +259,8 @@ function loadSong(song) {
     downloadLink.onclick = async (e) => {
     e.preventDefault();
 
-    try {
-        audio.pause();
+   // try {
+     //   audio.pause();
 
         const response = await fetch(song.src);
         const blob = await response.blob();
@@ -279,10 +279,10 @@ function loadSong(song) {
 
         audio.play();
 
-    } catch (err) {
+ //   } catch (err) {
         // optional on-screen debug
-        console.log(err);
-    }
+   //     console.log(err);
+ //   }
 };
 
     if ('mediaSession' in navigator) {
