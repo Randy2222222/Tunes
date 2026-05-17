@@ -259,9 +259,6 @@ function loadSong(song) {
     downloadLink.onclick = async (e) => {
     e.preventDefault();
 
-   // try {
-     //   audio.pause();
-
         const response = await fetch(song.src);
         const blob = await response.blob();
 
@@ -278,13 +275,8 @@ function loadSong(song) {
         window.URL.revokeObjectURL(url);
 
         audio.play();
-
- //   } catch (err) {
-        // optional on-screen debug
-   //     console.log(err);
- //   }
 };
-
+     // Lock Screen Controls
     if ('mediaSession' in navigator) {
      navigator.mediaSession.setActionHandler('nexttrack', nextSong);
 navigator.mediaSession.setActionHandler('previoustrack', previousSong);
