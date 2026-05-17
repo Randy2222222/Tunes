@@ -222,7 +222,8 @@ const songs = [
 ];
 
 // add equalizer
-const audioContext = new (window.AudioContext)();
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+//const audioContext = new (window.AudioContext)();
 const source = audioContext.createMediaElementSource(audio);
 // Create EQ filters
 // Bass
