@@ -39,7 +39,7 @@ header {
       display: block;
       justify-content: center;
       align-items: center;
-      margin: 150px auto auto auto; 
+      margin: 110px auto auto auto; /* 150 */
       position: relative; /* Relative */
       width: 200px;
       height: 80px; 
