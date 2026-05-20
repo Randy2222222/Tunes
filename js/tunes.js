@@ -9,11 +9,10 @@ const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
 // add const downloadLink
 const downloadLink = document.getElementById('download-link');
-const thumbnail = document.getElementById('thumbnail.src');
 
 
 const songs = [
-    { title: "Lazy", artist: "Deep Purple", src: "Songs/Lazy.mp3", src: "Cover/lazy.jpeg" },
+    { title: "Lazy", artist: "Deep Purple", src: "Songs/Lazy.mp3" },
     { title: "What Baby Wants", artist: "Alice Cooper", src: "Songs/Alice Cooper - What Baby Wants.mp3" },
     { title: "Smoke Two Joints", artist: "Bob Marley", src: "Songs/Bob Marley - Smoke Two Joints.mp3" },
     { title: "Low Rider", artist: "War", src: "Songs/War.mp3" },
@@ -253,7 +252,6 @@ function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
-    thumbnail = Cover.jpeg;
 
     
     // Blob Download 🤨/ Set Song Name for download/ update download link for current Song
