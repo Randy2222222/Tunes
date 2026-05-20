@@ -254,7 +254,7 @@ function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
-    thumbnail.img = cover.jpeg;
+
     
     // Blob Download 🤨/ Set Song Name for download/ update download link for current Song
     downloadLink.onclick = async (e) => {
