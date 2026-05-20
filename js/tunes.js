@@ -9,7 +9,7 @@ const trackArtist = document.getElementById('track-artist');
 const playlistElement = document.getElementById('playlist');
 // add const downloadLink
 const downloadLink = document.getElementById('download-link');
-
+const thumbnail = document.getElementById('thumbnail.src');
 
 
 const songs = [
@@ -253,6 +253,7 @@ function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
+    thumbnail = Cover.jpeg;
 
     
     // Blob Download 🤨/ Set Song Name for download/ update download link for current Song
