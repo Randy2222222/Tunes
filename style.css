@@ -82,7 +82,8 @@ header {
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
   color: black;
-  font-weight: bold;
+  font-weight: 700; /* bold */
+  text-shadow: 1px 1px 1px dimgray;
   border-radius: 5px;
   border: 1px solid green;
   text-align: center;
