@@ -197,7 +197,7 @@ a:active { color: lime;
   width: 200px; 
   height: 70px;
   color: black;
-  font-weight: bold;
+  font-weight: 450;
   text-shadow: 1px 1px 1px dimgray;
   background: white;
   background-image: radial-gradient(#090,
