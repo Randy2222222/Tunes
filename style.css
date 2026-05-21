@@ -54,7 +54,7 @@ header {
     background-color: white;
     color: black;
     font-weight: bold; /* add */
-    text-shadow: 1px 1px 1px dimgray; /* add */
+    text-shadow: 1.5px 1.5px 1.5px dimgray; /* add */
     margin: auto;
     position: absolute; 
     left: 2%;
