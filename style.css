@@ -53,7 +53,7 @@ header {
     width: 200px;
     background-color: white;
     color: black;
-    font-weight: 400; /* add */
+    font-weight: bold; /* add */
     text-shadow: 1px 1px 1px dimgray; /* add */
     margin: auto;
     position: absolute; 
