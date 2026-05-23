@@ -83,6 +83,7 @@ header {
   background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
   color: black;
+  font-style: italic;
   font-weight: 700; /* bold */
   text-shadow: 1px 1px 1px dimgray;
   border-radius: 5px;
@@ -98,6 +99,7 @@ header {
     background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
     color: black;
+    font-style: italic;
     font-weight: 700;
     text-shadow: 1px 1px 1px dimgray;
     border-radius: 5px;
@@ -115,6 +117,7 @@ header {
       background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
       color: black;
+      font-style: italic;
       font-weight: 700;
       text-shadow: 1px 1px 1px dimgray;
       border-radius: 5px;
@@ -130,6 +133,7 @@ header {
       background-image: radial-gradient(#090,
                                 #fff, #2a4f32);
       color: black;
+      font-style: italic;
       font-weight: 700;
       text-shadow: 1px 1px 1px dimgray;
       border: 1px solid green;
