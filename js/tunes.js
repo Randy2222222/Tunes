@@ -231,12 +231,12 @@ bass.frequency.value = 80;
 // Mid
 const mid = audioContext.createBiquadFilter();
 mid.type = "peaking";
-mid.frequency.value = 1000;
+mid.frequency.value = 1500;
 mid.Q.value = 1;
 // Treble
 const treble = audioContext.createBiquadFilter();
 treble.type = "highshelf";
-treble.frequency.value = 3000;
+treble.frequency.value = 6000;
 
     
     source.connect(bass);
