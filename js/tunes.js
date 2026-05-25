@@ -227,7 +227,7 @@ const source = audioContext.createMediaElementSource(audio);
 // Bass
 const bass = audioContext.createBiquadFilter();
 bass.type = "lowshelf";
-bass.frequency.value = 220;
+bass.frequency.value = 120;
 // Mid
 const mid = audioContext.createBiquadFilter();
 mid.type = "peaking";
