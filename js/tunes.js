@@ -6,7 +6,6 @@ const previousButton = document.getElementById('previous');
 const volumeControl = document.getElementById('volume');
 const trackName = document.getElementById('track-name');
 const trackArtist = document.getElementById('track-artist');
-//const playlistElement = document.getElementById('playlist');
 // add const downloadLink
 const downloadLink = document.getElementById('download-link');
 
