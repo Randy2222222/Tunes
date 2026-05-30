@@ -340,7 +340,7 @@ pauseButton.addEventListener('click', pauseSong);
 nextButton.addEventListener('click', nextSong);
 previousButton.addEventListener('click', previousSong);
 volumeControl.addEventListener('input', (e) => {
-    audio.volume = e.target.value;
+    audio.volume = parseFloat(e.target.value);
 });
 
 
