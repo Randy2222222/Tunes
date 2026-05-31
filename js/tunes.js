@@ -10,7 +10,7 @@ const downloadLink = document.getElementById('download-link');
 
 
 const songs = [
-    { title: "Lazy", artist: "Deep Purple", src: "Songs/Lazy.mp3" },
+    { title: "Lazy", artist: "Deep Purple", src: "Songs/Lazy.mp3", src:"Artist/Lazy.png" },
     { title: "What Baby Wants", artist: "Alice Cooper", src: "Songs/Alice Cooper - What Baby Wants.mp3" },
     { title: "Smoke Two Joints", artist: "Bob Marley", src: "Songs/Bob Marley - Smoke Two Joints.mp3" },
     { title: "Low Rider", artist: "War", src: "Songs/War.mp3" },
@@ -280,6 +280,7 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
             artist: song.artist,
+            artwork: {src: "song/Arttist.png",sizes:"96x96",type:"image/png"},
         
         });
     }
