@@ -280,6 +280,8 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
             artist: song.artist,
+            artwork: [
+            { src: "Artwork/Lazy.png", sizes: "96x96", type: "image/png" }]
         
         });
     }
