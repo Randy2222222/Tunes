@@ -250,6 +250,7 @@ function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
+    image.src = song.Artwork;
 
     
     // Blob Download 🤨/ Set Song Name for download/ update download link for current Song
@@ -281,7 +282,7 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
             title: song.title,
             artist: song.artist,
             artwork: [
-            { src: "Artwork/Lazy.png", sizes: "96x96", type: "image/png" }]
+            { src: "Artwork/song.png", sizes: "96x96", type: "image/png" }]
         
         });
     }
