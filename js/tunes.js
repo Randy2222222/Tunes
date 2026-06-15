@@ -282,8 +282,8 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
             artist: song.artist,
-            artwork.src: [
-            { "artwork/song.png", sizes: "96x96", type: "image/png" }]
+            artwork: [{
+    src: artwork.src," artwork/song.png", sizes: "96x96", type: "image/png" }]
         
         });
     }
