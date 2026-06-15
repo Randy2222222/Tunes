@@ -7,7 +7,7 @@ const volumeControl = document.getElementById('volume');
 const trackName = document.getElementById('track-name');
 const trackArtist = document.getElementById('track-artist');
 const downloadLink = document.getElementById('download-link');
-const artwork = document.getElementById('artwork-image');
+//const artwork = document.getElementById('artwork-image');
 
 
 const songs = [
@@ -281,6 +281,11 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
             artist: song.artist,
+            Worked
+
+artwork: [
+            { src: artwork/song.png, sizes: "96x96", type: "image/png" }]
+            
         
         });
     }
