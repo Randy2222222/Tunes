@@ -7,7 +7,7 @@ const volumeControl = document.getElementById('volume');
 const trackName = document.getElementById('track-name');
 const trackArtist = document.getElementById('track-artist');
 const downloadLink = document.getElementById('download-link');
-const Artwork = document.getElementById('image.src');
+const Artwork = document.getElementById('Artwork-image.src');
 
 
 const songs = [
