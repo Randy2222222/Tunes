@@ -251,7 +251,6 @@ function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
-    artwork.src = song.artwork;
 
     
     // Blob Download 🤨/ Set Song Name for download/ update download link for current Song
@@ -282,7 +281,6 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
             artist: song.artist,
-            artwork.src: [{src: song.png, sizes: "96x96", type: "image/png" }]
         
         });
     }
