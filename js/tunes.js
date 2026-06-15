@@ -7,7 +7,7 @@ const volumeControl = document.getElementById('volume');
 const trackName = document.getElementById('track-name');
 const trackArtist = document.getElementById('track-artist');
 const downloadLink = document.getElementById('download-link');
-const artwork = document.getElementById('artwork-image.src');
+const artwork = document.getElementById('artwork-image');
 
 
 const songs = [
@@ -251,7 +251,7 @@ function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
-    artwork.image = song.artwork;
+    artwork.src = song.artwork;
 
     
     // Blob Download 🤨/ Set Song Name for download/ update download link for current Song
