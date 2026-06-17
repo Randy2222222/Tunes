@@ -7,7 +7,7 @@ const volumeControl = document.getElementById('volume');
 const trackName = document.getElementById('track-name');
 const trackArtist = document.getElementById('track-artist');
 const downloadLink = document.getElementById('download-link');
-const artwork = document.getElementById('artwork-title');
+const let cover = song.title;
 
 
 const songs = [
@@ -251,6 +251,7 @@ function loadSong(song) {
     audio.src = song.src;
     trackName.textContent = song.title;
     trackArtist.textContent = song.artist;
+    cover.image = song.title;
 
     
     // Blob Download 🤨/ Set Song Name for download/ update download link for current Song
@@ -281,9 +282,10 @@ navigator.mediaSession.setActionHandler('previoustrack', previousSong);
         navigator.mediaSession.metadata = new MediaMetadata({
             title: song.title,
             artist: song.artist,
+            cover: song.title,
 
 artwork: [
-            { src: "artwork/title.png", sizes: "96x96", type: "image/png" }]
+            { src: "artwork/cover.png", sizes: "96x96", type: "image/png" }]
             
         
         });
